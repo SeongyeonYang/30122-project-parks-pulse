@@ -1,0 +1,36 @@
+import csv
+import requests
+from bs4 import BeautifulSoup
+
+def scrape_national_parks(url):
+    # get the content from URL
+    response = requests.get(url)
+    soup = BeautifulSoup(response.text, 'html.parser')
+
+    # find the table and iterate through each row
+    table = soup.find('table', {'class': 'wikitable sortable plainrowheaders\
+                                jquery-tablesorter'})
+    rows = table.find_all('tr')
+
+    park_data = []
+
+    # skip the header
+    for row in rows[1:]:
+        cols = row.find_all('td')
+        if cols:
+            park_name = cols[0].text.strip()
+            visitors = cols[-2].text.strip()
+            park_data.append([park_name, visitors])
+    return park_data
+
+
+def save_to_file(data, filename = 'national_parks_visitors2022.csv'):
+    with open(filename, 'w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow(['Park Name', 'Visitors(2022)'])
+        writer.writerows(data)
+
+
+url = 'https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States'
+data = scrape_national_parks(url)
+save_to_file(data)
