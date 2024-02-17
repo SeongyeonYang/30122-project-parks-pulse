@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "30122-project-parks-pulse"
+name = "ppp"
 version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
