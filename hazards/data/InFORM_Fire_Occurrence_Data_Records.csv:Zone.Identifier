@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://data-nifc.opendata.arcgis.com/
+HostUrl=https://opendata.arcgis.com/api/v3/datasets/60a94840152b4a89bec467a9f052f135_0/downloads/data?format=csv&spatialRefId=4326&where=%28CalculatedAcres+%3E%3D+0+AND+CalculatedAcres+%3C%3D+963405.59%29+AND+%28IncidentSize+%3E%3D+0+AND+IncidentSize+%3C%3D+963309%29+AND+%28FireDiscoveryDateTime+%3E%3D+DATE+%272009-12-15%27+AND+FireDiscoveryDateTime+%3C%3D+DATE+%272026-04-15%27%29+AND+%28InitialLatitude+%3E%3D+-32.057489+AND+InitialLatitude+%3C%3D+123.550107%29+AND+%28InitialLongitude+%3E%3D+-180.54+AND+InitialLongitude+%3C%3D+114.18148%29+AND+%28FireCauseID+%3E%3D+1+AND+FireCauseID+%3C%3D+3%29+AND+%28AcresNPS+%3E%3D+0+AND+AcresNPS+%3C%3D+115231.6%29
