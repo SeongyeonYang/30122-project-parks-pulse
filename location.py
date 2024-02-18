@@ -22,7 +22,7 @@ def scrape_parks(url):
     return parks
 
 
-def save_to_file(data, filename = 'national_parks_location'):
+def save_to_file(data, filename):
     with open(filename, 'w', newline='') as file:
         writer = csv.writer(file)
         writer.writerow(['Park Name', 'Location'])
@@ -31,4 +31,4 @@ def save_to_file(data, filename = 'national_parks_location'):
 
 url = 'https://parkplanning.nps.gov/parks.cfm'
 data = scrape_parks(url)
-save_to_file(data, 'national_parks_location')
+save_to_file(data, 'national_parks_location.csv')
