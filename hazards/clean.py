@@ -2,6 +2,7 @@ import pathlib
 import geopandas
 import shapely
 import pandas as pd
+from scraper import get_light_data
 
 
 NO_NP_STATES = ["WI", "IA", "IL", "NE", "KS", "OK", "LA", "MS", "AL",
@@ -56,7 +57,17 @@ def clean_boundary():
     return df
 
 
+def clean_light_data():
+    df = get_light_data()
+    df = df.drop(index=0)
+    df = df.reset_index(drop=True)
 
+    df["date_observed"] = df["date_observed"].str.strip()
+    df["light_pollution_ratio"] = df["light_pollution_ratio"].str.strip()
+    df["lon"] = df["lon"].str.strip()
+    df["lat"] = df["lat"].str.strip()
+
+    df.to_csv("light-pollution.csv")
 
 
     
