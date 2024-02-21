@@ -1,0 +1,883 @@
+Year,Park Name,Spending
+2011,Acadia,8269
+2012,Acadia,8183
+2013,Acadia,7866
+2014,Acadia,7866
+2015,Acadia,7837
+2016,Acadia,8022
+2017,Acadia,8144
+2018,Acadia,8129
+2019,Acadia,8169
+2020,Acadia,8224
+2021,Acadia,8514
+2022,Acadia,8777
+2023,Acadia,8777
+2024,Acadia,9461
+2011,American Samoa,1951
+2012,American Samoa,1951
+2013,American Samoa,1944
+2014,American Samoa,1944
+2015,American Samoa,1925
+2016,American Samoa,1933
+2017,American Samoa,2013
+2018,American Samoa,2009
+2019,American Samoa,2021
+2020,American Samoa,2029
+2021,American Samoa,1417
+2022,American Samoa,1452
+2023,American Samoa,1452
+2024,American Samoa,1562
+2011,Arches,1981
+2012,Arches,1981
+2013,Arches,1917
+2014,Arches,1917
+2015,Arches,1898
+2016,Arches,1938
+2017,Arches,1972
+2018,Arches,1968
+2019,Arches,1978
+2020,Arches,1994
+2021,Arches,2107
+2022,Arches,2183
+2023,Arches,2183
+2024,Arches,2365
+2011,Badlands,4575
+2012,Badlands,4485
+2013,Badlands,4337
+2014,Badlands,4337
+2015,Badlands,4294
+2016,Badlands,4317
+2017,Badlands,4424
+2018,Badlands,4415
+2019,Badlands,4435
+2020,Badlands,4538
+2021,Badlands,4580
+2022,Badlands,4537
+2023,Badlands,4537
+2024,Badlands,4800
+2011,Big Bend,7387
+2012,Big Bend,7387
+2013,Big Bend,6989
+2014,Big Bend,6989
+2015,Big Bend,6939
+2016,Big Bend,7003
+2017,Big Bend,7272
+2018,Big Bend,7255
+2019,Big Bend,7290
+2020,Big Bend,7345
+2021,Big Bend,7479
+2022,Big Bend,7718
+2023,Big Bend,7718
+2024,Big Bend,8235
+2011,Biscayne,4461
+2012,Biscayne,4384
+2013,Biscayne,4254
+2014,Biscayne,4254
+2015,Biscayne,4211
+2016,Biscayne,4234
+2017,Biscayne,4280
+2018,Biscayne,4290
+2019,Biscayne,4317
+2020,Biscayne,4360
+2021,Biscayne,4439
+2022,Biscayne,4500
+2023,Biscayne,4500
+2024,Biscayne,4789
+2011,Black Canyon of the Gunnison,1701
+2012,Black Canyon of the Gunnison,1701
+2013,Black Canyon of the Gunnison,1647
+2014,Black Canyon of the Gunnison,1647
+2015,Black Canyon of the Gunnison,1751
+2016,Black Canyon of the Gunnison,1779
+2017,Black Canyon of the Gunnison,1905
+2018,Black Canyon of the Gunnison,1901
+2019,Black Canyon of the Gunnison,1911
+2020,Black Canyon of the Gunnison,1926
+2021,Black Canyon of the Gunnison,1964
+2022,Black Canyon of the Gunnison,2019
+2023,Black Canyon of the Gunnison,2019
+2024,Black Canyon of the Gunnison,2175
+2011,Bryce Canyon,3531
+2012,Bryce Canyon,3531
+2013,Bryce Canyon,3268
+2014,Bryce Canyon,3268
+2015,Bryce Canyon,3232
+2016,Bryce Canyon,3279
+2017,Bryce Canyon,3329
+2018,Bryce Canyon,3323
+2019,Bryce Canyon,3338
+2020,Bryce Canyon,3361
+2021,Bryce Canyon,3602
+2022,Bryce Canyon,3702
+2023,Bryce Canyon,3702
+2024,Bryce Canyon,3966
+2011,Canyonlands,6797
+2012,Canyonlands,6797
+2013,Canyonlands,6270
+2014,Canyonlands,6270
+2015,Canyonlands,6202
+2016,Canyonlands,6237
+2017,Canyonlands,6328
+2018,Canyonlands,6322
+2019,Canyonlands,6354
+2020,Canyonlands,6399
+2021,Canyonlands,6565
+2022,Canyonlands,6797
+2023,Canyonlands,6797
+2024,Canyonlands,7286
+2011,Capitol Reef,2382
+2012,Capitol Reef,2382
+2013,Capitol Reef,2246
+2014,Capitol Reef,2246
+2015,Capitol Reef,2275
+2016,Capitol Reef,2357
+2017,Capitol Reef,2397
+2018,Capitol Reef,2392
+2019,Capitol Reef,2405
+2020,Capitol Reef,2427
+2021,Capitol Reef,2531
+2022,Capitol Reef,2615
+2023,Capitol Reef,2615
+2024,Capitol Reef,2880
+2011,Carlsbad Caverns,6279
+2012,Carlsbad Caverns,6279
+2013,Carlsbad Caverns,5765
+2014,Carlsbad Caverns,5765
+2015,Carlsbad Caverns,5764
+2016,Carlsbad Caverns,5721
+2017,Carlsbad Caverns,5819
+2018,Carlsbad Caverns,5815
+2019,Carlsbad Caverns,5841
+2020,Carlsbad Caverns,5874
+2021,Carlsbad Caverns,5960
+2022,Carlsbad Caverns,6106
+2023,Carlsbad Caverns,6106
+2024,Carlsbad Caverns,6481
+2011,Channel Islands,7579
+2012,Channel Islands,7579
+2013,Channel Islands,7547
+2014,Channel Islands,7547
+2015,Channel Islands,7240
+2016,Channel Islands,7331
+2017,Channel Islands,7456
+2018,Channel Islands,7523
+2019,Channel Islands,7577
+2020,Channel Islands,7647
+2021,Channel Islands,7793
+2022,Channel Islands,7917
+2023,Channel Islands,7917
+2024,Channel Islands,8314
+2011,Congaree,1935
+2012,Congaree,1935
+2013,Congaree,1877
+2014,Congaree,1877
+2015,Congaree,1858
+2016,Congaree,1869
+2017,Congaree,1890
+2018,Congaree,1894
+2019,Congaree,1903
+2020,Congaree,1922
+2021,Congaree,1955
+2022,Congaree,1817
+2023,Congaree,1817
+2024,Congaree,1934
+2011,Crater Lake,5530
+2012,Crater Lake,5530
+2013,Crater Lake,5318
+2014,Crater Lake,5318
+2015,Crater Lake,5265
+2016,Crater Lake,5348
+2017,Crater Lake,5452
+2018,Crater Lake,5442
+2019,Crater Lake,5470
+2020,Crater Lake,5512
+2021,Crater Lake,5645
+2022,Crater Lake,5673
+2023,Crater Lake,5673
+2024,Crater Lake,5949
+2011,Cuyahoga Valley,11238
+2012,Cuyahoga Valley,11143
+2013,Cuyahoga Valley,10877
+2014,Cuyahoga Valley,10877
+2015,Cuyahoga Valley,10769
+2016,Cuyahoga Valley,10825
+2017,Cuyahoga Valley,11035
+2018,Cuyahoga Valley,10836
+2019,Cuyahoga Valley,10900
+2020,Cuyahoga Valley,10992
+2021,Cuyahoga Valley,11217
+2022,Cuyahoga Valley,11592
+2023,Cuyahoga Valley,11592
+2024,Cuyahoga Valley,12299
+2011,Death Valley,9132
+2012,Death Valley,9132
+2013,Death Valley,8770
+2014,Death Valley,8770
+2015,Death Valley,8682
+2016,Death Valley,8758
+2017,Death Valley,8885
+2018,Death Valley,8868
+2019,Death Valley,8912
+2020,Death Valley,8976
+2021,Death Valley,9587
+2022,Death Valley,9710
+2023,Death Valley,9710
+2024,Death Valley,10559
+2011,Denali,13976
+2012,Denali,13976
+2013,Denali,13881
+2014,Denali,13881
+2015,Denali,13743
+2016,Denali,13909
+2017,Denali,14531
+2018,Denali,14603
+2019,Denali,14694
+2020,Denali,14795
+2021,Denali,15111
+2022,Denali,15556
+2023,Denali,15556
+2024,Denali,16603
+2011,Dry Tortugas,1785
+2012,Dry Tortugas,1785
+2013,Dry Tortugas,1730
+2014,Dry Tortugas,1730
+2015,Dry Tortugas,1884
+2016,Dry Tortugas,1890
+2017,Dry Tortugas,2083
+2018,Dry Tortugas,2095
+2019,Dry Tortugas,2107
+2020,Dry Tortugas,2124
+2021,Dry Tortugas,2162
+2022,Dry Tortugas,2224
+2023,Dry Tortugas,2224
+2024,Dry Tortugas,2386
+2011,Everglades ,17991
+2012,Everglades ,17491
+2013,Everglades ,16953
+2014,Everglades ,16953
+2015,Everglades ,16612
+2016,Everglades ,16760
+2017,Everglades ,16835
+2018,Everglades ,16774
+2019,Everglades ,16884
+2020,Everglades ,17037
+2021,Everglades ,17371
+2022,Everglades ,17885
+2023,Everglades ,17885
+2024,Everglades ,19211
+2011,Gates of the Arctic,2881
+2012,Gates of the Arctic,2881
+2013,Gates of the Arctic,2863
+2014,Gates of the Arctic,2863
+2015,Gates of the Arctic,3012
+2016,Gates of the Arctic,3025
+2017,Gates of the Arctic,3172
+2018,Gates of the Arctic,3166
+2019,Gates of the Arctic,3191
+2020,Gates of the Arctic,3209
+2021,Gates of the Arctic,3260
+2022,Gates of the Arctic,3334
+2023,Gates of the Arctic,3334
+2024,Gates of the Arctic,3622
+2011,Gateway Arch,26538
+2012,Gateway Arch,26089
+2013,Gateway Arch,25282
+2014,Gateway Arch,25282
+2015,Gateway Arch,32930
+2016,Gateway Arch,24769
+2017,Gateway Arch,25346
+2018,Gateway Arch,25298
+2019,Gateway Arch,25489
+2020,Gateway Arch,10165
+2021,Gateway Arch,10373
+2022,Gateway Arch,10736
+2023,Gateway Arch,10736
+2024,Gateway Arch,11374
+2011,Glacier,14410
+2012,Glacier,14410
+2013,Glacier,13741
+2014,Glacier,13741
+2015,Glacier,13324
+2016,Glacier,13481
+2017,Glacier,13823
+2018,Glacier,13777
+2019,Glacier,13862
+2020,Glacier,13959
+2021,Glacier,14364
+2022,Glacier,15115
+2023,Glacier,15115
+2024,Glacier,16226
+2011,Glacier Bay ,4821
+2012,Glacier Bay ,4821
+2013,Glacier Bay ,4862
+2014,Glacier Bay ,4862
+2015,Glacier Bay ,4813
+2016,Glacier Bay ,4837
+2017,Glacier Bay ,5073
+2018,Glacier Bay ,5063
+2019,Glacier Bay ,5103
+2020,Glacier Bay ,5145
+2021,Glacier Bay ,5237
+2022,Glacier Bay ,5406
+2023,Glacier Bay ,5406
+2024,Glacier Bay ,5954
+2011,Grand Canyon ,23076
+2012,Grand Canyon ,23076
+2013,Grand Canyon ,21363
+2014,Grand Canyon ,21363
+2015,Grand Canyon ,21148
+2016,Grand Canyon ,21486
+2017,Grand Canyon ,21733
+2018,Grand Canyon ,21546
+2019,Grand Canyon ,21654
+2020,Grand Canyon ,21798
+2021,Grand Canyon ,22446
+2022,Grand Canyon ,23027
+2023,Grand Canyon ,23027
+2024,Grand Canyon ,24753
+2011,Grand Teton,13733
+2012,Grand Teton,13733
+2013,Grand Teton,12630
+2014,Grand Teton,12630
+2015,Grand Teton,12275
+2016,Grand Teton,12369
+2017,Grand Teton,12561
+2018,Grand Teton,12537
+2019,Grand Teton,12599
+2020,Grand Teton,12678
+2021,Grand Teton,12985
+2022,Grand Teton,13398
+2023,Grand Teton,13398
+2024,Grand Teton,14396
+2011,Great Basin,2861
+2012,Great Basin,2861
+2013,Great Basin,2757
+2014,Great Basin,2757
+2015,Great Basin,2779
+2016,Great Basin,2744
+2017,Great Basin,2799
+2018,Great Basin,2794
+2019,Great Basin,2809
+2020,Great Basin,2830
+2021,Great Basin,2882
+2022,Great Basin,2904
+2023,Great Basin,2904
+2024,Great Basin,3099
+2011,Great Sand Dunes,2366
+2012,Great Sand Dunes,2366
+2013,Great Sand Dunes,2286
+2014,Great Sand Dunes,2286
+2015,Great Sand Dunes,2263
+2016,Great Sand Dunes,2304
+2017,Great Sand Dunes,2344
+2018,Great Sand Dunes,2340
+2019,Great Sand Dunes,2352
+2020,Great Sand Dunes,2373
+2021,Great Sand Dunes,2403
+2022,Great Sand Dunes,2760
+2023,Great Sand Dunes,2760
+2024,Great Sand Dunes,2946
+2011,Great Smoky Mountains,20341
+2012,Great Smoky Mountains,19637
+2013,Great Smoky Mountains,19023
+2014,Great Smoky Mountains,19023
+2015,Great Smoky Mountains,18834
+2016,Great Smoky Mountains,19111
+2017,Great Smoky Mountains,19426
+2018,Great Smoky Mountains,19377
+2019,Great Smoky Mountains,19472
+2020,Great Smoky Mountains,19616
+2021,Great Smoky Mountains,20228
+2022,Great Smoky Mountains,20664
+2023,Great Smoky Mountains,20664
+2024,Great Smoky Mountains,22124
+2011,Guadalupe Mountains,3017
+2012,Guadalupe Mountains,3017
+2013,Guadalupe Mountains,2915
+2014,Guadalupe Mountains,2915
+2015,Guadalupe Mountains,2886
+2016,Guadalupe Mountains,2901
+2017,Guadalupe Mountains,2937
+2018,Guadalupe Mountains,2931
+2019,Guadalupe Mountains,2945
+2020,Guadalupe Mountains,2967
+2021,Guadalupe Mountains,3026
+2022,Guadalupe Mountains,3128
+2023,Guadalupe Mountains,3128
+2024,Guadalupe Mountains,3347
+2011,Haleakala,5329
+2012,Haleakala,5436
+2013,Haleakala,5371
+2014,Haleakala,5371
+2015,Haleakala,5317
+2016,Haleakala,5382
+2017,Haleakala,5596
+2018,Haleakala,5585
+2019,Haleakala,5623
+2020,Haleakala,5668
+2021,Haleakala,5767
+2022,Haleakala,5925
+2023,Haleakala,5925
+2024,Haleakala,6388
+2011,Hawaii Volcanoes,7125
+2012,Hawaii Volcanoes,7018
+2013,Hawaii Volcanoes,7355
+2014,Hawaii Volcanoes,7355
+2015,Hawaii Volcanoes,7281
+2016,Hawaii Volcanoes,7551
+2017,Hawaii Volcanoes,7871
+2018,Hawaii Volcanoes,7856
+2019,Hawaii Volcanoes,7910
+2020,Hawaii Volcanoes,7974
+2021,Hawaii Volcanoes,8227
+2022,Hawaii Volcanoes,8297
+2023,Hawaii Volcanoes,8297
+2024,Hawaii Volcanoes,9028
+2011,Hot Springs,4751
+2012,Hot Springs,4751
+2013,Hot Springs,4599
+2014,Hot Springs,4599
+2015,Hot Springs,4553
+2016,Hot Springs,4577
+2017,Hot Springs,4652
+2018,Hot Springs,4639
+2019,Hot Springs,4662
+2020,Hot Springs,4683
+2021,Hot Springs,4600
+2022,Hot Springs,4831
+2023,Hot Springs,4831
+2024,Hot Springs,6001
+2011,Indiana Dunes,9508
+2012,Indiana Dunes,9371
+2013,Indiana Dunes,9086
+2014,Indiana Dunes,9086
+2015,Indiana Dunes,8996
+2016,Indiana Dunes,9046
+2017,Indiana Dunes,9447
+2018,Indiana Dunes,9366
+2019,Indiana Dunes,9383
+2020,Indiana Dunes,9408
+2021,Indiana Dunes,9478
+2022,Indiana Dunes,9748
+2023,Indiana Dunes,9748
+2024,Indiana Dunes,10392
+2011,Isle Royale,4593
+2012,Isle Royale,4497
+2013,Isle Royale,4349
+2014,Isle Royale,4349
+2015,Isle Royale,4306
+2016,Isle Royale,4326
+2017,Isle Royale,4661
+2018,Isle Royale,4614
+2019,Isle Royale,4503
+2020,Isle Royale,4465
+2021,Isle Royale,4590
+2022,Isle Royale,4678
+2023,Isle Royale,4678
+2024,Isle Royale,5021
+2011,Joshua Tree,6381
+2012,Joshua Tree,6381
+2013,Joshua Tree,6145
+2014,Joshua Tree,6145
+2015,Joshua Tree,6084
+2016,Joshua Tree,6159
+2017,Joshua Tree,6245
+2018,Joshua Tree,6233
+2019,Joshua Tree,6283
+2020,Joshua Tree,6327
+2021,Joshua Tree,6776
+2022,Joshua Tree,6827
+2023,Joshua Tree,6827
+2024,Joshua Tree,7161
+2011,Katmai,3949
+2012,Katmai,3949
+2013,Katmai,3967
+2014,Katmai,3967
+2015,Katmai,3927
+2016,Katmai,3981
+2017,Katmai,4327
+2018,Katmai,4319
+2019,Katmai,4344
+2020,Katmai,4375
+2021,Katmai,4449
+2022,Katmai,4566
+2023,Katmai,591
+2024,Katmai,5149
+2011,Kenai Fjords,3807
+2012,Kenai Fjords,3807
+2013,Kenai Fjords,3809
+2014,Kenai Fjords,3809
+2015,Kenai Fjords,3771
+2016,Kenai Fjords,3855
+2017,Kenai Fjords,4066
+2018,Kenai Fjords,4058
+2019,Kenai Fjords,4085
+2020,Kenai Fjords,4115
+2021,Kenai Fjords,4195
+2022,Kenai Fjords,4302
+2023,Kenai Fjords,4302
+2024,Kenai Fjords,4606
+2011,Kings Canyon,9231
+2012,Kings Canyon,9231
+2013,Kings Canyon,8815
+2014,Kings Canyon,8815
+2015,Kings Canyon,8754
+2016,Kings Canyon,8928
+2017,Kings Canyon,9126
+2018,Kings Canyon,9099
+2019,Kings Canyon,9148
+2020,Kings Canyon,9202
+2021,Kings Canyon,9385
+2022,Kings Canyon,9443
+2023,Kings Canyon,9443
+2024,Kings Canyon,9958
+2011,Kobuk Valley ,3841
+2012,Kobuk Valley ,3720
+2013,Kobuk Valley ,3707
+2014,Kobuk Valley ,3707
+2015,Kobuk Valley ,3670
+2016,Kobuk Valley ,3705
+2017,Kobuk Valley ,3868
+2018,Kobuk Valley ,3861
+2019,Kobuk Valley ,3883
+2020,Kobuk Valley ,3908
+2021,Kobuk Valley ,3974
+2022,Kobuk Valley ,2759
+2023,Kobuk Valley ,2759
+2024,Kobuk Valley ,2956
+2011,Lake Clark,3351
+2012,Lake Clark,3351
+2013,Lake Clark,3355
+2014,Lake Clark,3355
+2015,Lake Clark,3321
+2016,Lake Clark,3337
+2017,Lake Clark,3493
+2018,Lake Clark,3486
+2019,Lake Clark,3508
+2020,Lake Clark,3537
+2021,Lake Clark,3605
+2022,Lake Clark,3715
+2023,Lake Clark,3715
+2024,Lake Clark,3959
+2011,Lassen Volcanic ,5500
+2012,Lassen Volcanic ,5500
+2013,Lassen Volcanic ,5296
+2014,Lassen Volcanic ,5296
+2015,Lassen Volcanic ,5243
+2016,Lassen Volcanic ,5271
+2017,Lassen Volcanic ,5385
+2018,Lassen Volcanic ,5370
+2019,Lassen Volcanic ,5397
+2020,Lassen Volcanic ,5442
+2021,Lassen Volcanic ,5524
+2022,Lassen Volcanic ,5522
+2023,Lassen Volcanic ,5522
+2024,Lassen Volcanic ,5777
+2011,Mammoth Cave ,6819
+2012,Mammoth Cave ,6583
+2013,Mammoth Cave ,6375
+2014,Mammoth Cave ,6375
+2015,Mammoth Cave ,6411
+2016,Mammoth Cave ,6431
+2017,Mammoth Cave ,6588
+2018,Mammoth Cave ,6587
+2019,Mammoth Cave ,6623
+2020,Mammoth Cave ,6673
+2021,Mammoth Cave ,6791
+2022,Mammoth Cave ,7010
+2023,Mammoth Cave ,7010
+2024,Mammoth Cave ,7523
+2011,Mesa Verde ,7001
+2012,Mesa Verde ,7001
+2013,Mesa Verde ,6474
+2014,Mesa Verde ,6474
+2015,Mesa Verde ,6409
+2016,Mesa Verde ,6505
+2017,Mesa Verde ,6602
+2018,Mesa Verde ,6507
+2019,Mesa Verde ,6540
+2020,Mesa Verde ,6592
+2021,Mesa Verde ,6709
+2022,Mesa Verde ,6792
+2023,Mesa Verde ,6792
+2024,Mesa Verde ,7308
+2011,Mount Rainier ,12379
+2012,Mount Rainier ,12379
+2013,Mount Rainier ,12168
+2014,Mount Rainier ,12168
+2015,Mount Rainier ,12246
+2016,Mount Rainier ,12481
+2017,Mount Rainier ,12735
+2018,Mount Rainier ,12701
+2019,Mount Rainier ,12788
+2020,Mount Rainier ,12880
+2021,Mount Rainier ,13112
+2022,Mount Rainier ,12955
+2023,Mount Rainier ,12955
+2024,Mount Rainier ,13624
+2011,New River Gorge ,7674
+2012,New River Gorge ,7585
+2013,New River Gorge ,7386
+2014,New River Gorge ,7386
+2015,New River Gorge ,7312
+2016,New River Gorge ,7441
+2017,New River Gorge ,7575
+2018,New River Gorge ,7561
+2019,New River Gorge ,7598
+2020,New River Gorge ,7665
+2021,New River Gorge ,7806
+2022,New River Gorge ,8026
+2023,New River Gorge ,8026
+2024,New River Gorge ,8600
+2011,North Cascades ,7669
+2012,North Cascades ,7669
+2013,North Cascades ,7365
+2014,North Cascades ,7365
+2015,North Cascades ,7291
+2016,North Cascades ,7388
+2017,North Cascades ,7551
+2018,North Cascades ,7530
+2019,North Cascades ,7581
+2020,North Cascades ,7633
+2021,North Cascades ,7760
+2022,North Cascades ,7841
+2023,North Cascades ,1069
+2024,North Cascades ,7783
+2011,Olympic ,13060
+2012,Olympic ,13231
+2013,Olympic ,12874
+2014,Olympic ,12874
+2015,Olympic ,12745
+2016,Olympic ,12977
+2017,Olympic ,13142
+2018,Olympic ,13107
+2019,Olympic ,13177
+2020,Olympic ,13275
+2021,Olympic ,13583
+2022,Olympic ,13769
+2023,Olympic ,13769
+2024,Olympic ,14265
+2011,Petrified Forest ,3701
+2012,Petrified Forest ,3701
+2013,Petrified Forest ,3447
+2014,Petrified Forest ,3447
+2015,Petrified Forest ,3413
+2016,Petrified Forest ,3542
+2017,Petrified Forest ,3596
+2018,Petrified Forest ,3589
+2019,Petrified Forest ,3606
+2020,Petrified Forest ,3632
+2021,Petrified Forest ,3700
+2022,Petrified Forest ,3822
+2023,Petrified Forest ,3822
+2024,Petrified Forest ,4267
+2011,Pinnacles ,3601
+2012,Pinnacles ,3601
+2013,Pinnacles ,3473
+2014,Pinnacles ,3473
+2015,Pinnacles ,3438
+2016,Pinnacles ,3457
+2017,Pinnacles ,3582
+2018,Pinnacles ,3575
+2019,Pinnacles ,3603
+2020,Pinnacles ,3638
+2021,Pinnacles ,3827
+2022,Pinnacles ,3876
+2023,Pinnacles ,3876
+2024,Pinnacles ,4079
+2011,Redwood ,9222
+2012,Redwood ,9222
+2013,Redwood ,8891
+2014,Redwood ,8891
+2015,Redwood ,8802
+2016,Redwood ,8851
+2017,Redwood ,9071
+2018,Redwood ,9048
+2019,Redwood ,9096
+2020,Redwood ,9185
+2021,Redwood ,9355
+2022,Redwood ,9522
+2023,Redwood ,9522
+2024,Redwood ,10271
+2011,Rocky Mountain ,13469
+2012,Rocky Mountain ,13469
+2013,Rocky Mountain ,12560
+2014,Rocky Mountain ,12560
+2015,Rocky Mountain ,12434
+2016,Rocky Mountain ,12546
+2017,Rocky Mountain ,12772
+2018,Rocky Mountain ,12738
+2019,Rocky Mountain ,12831
+2020,Rocky Mountain ,12916
+2021,Rocky Mountain ,13363
+2022,Rocky Mountain ,13807
+2023,Rocky Mountain ,13807
+2024,Rocky Mountain ,14809
+2011,Saguaro ,3933
+2012,Saguaro ,3933
+2013,Saguaro ,3621
+2014,Saguaro ,3621
+2015,Saguaro ,3585
+2016,Saguaro ,3634
+2017,Saguaro ,3688
+2018,Saguaro ,3690
+2019,Saguaro ,3726
+2020,Saguaro ,3608
+2021,Saguaro ,3712
+2022,Saguaro ,3986
+2023,Saguaro ,3986
+2024,Saguaro ,4579
+2011,Sequoia,8075
+2012,Sequoia,8075
+2013,Sequoia ,7711
+2014,Sequoia ,7711
+2015,Sequoia ,7657
+2016,Sequoia,7809
+2017,Sequoia,7983
+2018,Sequoia,7960
+2019,Sequoia ,8002
+2020,Sequoia,8049
+2021,Sequoia,8209
+2022,Sequoia,8261
+2023,Sequoia,8261
+2024,Sequoia,8711
+2011,Shenandoah ,13171
+2012,Shenandoah ,13009
+2013,Shenandoah ,12544
+2014,Shenandoah ,12544
+2015,Shenandoah ,11975
+2016,Shenandoah ,12040
+2017,Shenandoah ,12287
+2018,Shenandoah ,12264
+2019,Shenandoah ,12326
+2020,Shenandoah ,12422
+2021,Shenandoah ,12629
+2022,Shenandoah ,13039
+2023,Shenandoah ,13039
+2024,Shenandoah ,13976
+2011,Theodore Roosevelt ,3034
+2012,Theodore Roosevelt ,2975
+2013,Theodore Roosevelt ,2878
+2014,Theodore Roosevelt ,2878
+2015,Theodore Roosevelt ,2849
+2016,Theodore Roosevelt ,2866
+2017,Theodore Roosevelt ,2985
+2018,Theodore Roosevelt ,2937
+2019,Theodore Roosevelt ,3136
+2020,Theodore Roosevelt ,3198
+2021,Theodore Roosevelt ,3178
+2022,Theodore Roosevelt ,3210
+2023,Theodore Roosevelt ,3210
+2024,Theodore Roosevelt ,3491
+2011,Virgin Islands ,5153
+2012,Virgin Islands ,5153
+2013,Virgin Islands ,4959
+2014,Virgin Islands ,4959
+2015,Virgin Islands ,4909
+2016,Virgin Islands ,5001
+2017,Virgin Islands ,5050
+2018,Virgin Islands ,5040
+2019,Virgin Islands ,5081
+2020,Virgin Islands ,5123
+2021,Virgin Islands ,5201
+2022,Virgin Islands ,5326
+2023,Virgin Islands ,5326
+2024,Virgin Islands ,5615
+2011,Voyageurs ,5163
+2012,Voyageurs ,5139
+2013,Voyageurs ,4241
+2014,Voyageurs ,4241
+2015,Voyageurs ,4199
+2016,Voyageurs ,4380
+2017,Voyageurs ,4318
+2018,Voyageurs ,4200
+2019,Voyageurs ,4222
+2020,Voyageurs ,4454
+2021,Voyageurs ,4509
+2022,Voyageurs ,4425
+2023,Voyageurs ,4425
+2024,Voyageurs ,4734
+2011,White Sands ,1646
+2012,White Sands ,1646
+2013,White Sands ,1589
+2014,White Sands ,1589
+2015,White Sands ,1573
+2016,White Sands ,1612
+2017,White Sands ,1635
+2018,White Sands ,1632
+2019,White Sands ,1640
+2020,White Sands ,1650
+2021,White Sands ,1667
+2022,White Sands ,1718
+2023,White Sands ,1718
+2024,White Sands ,2046
+2011,Wind Cave ,2810
+2012,Wind Cave ,2707
+2013,Wind Cave ,2620
+2014,Wind Cave ,2620
+2015,Wind Cave ,2644
+2016,Wind Cave ,2610
+2017,Wind Cave ,2703
+2018,Wind Cave ,2582
+2019,Wind Cave ,2597
+2020,Wind Cave ,2604
+2021,Wind Cave ,2680
+2022,Wind Cave ,2765
+2023,Wind Cave ,2765
+2024,Wind Cave ,3149
+2011,Wrangell St Elias,5417
+2012,Wrangell St Elias,5417
+2013,Wrangell St Elias,5462
+2014,Wrangell St Elias,5462
+2016,Wrangell St Elias,5513
+2017,Wrangell St Elias,5775
+2018,Wrangell St Elias,5764
+2019,Wrangell St Elias,5804
+2020,Wrangell St Elias,5856
+2021,Wrangell St Elias,5978
+2022,Wrangell St Elias,6158
+2023,Wrangell St Elias,6158
+2024,Wrangell St Elias,6779
+2025,Wrangell St Elias,5408
+2011,Yellowstone,36958
+2012,Yellowstone,36958
+2013,Yellowstone,35301
+2014,Yellowstone,35301
+2015,Yellowstone,34374
+2016,Yellowstone,34712
+2017,Yellowstone,35393
+2018,Yellowstone,35296
+2019,Yellowstone,35463
+2020,Yellowstone,35727
+2021,Yellowstone,36531
+2022,Yellowstone,37371
+2023,Yellowstone,37371
+2024,Yellowstone,39884
+2011,Yosemite,29855
+2012,Yosemite,29855
+2013,Yosemite,29007
+2014,Yosemite,29007
+2015,Yosemite,28600
+2016,Yosemite,28909
+2017,Yosemite,30983
+2018,Yosemite,30910
+2019,Yosemite,31064
+2020,Yosemite,31201
+2021,Yosemite,31699
+2022,Yosemite,31109
+2023,Yosemite,31109
+2024,Yosemite,32680
+2011,Zion,8307
+2012,Zion,8307
+2013,Zion,7708
+2014,Zion,7708
+2015,Zion,7581
+2016,Zion,7621
+2017,Zion,7745
+2018,Zion,7722
+2019,Zion,7762
+2020,Zion,7803
+2021,Zion,8207
+2022,Zion,8475
+2023,Zion,8475
+2024,Zion,9115
