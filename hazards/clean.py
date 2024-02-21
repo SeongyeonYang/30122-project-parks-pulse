@@ -70,4 +70,8 @@ def clean_light_data():
     df.to_csv("light-pollution.csv")
 
 
+def clean_pew_maintenance():
+    filename = pathlib.Path(__file__).parent / "data/pew-maintenance.json"
+    df = pd.read_json(filename)
     
+    df.to_csv("pew-maintenance.csv")
