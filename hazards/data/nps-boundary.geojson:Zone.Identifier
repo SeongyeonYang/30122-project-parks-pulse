@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://public-nps.opendata.arcgis.com/
+HostUrl=https://opendata.arcgis.com/api/v3/datasets/a2848257cf5541338bab9b656440bd0c_2/downloads/data?format=geojson&spatialRefId=4326&where=%28UNIT_TYPE+IN+%28%27National+Park%27%29%29
