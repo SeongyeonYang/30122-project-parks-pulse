@@ -36,12 +36,12 @@ def clean_orphaned_wells():
     df.rename(columns={"UNIT_NAME": "park_name"}, inplace=True)
     df.rename(columns={"UNIT_TYPE": "unit_type"}, inplace=True)
     df.rename(columns={"STATE": "state"}, inplace=True)
-    df.rename(columns={"Abandoned Wells within 30 miles": "abandoned_wells_count"}, inplace=True)
+    df.rename(columns={"Abandoned Wells within 30 miles": "abandoned_wells_within_30_miles"}, inplace=True)
 
     df = df[df["unit_type"] == "National Park"]
     df = df.drop("unit_type", axis=1)
 
-    df.to_csv("orphaned_wells.csv")
+    df.to_csv("orphaned-wells.csv")
 
 
 def clean_boundary():
