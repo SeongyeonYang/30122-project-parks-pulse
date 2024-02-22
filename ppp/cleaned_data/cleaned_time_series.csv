@@ -1,0 +1,883 @@
+Year,Park Name,Spending,Visitation
+2011,Acadia,8269,2374645
+2012,Acadia,8183,2431052
+2013,Acadia,7866,2254922
+2014,Acadia,7866,2563129
+2015,Acadia,7837,2811184
+2016,Acadia,8022,3303393
+2017,Acadia,8144,3509271
+2018,Acadia,8129,3537575
+2019,Acadia,8169,3437286
+2020,Acadia,8224,2669034
+2021,Acadia,8514,4069098
+2022,Acadia,8777,3970260
+2023,Acadia,8777,
+2024,Acadia,9461,
+2011,American Samoa,1951,8716
+2012,American Samoa,1951,10440
+2013,American Samoa,1944,17919
+2014,American Samoa,1944,13953
+2015,American Samoa,1925,13892
+2016,American Samoa,1933,28892
+2017,American Samoa,2013,69468
+2018,American Samoa,2009,28626
+2019,American Samoa,2021,60006
+2020,American Samoa,2029,4819
+2021,American Samoa,1417,8495
+2022,American Samoa,1452,1887
+2023,American Samoa,1452,
+2024,American Samoa,1562,
+2011,Arches,1981,1040758
+2012,Arches,1981,1070577
+2013,Arches,1917,1082866
+2014,Arches,1917,1284767
+2015,Arches,1898,1399247
+2016,Arches,1938,1585718
+2017,Arches,1972,1539028
+2018,Arches,1968,1663557
+2019,Arches,1978,1659702
+2020,Arches,1994,1238083
+2021,Arches,2107,1806865
+2022,Arches,2183,1460652
+2023,Arches,2183,
+2024,Arches,2365,
+2011,Badlands,4575,870741
+2012,Badlands,4485,883406
+2013,Badlands,4337,892372
+2014,Badlands,4337,868094
+2015,Badlands,4294,989354
+2016,Badlands,4317,996263
+2017,Badlands,4424,1054325
+2018,Badlands,4415,1008942
+2019,Badlands,4435,970998
+2020,Badlands,4538,916932
+2021,Badlands,4580,1224226
+2022,Badlands,4537,1006809
+2023,Badlands,4537,
+2024,Badlands,4800,
+2011,Big Bend,7387,361862
+2012,Big Bend,7387,292055
+2013,Big Bend,6989,316953
+2014,Big Bend,6989,314102
+2015,Big Bend,6939,381747
+2016,Big Bend,7003,388290
+2017,Big Bend,7272,440276
+2018,Big Bend,7255,440091
+2019,Big Bend,7290,463832
+2020,Big Bend,7345,393907
+2021,Big Bend,7479,581220
+2022,Big Bend,7718,514107
+2023,Big Bend,7718,
+2024,Big Bend,8235,
+2011,Biscayne,4461,476077
+2012,Biscayne,4384,495613
+2013,Biscayne,4254,486848
+2014,Biscayne,4254,525745
+2015,Biscayne,4211,508164
+2016,Biscayne,4234,514709
+2017,Biscayne,4280,446961
+2018,Biscayne,4290,469253
+2019,Biscayne,4317,708522
+2020,Biscayne,4360,402770
+2021,Biscayne,4439,705655
+2022,Biscayne,4500,701023
+2023,Biscayne,4500,
+2024,Biscayne,4789,
+2011,Black Canyon of the Gunnison,1701,168336
+2012,Black Canyon of the Gunnison,1701,192570
+2013,Black Canyon of the Gunnison,1647,175852
+2014,Black Canyon of the Gunnison,1647,183045
+2015,Black Canyon of the Gunnison,1751,209166
+2016,Black Canyon of the Gunnison,1779,238018
+2017,Black Canyon of the Gunnison,1905,307143
+2018,Black Canyon of the Gunnison,1901,308962
+2019,Black Canyon of the Gunnison,1911,432818
+2020,Black Canyon of the Gunnison,1926,341620
+2021,Black Canyon of the Gunnison,1964,308910
+2022,Black Canyon of the Gunnison,2019,297257
+2023,Black Canyon of the Gunnison,2019,
+2024,Black Canyon of the Gunnison,2175,
+2011,Bryce Canyon,3531,1296000
+2012,Bryce Canyon,3531,1385352
+2013,Bryce Canyon,3268,1311875
+2014,Bryce Canyon,3268,1435741
+2015,Bryce Canyon,3232,1745804
+2016,Bryce Canyon,3279,2365110
+2017,Bryce Canyon,3329,2571684
+2018,Bryce Canyon,3323,2679478
+2019,Bryce Canyon,3338,2594904
+2020,Bryce Canyon,3361,1464655
+2021,Bryce Canyon,3602,2104600
+2022,Bryce Canyon,3702,2354660
+2023,Bryce Canyon,3702,
+2024,Bryce Canyon,3966,
+2011,Canyonlands,6797,473773
+2012,Canyonlands,6797,452952
+2013,Canyonlands,6270,462242
+2014,Canyonlands,6270,542431
+2015,Canyonlands,6202,634607
+2016,Canyonlands,6237,776218
+2017,Canyonlands,6328,742271
+2018,Canyonlands,6322,739449
+2019,Canyonlands,6354,733996
+2020,Canyonlands,6399,493914
+2021,Canyonlands,6565,911594
+2022,Canyonlands,6797,779147
+2023,Canyonlands,6797,
+2024,Canyonlands,7286,
+2011,Capitol Reef,2382,668834
+2012,Capitol Reef,2382,673345
+2013,Capitol Reef,2246,663670
+2014,Capitol Reef,2246,786514
+2015,Capitol Reef,2275,941029
+2016,Capitol Reef,2357,1064904
+2017,Capitol Reef,2397,1150165
+2018,Capitol Reef,2392,1227627
+2019,Capitol Reef,2405,1226519
+2020,Capitol Reef,2427,981038
+2021,Capitol Reef,2531,1405353
+2022,Capitol Reef,2615,1227608
+2023,Capitol Reef,2615,
+2024,Capitol Reef,2880,
+2011,Carlsbad Caverns,6279,365000
+2012,Carlsbad Caverns,6279,381058
+2013,Carlsbad Caverns,5765,388566
+2014,Carlsbad Caverns,5765,397309
+2015,Carlsbad Caverns,5764,445720
+2016,Carlsbad Caverns,5721,466773
+2017,Carlsbad Caverns,5819,520026
+2018,Carlsbad Caverns,5815,465912
+2019,Carlsbad Caverns,5841,440691
+2020,Carlsbad Caverns,5874,183835
+2021,Carlsbad Caverns,5960,349244
+2022,Carlsbad Caverns,6106,390932
+2023,Carlsbad Caverns,6106,
+2024,Carlsbad Caverns,6481,
+2011,Channel Islands,7579,242756
+2012,Channel Islands,7579,249594
+2013,Channel Islands,7547,212029
+2014,Channel Islands,7547,342161
+2015,Channel Islands,7240,324816
+2016,Channel Islands,7331,364807
+2017,Channel Islands,7456,383687
+2018,Channel Islands,7523,366250
+2019,Channel Islands,7577,409630
+2020,Channel Islands,7647,167290
+2021,Channel Islands,7793,319252
+2022,Channel Islands,7917,323245
+2023,Channel Islands,7917,
+2024,Channel Islands,8314,
+2011,Congaree,1935,120166
+2012,Congaree,1935,109685
+2013,Congaree,1877,120340
+2014,Congaree,1877,120122
+2015,Congaree,1858,87513
+2016,Congaree,1869,143843
+2017,Congaree,1890,159595
+2018,Congaree,1894,145929
+2019,Congaree,1903,159445
+2020,Congaree,1922,119306
+2021,Congaree,1955,215181
+2022,Congaree,1817,204522
+2023,Congaree,1817,
+2024,Congaree,1934,
+2011,Crater Lake,5530,423551
+2012,Crater Lake,5530,447251
+2013,Crater Lake,5318,523027
+2014,Crater Lake,5318,535508
+2015,Crater Lake,5265,614712
+2016,Crater Lake,5348,756344
+2017,Crater Lake,5452,711749
+2018,Crater Lake,5442,720659
+2019,Crater Lake,5470,704512
+2020,Crater Lake,5512,670500
+2021,Crater Lake,5645,647751
+2022,Crater Lake,5673,527259
+2023,Crater Lake,5673,
+2024,Crater Lake,5949,
+2011,Cuyahoga Valley,11238,2161185
+2012,Cuyahoga Valley,11143,2299722
+2013,Cuyahoga Valley,10877,2103010
+2014,Cuyahoga Valley,10877,2189849
+2015,Cuyahoga Valley,10769,2284612
+2016,Cuyahoga Valley,10825,2423390
+2017,Cuyahoga Valley,11035,2226879
+2018,Cuyahoga Valley,10836,2096053
+2019,Cuyahoga Valley,10900,2237997
+2020,Cuyahoga Valley,10992,2755628
+2021,Cuyahoga Valley,11217,2575275
+2022,Cuyahoga Valley,11592,2913312
+2023,Cuyahoga Valley,11592,
+2024,Cuyahoga Valley,12299,
+2011,Death Valley,9132,946867
+2012,Death Valley,9132,984568
+2013,Death Valley,8770,951972
+2014,Death Valley,8770,1101312
+2015,Death Valley,8682,1154843
+2016,Death Valley,8758,1296283
+2017,Death Valley,8885,1294827
+2018,Death Valley,8868,1678660
+2019,Death Valley,8912,1740945
+2020,Death Valley,8976,820023
+2021,Death Valley,9587,1146551
+2022,Death Valley,9710,1128862
+2023,Death Valley,9710,
+2024,Death Valley,10559,
+2011,Denali,13976,406582
+2012,Denali,13976,388433
+2013,Denali,13881,530922
+2014,Denali,13881,531315
+2015,Denali,13743,560757
+2016,Denali,13909,587412
+2017,Denali,14531,642809
+2018,Denali,14603,594660
+2019,Denali,14694,601152
+2020,Denali,14795,54850
+2021,Denali,15111,229521
+2022,Denali,15556,427562
+2023,Denali,15556,
+2024,Denali,16603,
+2011,Dry Tortugas,1785,75171
+2012,Dry Tortugas,1785,60550
+2013,Dry Tortugas,1730,58401
+2014,Dry Tortugas,1730,64865
+2015,Dry Tortugas,1884,70862
+2016,Dry Tortugas,1890,73661
+2017,Dry Tortugas,2083,54281
+2018,Dry Tortugas,2095,56810
+2019,Dry Tortugas,2107,79200
+2020,Dry Tortugas,2124,48543
+2021,Dry Tortugas,2162,83817
+2022,Dry Tortugas,2224,78488
+2023,Dry Tortugas,2224,
+2024,Dry Tortugas,2386,
+2011,Everglades ,17991,934351
+2012,Everglades ,17491,1141906
+2013,Everglades ,16953,1047116
+2014,Everglades ,16953,1110901
+2015,Everglades ,16612,1077427
+2016,Everglades ,16760,930907
+2017,Everglades ,16835,1018557
+2018,Everglades ,16774,597124
+2019,Everglades ,16884,1118300
+2020,Everglades ,17037,702319
+2021,Everglades ,17371,942130
+2022,Everglades ,17885,1155193
+2023,Everglades ,17885,
+2024,Everglades ,19211,
+2011,Gates of the Arctic,2881,11623
+2012,Gates of the Arctic,2881,10899
+2013,Gates of the Arctic,2863,11012
+2014,Gates of the Arctic,2863,12669
+2015,Gates of the Arctic,3012,10745
+2016,Gates of the Arctic,3025,10047
+2017,Gates of the Arctic,3172,11177
+2018,Gates of the Arctic,3166,9591
+2019,Gates of the Arctic,3191,10518
+2020,Gates of the Arctic,3209,2872
+2021,Gates of the Arctic,3260,7362
+2022,Gates of the Arctic,3334,9457
+2023,Gates of the Arctic,3334,
+2024,Gates of the Arctic,3622,
+2011,Gateway Arch,26538,2259020
+2012,Gateway Arch,26089,2496726
+2013,Gateway Arch,25282,2377258
+2014,Gateway Arch,25282,1817091
+2015,Gateway Arch,32930,1698656
+2016,Gateway Arch,24769,1271855
+2017,Gateway Arch,25346,1398188
+2018,Gateway Arch,25298,2016180
+2019,Gateway Arch,25489,2055309
+2020,Gateway Arch,10165,486021
+2021,Gateway Arch,10373,1145081
+2022,Gateway Arch,10736,1618774
+2023,Gateway Arch,10736,
+2024,Gateway Arch,11374,
+2011,Glacier,14410,431986
+2012,Glacier,14410,454337
+2013,Glacier,13741,500590
+2014,Glacier,13741,500727
+2015,Glacier,13324,551353
+2016,Glacier,13481,520171
+2017,Glacier,13823,547057
+2018,Glacier,13777,597915
+2019,Glacier,13862,672087
+2020,Glacier,13959,5748
+2021,Glacier,14364,89768
+2022,Glacier,15115,545758
+2023,Glacier,15115,
+2024,Glacier,16226,
+2011,Glacier Bay ,4821,1853564
+2012,Glacier Bay ,4821,2162035
+2013,Glacier Bay ,4862,2190374
+2014,Glacier Bay ,4862,2338528
+2015,Glacier Bay ,4813,2366056
+2016,Glacier Bay ,4837,2946681
+2017,Glacier Bay ,5073,3305512
+2018,Glacier Bay ,5063,2965309
+2019,Glacier Bay ,5103,3049839
+2020,Glacier Bay ,5145,1698864
+2021,Glacier Bay ,5237,3081656
+2022,Glacier Bay ,5406,2908458
+2023,Glacier Bay ,5406,
+2024,Glacier Bay ,5954,
+2011,Grand Canyon ,23076,4298178
+2012,Grand Canyon ,23076,4421352
+2013,Grand Canyon ,21363,4564840
+2014,Grand Canyon ,21363,4756771
+2015,Grand Canyon ,21148,5520736
+2016,Grand Canyon ,21486,5969811
+2017,Grand Canyon ,21733,6254238
+2018,Grand Canyon ,21546,6380495
+2019,Grand Canyon ,21654,5974411
+2020,Grand Canyon ,21798,2897098
+2021,Grand Canyon ,22446,4532677
+2022,Grand Canyon ,23027,4732101
+2023,Grand Canyon ,23027,
+2024,Grand Canyon ,24753,
+2011,Grand Teton,13733,2587437
+2012,Grand Teton,13733,2705256
+2013,Grand Teton,12630,2688794
+2014,Grand Teton,12630,2791392
+2015,Grand Teton,12275,3149921
+2016,Grand Teton,12369,3270076
+2017,Grand Teton,12561,3317000
+2018,Grand Teton,12537,3491151
+2019,Grand Teton,12599,3405614
+2020,Grand Teton,12678,3289638
+2021,Grand Teton,12985,3885230
+2022,Grand Teton,13398,2806223
+2023,Grand Teton,13398,
+2024,Grand Teton,14396,
+2011,Great Basin,2861,91451
+2012,Great Basin,2861,94850
+2013,Great Basin,2757,92893
+2014,Great Basin,2757,107526
+2015,Great Basin,2779,116123
+2016,Great Basin,2744,144846
+2017,Great Basin,2799,168028
+2018,Great Basin,2794,153094
+2019,Great Basin,2809,131802
+2020,Great Basin,2830,120248
+2021,Great Basin,2882,144875
+2022,Great Basin,2904,142115
+2023,Great Basin,2904,
+2024,Great Basin,3099,
+2011,Great Sand Dunes,2366,280058
+2012,Great Sand Dunes,2366,254674
+2013,Great Sand Dunes,2286,242841
+2014,Great Sand Dunes,2286,271774
+2015,Great Sand Dunes,2263,299513
+2016,Great Sand Dunes,2304,388308
+2017,Great Sand Dunes,2344,486935
+2018,Great Sand Dunes,2340,442905
+2019,Great Sand Dunes,2352,527546
+2020,Great Sand Dunes,2373,461532
+2021,Great Sand Dunes,2403,602613
+2022,Great Sand Dunes,2760,493428
+2023,Great Sand Dunes,2760,
+2024,Great Sand Dunes,2946,
+2011,Great Smoky Mountains,20341,9008830
+2012,Great Smoky Mountains,19637,9685829
+2013,Great Smoky Mountains,19023,9354695
+2014,Great Smoky Mountains,19023,10099276
+2015,Great Smoky Mountains,18834,10712674
+2016,Great Smoky Mountains,19111,11312786
+2017,Great Smoky Mountains,19426,11338893
+2018,Great Smoky Mountains,19377,11421200
+2019,Great Smoky Mountains,19472,12547743
+2020,Great Smoky Mountains,19616,12095720
+2021,Great Smoky Mountains,20228,14161548
+2022,Great Smoky Mountains,20664,12937633
+2023,Great Smoky Mountains,20664,
+2024,Great Smoky Mountains,22124,
+2011,Guadalupe Mountains,3017,152546
+2012,Guadalupe Mountains,3017,159360
+2013,Guadalupe Mountains,2915,145670
+2014,Guadalupe Mountains,2915,166868
+2015,Guadalupe Mountains,2886,169535
+2016,Guadalupe Mountains,2901,181839
+2017,Guadalupe Mountains,2937,225257
+2018,Guadalupe Mountains,2931,172347
+2019,Guadalupe Mountains,2945,188833
+2020,Guadalupe Mountains,2967,151256
+2021,Guadalupe Mountains,3026,243291
+2022,Guadalupe Mountains,3128,219987
+2023,Guadalupe Mountains,3128,
+2024,Guadalupe Mountains,3347,
+2011,Haleakala,5329,956989
+2012,Haleakala,5436,1094668
+2013,Haleakala,5371,785300
+2014,Haleakala,5371,1142040
+2015,Haleakala,5317,1216772
+2016,Haleakala,5382,1263558
+2017,Haleakala,5596,1112390
+2018,Haleakala,5585,1044084
+2019,Haleakala,5623,994394
+2020,Haleakala,5668,319147
+2021,Haleakala,5767,853181
+2022,Haleakala,5925,1087616
+2023,Haleakala,5925,
+2024,Haleakala,6388,
+2011,Hawaii Volcanoes,7125,1352123
+2012,Hawaii Volcanoes,7018,1483928
+2013,Hawaii Volcanoes,7355,1583209
+2014,Hawaii Volcanoes,7355,1693005
+2015,Hawaii Volcanoes,7281,1832660
+2016,Hawaii Volcanoes,7551,1887580
+2017,Hawaii Volcanoes,7871,2016702
+2018,Hawaii Volcanoes,7856,1116891
+2019,Hawaii Volcanoes,7910,1368376
+2020,Hawaii Volcanoes,7974,589775
+2021,Hawaii Volcanoes,8227,1262747
+2022,Hawaii Volcanoes,8297,1580961
+2023,Hawaii Volcanoes,8297,
+2024,Hawaii Volcanoes,9028,
+2011,Hot Springs,4751,1396354
+2012,Hot Springs,4751,1302505
+2013,Hot Springs,4599,1325719
+2014,Hot Springs,4599,1424484
+2015,Hot Springs,4553,1418162
+2016,Hot Springs,4577,1544300
+2017,Hot Springs,4652,1561616
+2018,Hot Springs,4639,1506887
+2019,Hot Springs,4662,1467153
+2020,Hot Springs,4683,1348215
+2021,Hot Springs,4600,2162884
+2022,Hot Springs,4831,2646133
+2023,Hot Springs,4831,
+2024,Hot Springs,6001,
+2011,Indiana Dunes,9508,1840513
+2012,Indiana Dunes,9371,1889381
+2013,Indiana Dunes,9086,1681695
+2014,Indiana Dunes,9086,1553372
+2015,Indiana Dunes,8996,1640195
+2016,Indiana Dunes,9046,1698223
+2017,Indiana Dunes,9447,2158471
+2018,Indiana Dunes,9366,1756079
+2019,Indiana Dunes,9383,2134285
+2020,Indiana Dunes,9408,2293106
+2021,Indiana Dunes,9478,3177210
+2022,Indiana Dunes,9748,2834180
+2023,Indiana Dunes,9748,
+2024,Indiana Dunes,10392,
+2011,Isle Royale,4593,15892
+2012,Isle Royale,4497,16663
+2013,Isle Royale,4349,16274
+2014,Isle Royale,4349,14560
+2015,Isle Royale,4306,18684
+2016,Isle Royale,4326,24966
+2017,Isle Royale,4661,28196
+2018,Isle Royale,4614,25798
+2019,Isle Royale,4503,26410
+2020,Isle Royale,4465,6493
+2021,Isle Royale,4590,25844
+2022,Isle Royale,4678,25454
+2023,Isle Royale,4678,
+2024,Isle Royale,5021,
+2011,Joshua Tree,6381,1396237
+2012,Joshua Tree,6381,1396117
+2013,Joshua Tree,6145,1383340
+2014,Joshua Tree,6145,1589904
+2015,Joshua Tree,6084,2025756
+2016,Joshua Tree,6159,2505286
+2017,Joshua Tree,6245,2853619
+2018,Joshua Tree,6233,2942382
+2019,Joshua Tree,6283,2988547
+2020,Joshua Tree,6327,2399542
+2021,Joshua Tree,6776,3064400
+2022,Joshua Tree,6827,3058294
+2023,Joshua Tree,6827,
+2024,Joshua Tree,7161,
+2011,Katmai,3949,48939
+2012,Katmai,3949,39818
+2013,Katmai,3967,28966
+2014,Katmai,3967,30896
+2015,Katmai,3927,37818
+2016,Katmai,3981,37818
+2017,Katmai,4327,37818
+2018,Katmai,4319,37818
+2019,Katmai,4344,84167
+2020,Katmai,4375,51511
+2021,Katmai,4449,24764
+2022,Katmai,4566,33908
+2023,Katmai,591,
+2024,Katmai,5149,
+2011,Kenai Fjords,3807,346852
+2012,Kenai Fjords,3807,281279
+2013,Kenai Fjords,3809,283502
+2014,Kenai Fjords,3809,270666
+2015,Kenai Fjords,3771,296697
+2016,Kenai Fjords,3855,346534
+2017,Kenai Fjords,4066,303598
+2018,Kenai Fjords,4058,321596
+2019,Kenai Fjords,4085,356601
+2020,Kenai Fjords,4115,115882
+2021,Kenai Fjords,4195,411782
+2022,Kenai Fjords,4302,389943
+2023,Kenai Fjords,4302,
+2024,Kenai Fjords,4606,
+2011,Kings Canyon,9231,566810
+2012,Kings Canyon,9231,591033
+2013,Kings Canyon,8815,567544
+2014,Kings Canyon,8815,502268
+2015,Kings Canyon,8754,468106
+2016,Kings Canyon,8928,607479
+2017,Kings Canyon,9126,692932
+2018,Kings Canyon,9099,699023
+2019,Kings Canyon,9148,632110
+2020,Kings Canyon,9202,415077
+2021,Kings Canyon,9385,562918
+2022,Kings Canyon,9443,640986
+2023,Kings Canyon,9443,
+2024,Kings Canyon,9958,
+2011,Kobuk Valley ,3841,11485
+2012,Kobuk Valley ,3720,29550
+2013,Kobuk Valley ,3707,16875
+2014,Kobuk Valley ,3707,0
+2015,Kobuk Valley ,3670,0
+2016,Kobuk Valley ,3705,15500
+2017,Kobuk Valley ,3868,15500
+2018,Kobuk Valley ,3861,14937
+2019,Kobuk Valley ,3883,15766
+2020,Kobuk Valley ,3908,11185
+2021,Kobuk Valley ,3974,11540
+2022,Kobuk Valley ,2759,16925
+2023,Kobuk Valley ,2759,
+2024,Kobuk Valley ,2956,
+2011,Lake Clark,3351,5158
+2012,Lake Clark,3351,11639
+2013,Lake Clark,3355,13000
+2014,Lake Clark,3355,16100
+2015,Lake Clark,3321,17818
+2016,Lake Clark,3337,21102
+2017,Lake Clark,3493,22755
+2018,Lake Clark,3486,14479
+2019,Lake Clark,3508,17157
+2020,Lake Clark,3537,4948
+2021,Lake Clark,3605,18278
+2022,Lake Clark,3715,18187
+2023,Lake Clark,3715,
+2024,Lake Clark,3959,
+2011,Lassen Volcanic ,5500,351269
+2012,Lassen Volcanic ,5500,407653
+2013,Lassen Volcanic ,5296,427409
+2014,Lassen Volcanic ,5296,432977
+2015,Lassen Volcanic ,5243,468092
+2016,Lassen Volcanic ,5271,536068
+2017,Lassen Volcanic ,5385,507256
+2018,Lassen Volcanic ,5370,499435
+2019,Lassen Volcanic ,5397,517039
+2020,Lassen Volcanic ,5442,542274
+2021,Lassen Volcanic ,5524,359635
+2022,Lassen Volcanic ,5522,446291
+2023,Lassen Volcanic ,5522,
+2024,Lassen Volcanic ,5777,
+2011,Mammoth Cave ,6819,483319
+2012,Mammoth Cave ,6583,508054
+2013,Mammoth Cave ,6375,494541
+2014,Mammoth Cave ,6375,522628
+2015,Mammoth Cave ,6411,566895
+2016,Mammoth Cave ,6431,586514
+2017,Mammoth Cave ,6588,587853
+2018,Mammoth Cave ,6587,533206
+2019,Mammoth Cave ,6623,551590
+2020,Mammoth Cave ,6673,290392
+2021,Mammoth Cave ,6791,515774
+2022,Mammoth Cave ,7010,663147
+2023,Mammoth Cave ,7010,
+2024,Mammoth Cave ,7523,
+2011,Mesa Verde ,7001,572329
+2012,Mesa Verde ,7001,488860
+2013,Mesa Verde ,6474,460237
+2014,Mesa Verde ,6474,501563
+2015,Mesa Verde ,6409,547325
+2016,Mesa Verde ,6505,583527
+2017,Mesa Verde ,6602,613788
+2018,Mesa Verde ,6507,563420
+2019,Mesa Verde ,6540,556203
+2020,Mesa Verde ,6592,287477
+2021,Mesa Verde ,6709,548477
+2022,Mesa Verde ,6792,499790
+2023,Mesa Verde ,6792,
+2024,Mesa Verde ,7308,
+2011,Mount Rainier ,12379,1038229
+2012,Mount Rainier ,12379,1049178
+2013,Mount Rainier ,12168,1148552
+2014,Mount Rainier ,12168,1264259
+2015,Mount Rainier ,12246,1237231
+2016,Mount Rainier ,12481,1356913
+2017,Mount Rainier ,12735,1415867
+2018,Mount Rainier ,12701,1518491
+2019,Mount Rainier ,12788,1501621
+2020,Mount Rainier ,12880,1160754
+2021,Mount Rainier ,13112,1670063
+2022,Mount Rainier ,12955,1622395
+2023,Mount Rainier ,12955,
+2024,Mount Rainier ,13624,
+2011,New River Gorge ,7674,1071088
+2012,New River Gorge ,7585,1128195
+2013,New River Gorge ,7386,1071823
+2014,New River Gorge ,7386,1124799
+2015,New River Gorge ,7312,1178753
+2016,New River Gorge ,7441,1197931
+2017,New River Gorge ,7575,1168658
+2018,New River Gorge ,7561,1232627
+2019,New River Gorge ,7598,1195721
+2020,New River Gorge ,7665,1054374
+2021,New River Gorge ,7806,1682720
+2022,New River Gorge ,8026,1593523
+2023,New River Gorge ,8026,
+2024,New River Gorge ,8600,
+2011,North Cascades ,7669,19208
+2012,North Cascades ,7669,26935
+2013,North Cascades ,7365,21623
+2014,North Cascades ,7365,23865
+2015,North Cascades ,7291,20677
+2016,North Cascades ,7388,28646
+2017,North Cascades ,7551,30326
+2018,North Cascades ,7530,30085
+2019,North Cascades ,7581,38208
+2020,North Cascades ,7633,30885
+2021,North Cascades ,7760,17855
+2022,North Cascades ,7841,30154
+2023,North Cascades ,1069,
+2024,North Cascades ,7783,
+2011,Olympic ,13060,2966502
+2012,Olympic ,13231,2824908
+2013,Olympic ,12874,3085340
+2014,Olympic ,12874,3243872
+2015,Olympic ,12745,3263761
+2016,Olympic ,12977,3390221
+2017,Olympic ,13142,3401996
+2018,Olympic ,13107,3104455
+2019,Olympic ,13177,3245806
+2020,Olympic ,13275,2499177
+2021,Olympic ,13583,2718925
+2022,Olympic ,13769,2432972
+2023,Olympic ,13769,
+2024,Olympic ,14265,
+2011,Petrified Forest ,3701,614054
+2012,Petrified Forest ,3701,664857
+2013,Petrified Forest ,3447,644648
+2014,Petrified Forest ,3447,836799
+2015,Petrified Forest ,3413,793225
+2016,Petrified Forest ,3542,643274
+2017,Petrified Forest ,3596,627757
+2018,Petrified Forest ,3589,644922
+2019,Petrified Forest ,3606,643588
+2020,Petrified Forest ,3632,384483
+2021,Petrified Forest ,3700,590334
+2022,Petrified Forest ,3822,505209
+2023,Petrified Forest ,3822,
+2024,Petrified Forest ,4267,
+2011,Pinnacles ,3601,393219
+2012,Pinnacles ,3601,224476
+2013,Pinnacles ,3473,237677
+2014,Pinnacles ,3473,196635
+2015,Pinnacles ,3438,206533
+2016,Pinnacles ,3457,215555
+2017,Pinnacles ,3582,233334
+2018,Pinnacles ,3575,222152
+2019,Pinnacles ,3603,177224
+2020,Pinnacles ,3638,165740
+2021,Pinnacles ,3827,348857
+2022,Pinnacles ,3876,275023
+2023,Pinnacles ,3876,
+2024,Pinnacles ,4079,
+2011,Redwood ,9222,380167
+2012,Redwood ,9222,352517
+2013,Redwood ,8891,393364
+2014,Redwood ,8891,429166
+2015,Redwood ,8802,527143
+2016,Redwood ,8851,536297
+2017,Redwood ,9071,445000
+2018,Redwood ,9048,482536
+2019,Redwood ,9096,504722
+2020,Redwood ,9185,265177
+2021,Redwood ,9355,435879
+2022,Redwood ,9522,458400
+2023,Redwood ,9522,
+2024,Redwood ,10271,
+2011,Rocky Mountain ,13469,3176941
+2012,Rocky Mountain ,13469,3229617
+2013,Rocky Mountain ,12560,2991141
+2014,Rocky Mountain ,12560,3434751
+2015,Rocky Mountain ,12434,4155916
+2016,Rocky Mountain ,12546,4517585
+2017,Rocky Mountain ,12772,4437215
+2018,Rocky Mountain ,12738,4590493
+2019,Rocky Mountain ,12831,4670053
+2020,Rocky Mountain ,12916,3305199
+2021,Rocky Mountain ,13363,4434848
+2022,Rocky Mountain ,13807,4300424
+2023,Rocky Mountain ,13807,
+2024,Rocky Mountain ,14809,
+2011,Saguaro ,3933,610045
+2012,Saguaro ,3933,634286
+2013,Saguaro ,3621,678261
+2014,Saguaro ,3621,673572
+2015,Saguaro ,3585,753446
+2016,Saguaro ,3634,820426
+2017,Saguaro ,3688,964760
+2018,Saguaro ,3690,957405
+2019,Saguaro ,3726,1020226
+2020,Saguaro ,3608,762226
+2021,Saguaro ,3712,1079786
+2022,Saguaro ,3986,908194
+2023,Saguaro ,3986,
+2024,Saguaro ,4579,
+2011,Sequoia,8075,1006583
+2012,Sequoia,8075,1106584
+2013,Sequoia ,7711,909274
+2014,Sequoia ,7711,1039137
+2015,Sequoia ,7657,1097464
+2016,Sequoia,7809,1254688
+2017,Sequoia,7983,1291256
+2018,Sequoia,7960,1229594
+2019,Sequoia ,8002,1246053
+2020,Sequoia,8049,796086
+2021,Sequoia,8209,1059548
+2022,Sequoia,8261,1153198
+2023,Sequoia,8261,
+2024,Sequoia,8711,
+2011,Shenandoah ,13171,1209883
+2012,Shenandoah ,13009,1210200
+2013,Shenandoah ,12544,1136505
+2014,Shenandoah ,12544,1255321
+2015,Shenandoah ,11975,1321873
+2016,Shenandoah ,12040,1437341
+2017,Shenandoah ,12287,1458874
+2018,Shenandoah ,12264,1264880
+2019,Shenandoah ,12326,1425507
+2020,Shenandoah ,12422,1666265
+2021,Shenandoah ,12629,1592312
+2022,Shenandoah ,13039,1449300
+2023,Shenandoah ,13039,
+2024,Shenandoah ,13976,
+2011,Theodore Roosevelt ,3034,563407
+2012,Theodore Roosevelt ,2975,640555
+2013,Theodore Roosevelt ,2878,545090
+2014,Theodore Roosevelt ,2878,559580
+2015,Theodore Roosevelt ,2849,580033
+2016,Theodore Roosevelt ,2866,753880
+2017,Theodore Roosevelt ,2985,708003
+2018,Theodore Roosevelt ,2937,749389
+2019,Theodore Roosevelt ,3136,691658
+2020,Theodore Roosevelt ,3198,551303
+2021,Theodore Roosevelt ,3178,796085
+2022,Theodore Roosevelt ,3210,668679
+2023,Theodore Roosevelt ,3210,
+2024,Theodore Roosevelt ,3491,
+2011,Virgin Islands ,5153,442414
+2012,Virgin Islands ,5153,483341
+2013,Virgin Islands ,4959,438601
+2014,Virgin Islands ,4959,426930
+2015,Virgin Islands ,4909,438372
+2016,Virgin Islands ,5001,411343
+2017,Virgin Islands ,5050,304408
+2018,Virgin Islands ,5040,112287
+2019,Virgin Islands ,5081,133398
+2020,Virgin Islands ,5123,167540
+2021,Virgin Islands ,5201,323999
+2022,Virgin Islands ,5326,196752
+2023,Virgin Islands ,5326,
+2024,Virgin Islands ,5615,
+2011,Voyageurs ,5163,177184
+2012,Voyageurs ,5139,214841
+2013,Voyageurs ,4241,233390
+2014,Voyageurs ,4241,239160
+2015,Voyageurs ,4199,238313
+2016,Voyageurs ,4380,241912
+2017,Voyageurs ,4318,237250
+2018,Voyageurs ,4200,239656
+2019,Voyageurs ,4222,232974
+2020,Voyageurs ,4454,263091
+2021,Voyageurs ,4509,243042
+2022,Voyageurs ,4425,221434
+2023,Voyageurs ,4425,
+2024,Voyageurs ,4734,
+2011,White Sands ,1646,428924
+2012,White Sands ,1646,447385
+2013,White Sands ,1589,490544
+2014,White Sands ,1589,503660
+2015,White Sands ,1573,497506
+2016,White Sands ,1612,555793
+2017,White Sands ,1635,612468
+2018,White Sands ,1632,603008
+2019,White Sands ,1640,608785
+2020,White Sands ,1650,415383
+2021,White Sands ,1667,782469
+2022,White Sands ,1718,705127
+2023,White Sands ,1718,
+2024,White Sands ,2046,
+2011,Wind Cave ,2810,538394
+2012,Wind Cave ,2707,529083
+2013,Wind Cave ,2620,516142
+2014,Wind Cave ,2620,547022
+2015,Wind Cave ,2644,612198
+2016,Wind Cave ,2610,617377
+2017,Wind Cave ,2703,619924
+2018,Wind Cave ,2582,656397
+2019,Wind Cave ,2597,615350
+2020,Wind Cave ,2604,448405
+2021,Wind Cave ,2680,709001
+2022,Wind Cave ,2765,607418
+2023,Wind Cave ,2765,
+2024,Wind Cave ,3149,
+2011,Wrangell St Elias,5417,65225
+2012,Wrangell St Elias,5417,87158
+2013,Wrangell St Elias,5462,69984
+2014,Wrangell St Elias,5462,74722
+2016,Wrangell St Elias,5513,80366
+2017,Wrangell St Elias,5775,79047
+2018,Wrangell St Elias,5764,68292
+2019,Wrangell St Elias,5804,79450
+2020,Wrangell St Elias,5856,74518
+2021,Wrangell St Elias,5978,16655
+2022,Wrangell St Elias,6158,50189
+2023,Wrangell St Elias,6158,65236
+2024,Wrangell St Elias,6779,
+2025,Wrangell St Elias,5408,
+2011,Yellowstone,36958,3394326
+2012,Yellowstone,36958,3447729
+2013,Yellowstone,35301,3188030
+2014,Yellowstone,35301,3513484
+2015,Yellowstone,34374,4097710
+2016,Yellowstone,34712,4257177
+2017,Yellowstone,35393,4116524
+2018,Yellowstone,35296,4115000
+2019,Yellowstone,35463,4020288
+2020,Yellowstone,35727,3806306
+2021,Yellowstone,36531,4860242
+2022,Yellowstone,37371,3290242
+2023,Yellowstone,37371,
+2024,Yellowstone,39884,
+2011,Yosemite,29855,3951393
+2012,Yosemite,29855,3853404
+2013,Yosemite,29007,3691191
+2014,Yosemite,29007,3882642
+2015,Yosemite,28600,4150217
+2016,Yosemite,28909,5028868
+2017,Yosemite,30983,4336890
+2018,Yosemite,30910,4009436
+2019,Yosemite,31064,4422861
+2020,Yosemite,31201,2268313
+2021,Yosemite,31699,3287595
+2022,Yosemite,31109,3667550
+2023,Yosemite,31109,
+2024,Yosemite,32680,
+2011,Zion,8307,2825505
+2012,Zion,8307,2973607
+2013,Zion,7708,2807387
+2014,Zion,7708,3189696
+2015,Zion,7581,3648846
+2016,Zion,7621,4295127
+2017,Zion,7745,4504812
+2018,Zion,7722,4320033
+2019,Zion,7762,4488268
+2020,Zion,7803,3591254
+2021,Zion,8207,5039835
+2022,Zion,8475,4692417
+2023,Zion,8475,
+2024,Zion,9115,
