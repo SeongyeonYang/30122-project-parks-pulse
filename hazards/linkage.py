@@ -20,6 +20,18 @@ def fire_mapping():
                     break
                 break
 
-    fire.to_csv("np-fire.csv")
+    fire.dropna(inplace=True)
+    fire.to_csv("np-fires.csv")
 
-# need to process this (delete none obs, recategorize by park and fire counts)
+
+def fire_processing():
+    filename = pathlib.Path(__file__).parent / "cleaned_data/np-fires.csv" # probably need to update path upon finalization
+    cols_to_use = ["park_name", "state", "discovery_date", "acres"]
+    df = pd.read_csv(filename, usecols=cols_to_use)
+
+    df["year"] = pd.DatetimeIndex(df['discovery_date']).year
+    df = df.drop("discovery_date", axis=1)
+
+    time_series_by_park = df.groupby(["park_name", "year"])["acres"].sum()
+
+    time_series_by_park.to_csv("np-fires-annual.csv")
