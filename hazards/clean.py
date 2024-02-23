@@ -67,7 +67,13 @@ def clean_light_data():
     df["lon"] = df["lon"].str.strip()
     df["lat"] = df["lat"].str.strip()
 
-    df.to_csv("light-pollution.csv")
+    df["year"] = pd.DatetimeIndex(df["date_observed"]).year
+    df = df.drop("date_observed", axis=1)
+
+    df = df[df["park_name"].str.contains("NP")]
+    df["park_name"] = df["park_name"].str.replace("\s+\S+$", "", regex=True)
+
+    df.to_csv("np-light-pollution.csv")
 
 
 def clean_pew_maintenance():
@@ -75,3 +81,17 @@ def clean_pew_maintenance():
     df = pd.read_json(filename)
     
     df.to_csv("pew-maintenance.csv")
+
+
+def process_light_pollution():
+    filename = pathlib.Path(__file__).parent / "cleaned_data/np-light-pollution.csv" # probably need to update path upon finalization
+    cols_to_use = ["park_name", "year", "light_pollution_ratio"]
+    df = pd.read_csv(filename, usecols=cols_to_use)
+
+    standardized_df = df.copy()
+    standardized_df.replace("< 0.04", 0, inplace=True)
+    standardized_df["light_pollution_ratio"] = pd.to_numeric(standardized_df["light_pollution_ratio"])
+
+    time_series_by_park = standardized_df.groupby(["park_name", "year"])["light_pollution_ratio"].mean()
+
+    time_series_by_park.to_csv("np-light-pollution-annual.csv")
