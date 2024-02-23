@@ -1,7 +1,7 @@
 Name,latitude,longitude
 Acadia National Park,44.409286,-68.247501
 Arches National Park,38.72261844,-109.5863666
-American Samoa National Park,-14.2579,-170.686
+American Samoa National Park,-14.22865935,-169.8503777
 Badlands National Park,43.68584846,-102.482942
 Big Bend National Park,29.29817767,-103.2297897
 Biscayne National Park,25.490587,-80.21023851
@@ -42,16 +42,17 @@ Lassen Volcanic National Park,40.49354575,-121.4075993
 Mammoth Cave National Park,37.19760458,-86.13090198
 Mesa Verde National Park,37.23908345,-108.4624032
 Mount Rainier National Park,46.86075416,-121.7043885
-National Park of American Samoa,-14.22865935,-169.8503777
 National Parks of New York Harbor,40.6632,-74.0451
 New River Gorge National Park & Preserve,37.86878554,-80.99956002
 North Cascades National Park,48.71171756,-121.2069423
 Olympic National Park,47.80392754,-123.6663848
 Petrified Forest National Park,34.98387664,-109.7877678
 Pinnacles National Park,36.49029208,-121.1813607
+Redwood National Park,41.213181,-124.004631
 Rocky Mountain National Park,40.3556924,-105.6972879
 Saguaro National Park,32.20909636,-110.7574974
-Sequoia & Kings Canyon National Parks,36.71277299,-118.587429
+Sequoia National Parks,36.486366,-118.56575
+Kings Canyon National Park,36.887856,-118.555145
 Shenandoah National Park,38.49236644,-78.46907715
 Theodore Roosevelt National Park,47.17777274,-103.4300083
 Virgin Islands National Park,18.34279656,-64.74194451
@@ -59,7 +60,7 @@ Voyageurs National Park,48.48370609,-92.8382913
 White Sands National Park,32.77907858,-106.3333461
 Wind Cave National Park,43.58012365,-103.4394709
 Wolf Trap National Park for the Performing Arts,38.93854526,-77.265089
-Wrangell - St Elias National Park & Preserve,61.4182147,-142.6028439
+Wrangell,61.4182147,-142.6028439
 Yellowstone National Park,44.59824417,-110.5471695
 Yosemite National Park,37.84883288,-119.5571873
 Zion National Park,37.29839254,-113.0265138

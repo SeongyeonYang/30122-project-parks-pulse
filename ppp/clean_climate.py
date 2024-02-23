@@ -27,12 +27,13 @@ def clean_climate(filename):
     }, inplace=True)
     return annual_data
 
-for i in range(1,9):
+for i in range(1,10):
     filename = f"ppp/raw_data/climate/climate_{i}.csv"
     cleaned_data = clean_climate(filename)
     df = pd.concat([df, cleaned_data], ignore_index=True)
     
 df.sort_values(by=['Year', 'Park Name'])
-output_filename = f"ppp/data/climate/cleaned_climate.csv"
+df['Park Name'].str.strip()
+output_filename = f"ppp/cleaned_data/climate/cleaned_climate.csv"
 df.to_csv(output_filename, index=False)
 print(f"Annual data saved to {output_filename}")
