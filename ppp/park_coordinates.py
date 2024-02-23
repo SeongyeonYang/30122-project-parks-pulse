@@ -1,5 +1,6 @@
 import requests
 import json
+import pandas as pd
 
 def get_coordinates():
     API_Key_NPS = "UHG2SlVq8pBbBgr5SuGho6k0NJ6L5SPzu8DIjMXd" # Insert API key
@@ -24,4 +25,8 @@ def get_coordinates():
         # Filter only National Park
         if "National Park" in fullName:
             parks_data.append({'Name':fullName, 'latitude': latitude, 'longitude': longitude})
+    parks_df = pd.DataFrame(parks_data)
+    parks_df.to_csv("ppp/parks_coordinates.csv", index=False)
     return parks_data
+
+get_coordinates()
