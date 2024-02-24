@@ -1,229 +1,229 @@
-park_name,year,year
-Acadia,2010,1
-Acadia,2011,1
-Acadia,2013,1
-Acadia,2014,3
-Acadia,2016,10
-Acadia,2017,2
-Acadia,2018,2
-Acadia,2019,2
-Badlands,2012,5
-Badlands,2013,1
-Badlands,2017,2
-Badlands,2018,2
-Badlands,2021,4
-Badlands,2022,2
-Big Bend,2009,1
-Big Bend,2010,6
-Big Bend,2011,4
-Big Bend,2012,5
-Big Bend,2013,3
-Big Bend,2014,4
-Big Bend,2015,4
-Big Bend,2016,9
-Big Bend,2017,7
-Big Bend,2018,6
-Big Bend,2019,10
-Big Bend,2020,9
-Big Bend,2021,7
-Big Bend,2022,4
-Big Bend,2023,9
-Big Bend,2024,1
-Biscayne,2017,2
-Biscayne,2020,1
-Biscayne,2022,1
-Black Canyon of the Gunnison,2011,4
-Black Canyon of the Gunnison,2013,2
-Black Canyon of the Gunnison,2016,1
-Black Canyon of the Gunnison,2018,1
-Black Canyon of the Gunnison,2021,2
-Canyonlands,2011,1
-Canyonlands,2013,3
-Canyonlands,2014,2
-Canyonlands,2015,1
-Canyonlands,2016,2
-Canyonlands,2017,2
-Canyonlands,2018,1
-Canyonlands,2019,2
-Canyonlands,2020,1
-Canyonlands,2022,1
-Canyonlands,2023,1
-Carlsbad Caverns,2010,2
-Carlsbad Caverns,2011,2
-Carlsbad Caverns,2016,2
-Carlsbad Caverns,2023,1
-Congaree,2016,1
-Congaree,2018,1
-Congaree,2020,2
-Congaree,2021,3
-Congaree,2022,2
-Crater Lake,2010,12
-Crater Lake,2011,27
-Crater Lake,2012,3
-Crater Lake,2013,21
-Crater Lake,2014,42
-Crater Lake,2015,21
-Crater Lake,2016,8
-Crater Lake,2017,9
-Crater Lake,2018,17
-Crater Lake,2019,10
-Crater Lake,2020,14
-Crater Lake,2021,11
-Crater Lake,2022,16
-Crater Lake,2023,20
-Cuyahoga Valley,2012,2
-Cuyahoga Valley,2021,1
-Denali,2010,2
-Denali,2011,1
-Denali,2012,2
-Denali,2013,9
-Denali,2015,10
-Denali,2016,1
-Denali,2018,3
-Denali,2019,1
-Denali,2020,3
-Denali,2021,2
-Denali,2022,2
-Glacier,2010,5
-Glacier,2011,10
-Glacier,2012,4
-Glacier,2013,4
-Glacier,2014,6
-Glacier,2015,22
-Glacier,2016,5
-Glacier,2017,23
-Glacier,2018,8
-Glacier,2019,5
-Glacier,2020,8
-Glacier,2021,2
-Glacier,2022,9
-Glacier,2023,12
-Grand Canyon,2010,13
-Grand Canyon,2011,23
-Grand Canyon,2012,22
-Grand Canyon,2013,27
-Grand Canyon,2014,27
-Grand Canyon,2015,15
-Grand Canyon,2016,19
-Grand Canyon,2017,3
-Grand Canyon,2018,28
-Grand Canyon,2019,17
-Grand Canyon,2020,11
-Grand Canyon,2021,14
-Grand Canyon,2022,20
-Grand Canyon,2023,17
-Grand Teton,2010,6
-Grand Teton,2011,7
-Grand Teton,2012,11
-Grand Teton,2013,8
-Grand Teton,2014,3
-Grand Teton,2015,4
-Grand Teton,2016,17
-Grand Teton,2018,4
-Grand Teton,2019,7
-Grand Teton,2020,8
-Grand Teton,2021,6
-Grand Teton,2022,5
-Grand Teton,2023,2
-Great Basin,2010,3
-Great Basin,2012,2
-Great Basin,2013,3
-Great Basin,2014,1
-Great Basin,2015,2
-Great Basin,2016,1
-Great Basin,2017,2
-Great Basin,2018,1
-Great Basin,2019,2
-Great Basin,2020,2
-Great Basin,2022,1
-Great Smoky Mountains,2011,3
-Great Smoky Mountains,2012,3
-Great Smoky Mountains,2013,3
-Great Smoky Mountains,2016,3
-Great Smoky Mountains,2019,1
-Great Smoky Mountains,2021,2
-Great Smoky Mountains,2022,2
-Great Smoky Mountains,2023,4
-Haleakala,2011,1
-Hot Springs,2010,1
-Hot Springs,2012,6
-Hot Springs,2014,1
-Hot Springs,2015,2
-Hot Springs,2016,5
-Hot Springs,2017,1
-Hot Springs,2018,1
-Hot Springs,2021,1
-Hot Springs,2022,3
-Hot Springs,2023,3
-Hot Springs,2024,1
-Indiana Dunes,2010,6
-Indiana Dunes,2011,6
-Indiana Dunes,2012,9
-Indiana Dunes,2013,9
-Indiana Dunes,2014,4
-Indiana Dunes,2015,3
-Indiana Dunes,2016,6
-Indiana Dunes,2017,15
-Indiana Dunes,2018,2
-Indiana Dunes,2019,7
-Indiana Dunes,2020,2
-Indiana Dunes,2021,1
-Isle Royale,2011,1
-Isle Royale,2012,1
-Isle Royale,2013,1
-Isle Royale,2022,1
-Kings Canyon,2010,5
-Kings Canyon,2011,4
-Kings Canyon,2012,10
-Kings Canyon,2013,11
-Kings Canyon,2014,10
-Kings Canyon,2015,11
-Kings Canyon,2016,10
-Kings Canyon,2017,5
-Kings Canyon,2018,9
-Kings Canyon,2019,6
-Kings Canyon,2020,6
-Kings Canyon,2021,5
-Kings Canyon,2022,7
-Kings Canyon,2023,6
-Mammoth Cave,2010,1
-Mammoth Cave,2011,1
-Mammoth Cave,2014,2
-Mammoth Cave,2015,1
-Mammoth Cave,2017,1
-Mount Rainier,2012,2
-Mount Rainier,2013,4
-Mount Rainier,2014,3
-Mount Rainier,2016,2
-Mount Rainier,2017,1
-Mount Rainier,2018,4
-Mount Rainier,2020,1
-Mount Rainier,2023,4
-Shenandoah,2010,5
-Shenandoah,2011,2
-Shenandoah,2012,4
-Shenandoah,2013,3
-Shenandoah,2014,3
-Shenandoah,2015,3
-Shenandoah,2016,4
-Shenandoah,2017,6
-Shenandoah,2018,4
-Shenandoah,2019,4
-Theodore Roosevelt,2010,2
-Theodore Roosevelt,2011,1
-Theodore Roosevelt,2012,3
-Theodore Roosevelt,2013,3
-Theodore Roosevelt,2014,8
-Theodore Roosevelt,2015,3
-Theodore Roosevelt,2017,6
-Theodore Roosevelt,2018,12
-Theodore Roosevelt,2019,4
-Theodore Roosevelt,2021,3
-Theodore Roosevelt,2023,3
-Voyageurs,2011,2
-Voyageurs,2012,4
-Voyageurs,2013,1
-Voyageurs,2014,2
-Voyageurs,2015,1
-Voyageurs,2016,2
-Voyageurs,2018,1
+,park_name,year,count
+0,Acadia,2010,1
+1,Acadia,2011,1
+2,Acadia,2013,1
+3,Acadia,2014,3
+4,Acadia,2016,10
+5,Acadia,2017,2
+6,Acadia,2018,2
+7,Acadia,2019,2
+8,Badlands,2012,5
+9,Badlands,2013,1
+10,Badlands,2017,2
+11,Badlands,2018,2
+12,Badlands,2021,4
+13,Badlands,2022,2
+14,Big Bend,2009,1
+15,Big Bend,2010,6
+16,Big Bend,2011,4
+17,Big Bend,2012,5
+18,Big Bend,2013,3
+19,Big Bend,2014,4
+20,Big Bend,2015,4
+21,Big Bend,2016,9
+22,Big Bend,2017,7
+23,Big Bend,2018,6
+24,Big Bend,2019,10
+25,Big Bend,2020,9
+26,Big Bend,2021,7
+27,Big Bend,2022,4
+28,Big Bend,2023,9
+29,Big Bend,2024,1
+30,Biscayne,2017,2
+31,Biscayne,2020,1
+32,Biscayne,2022,1
+33,Black Canyon of the Gunnison,2011,4
+34,Black Canyon of the Gunnison,2013,2
+35,Black Canyon of the Gunnison,2016,1
+36,Black Canyon of the Gunnison,2018,1
+37,Black Canyon of the Gunnison,2021,2
+38,Canyonlands,2011,1
+39,Canyonlands,2013,3
+40,Canyonlands,2014,2
+41,Canyonlands,2015,1
+42,Canyonlands,2016,2
+43,Canyonlands,2017,2
+44,Canyonlands,2018,1
+45,Canyonlands,2019,2
+46,Canyonlands,2020,1
+47,Canyonlands,2022,1
+48,Canyonlands,2023,1
+49,Carlsbad Caverns,2010,2
+50,Carlsbad Caverns,2011,2
+51,Carlsbad Caverns,2016,2
+52,Carlsbad Caverns,2023,1
+53,Congaree,2016,1
+54,Congaree,2018,1
+55,Congaree,2020,2
+56,Congaree,2021,3
+57,Congaree,2022,2
+58,Crater Lake,2010,12
+59,Crater Lake,2011,27
+60,Crater Lake,2012,3
+61,Crater Lake,2013,21
+62,Crater Lake,2014,42
+63,Crater Lake,2015,21
+64,Crater Lake,2016,8
+65,Crater Lake,2017,9
+66,Crater Lake,2018,17
+67,Crater Lake,2019,10
+68,Crater Lake,2020,14
+69,Crater Lake,2021,11
+70,Crater Lake,2022,16
+71,Crater Lake,2023,20
+72,Cuyahoga Valley,2012,2
+73,Cuyahoga Valley,2021,1
+74,Denali,2010,2
+75,Denali,2011,1
+76,Denali,2012,2
+77,Denali,2013,9
+78,Denali,2015,10
+79,Denali,2016,1
+80,Denali,2018,3
+81,Denali,2019,1
+82,Denali,2020,3
+83,Denali,2021,2
+84,Denali,2022,2
+85,Glacier,2010,5
+86,Glacier,2011,10
+87,Glacier,2012,4
+88,Glacier,2013,4
+89,Glacier,2014,6
+90,Glacier,2015,22
+91,Glacier,2016,5
+92,Glacier,2017,23
+93,Glacier,2018,8
+94,Glacier,2019,5
+95,Glacier,2020,8
+96,Glacier,2021,2
+97,Glacier,2022,9
+98,Glacier,2023,12
+99,Grand Canyon,2010,13
+100,Grand Canyon,2011,23
+101,Grand Canyon,2012,22
+102,Grand Canyon,2013,27
+103,Grand Canyon,2014,27
+104,Grand Canyon,2015,15
+105,Grand Canyon,2016,19
+106,Grand Canyon,2017,3
+107,Grand Canyon,2018,28
+108,Grand Canyon,2019,17
+109,Grand Canyon,2020,11
+110,Grand Canyon,2021,14
+111,Grand Canyon,2022,20
+112,Grand Canyon,2023,17
+113,Grand Teton,2010,6
+114,Grand Teton,2011,7
+115,Grand Teton,2012,11
+116,Grand Teton,2013,8
+117,Grand Teton,2014,3
+118,Grand Teton,2015,4
+119,Grand Teton,2016,17
+120,Grand Teton,2018,4
+121,Grand Teton,2019,7
+122,Grand Teton,2020,8
+123,Grand Teton,2021,6
+124,Grand Teton,2022,5
+125,Grand Teton,2023,2
+126,Great Basin,2010,3
+127,Great Basin,2012,2
+128,Great Basin,2013,3
+129,Great Basin,2014,1
+130,Great Basin,2015,2
+131,Great Basin,2016,1
+132,Great Basin,2017,2
+133,Great Basin,2018,1
+134,Great Basin,2019,2
+135,Great Basin,2020,2
+136,Great Basin,2022,1
+137,Great Smoky Mountains,2011,3
+138,Great Smoky Mountains,2012,3
+139,Great Smoky Mountains,2013,3
+140,Great Smoky Mountains,2016,3
+141,Great Smoky Mountains,2019,1
+142,Great Smoky Mountains,2021,2
+143,Great Smoky Mountains,2022,2
+144,Great Smoky Mountains,2023,4
+145,Haleakala,2011,1
+146,Hot Springs,2010,1
+147,Hot Springs,2012,6
+148,Hot Springs,2014,1
+149,Hot Springs,2015,2
+150,Hot Springs,2016,5
+151,Hot Springs,2017,1
+152,Hot Springs,2018,1
+153,Hot Springs,2021,1
+154,Hot Springs,2022,3
+155,Hot Springs,2023,3
+156,Hot Springs,2024,1
+157,Indiana Dunes,2010,6
+158,Indiana Dunes,2011,6
+159,Indiana Dunes,2012,9
+160,Indiana Dunes,2013,9
+161,Indiana Dunes,2014,4
+162,Indiana Dunes,2015,3
+163,Indiana Dunes,2016,6
+164,Indiana Dunes,2017,15
+165,Indiana Dunes,2018,2
+166,Indiana Dunes,2019,7
+167,Indiana Dunes,2020,2
+168,Indiana Dunes,2021,1
+169,Isle Royale,2011,1
+170,Isle Royale,2012,1
+171,Isle Royale,2013,1
+172,Isle Royale,2022,1
+173,Kings Canyon,2010,5
+174,Kings Canyon,2011,4
+175,Kings Canyon,2012,10
+176,Kings Canyon,2013,11
+177,Kings Canyon,2014,10
+178,Kings Canyon,2015,11
+179,Kings Canyon,2016,10
+180,Kings Canyon,2017,5
+181,Kings Canyon,2018,9
+182,Kings Canyon,2019,6
+183,Kings Canyon,2020,6
+184,Kings Canyon,2021,5
+185,Kings Canyon,2022,7
+186,Kings Canyon,2023,6
+187,Mammoth Cave,2010,1
+188,Mammoth Cave,2011,1
+189,Mammoth Cave,2014,2
+190,Mammoth Cave,2015,1
+191,Mammoth Cave,2017,1
+192,Mount Rainier,2012,2
+193,Mount Rainier,2013,4
+194,Mount Rainier,2014,3
+195,Mount Rainier,2016,2
+196,Mount Rainier,2017,1
+197,Mount Rainier,2018,4
+198,Mount Rainier,2020,1
+199,Mount Rainier,2023,4
+200,Shenandoah,2010,5
+201,Shenandoah,2011,2
+202,Shenandoah,2012,4
+203,Shenandoah,2013,3
+204,Shenandoah,2014,3
+205,Shenandoah,2015,3
+206,Shenandoah,2016,4
+207,Shenandoah,2017,6
+208,Shenandoah,2018,4
+209,Shenandoah,2019,4
+210,Theodore Roosevelt,2010,2
+211,Theodore Roosevelt,2011,1
+212,Theodore Roosevelt,2012,3
+213,Theodore Roosevelt,2013,3
+214,Theodore Roosevelt,2014,8
+215,Theodore Roosevelt,2015,3
+216,Theodore Roosevelt,2017,6
+217,Theodore Roosevelt,2018,12
+218,Theodore Roosevelt,2019,4
+219,Theodore Roosevelt,2021,3
+220,Theodore Roosevelt,2023,3
+221,Voyageurs,2011,2
+222,Voyageurs,2012,4
+223,Voyageurs,2013,1
+224,Voyageurs,2014,2
+225,Voyageurs,2015,1
+226,Voyageurs,2016,2
+227,Voyageurs,2018,1
