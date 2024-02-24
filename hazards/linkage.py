@@ -21,7 +21,7 @@ def fire_mapping():
                 break
 
     fire.dropna(inplace=True)
-    fire.to_csv("np-fires.csv")
+    fire.to_csv(pathlib.Path(__file__).parent / "cleaned_data/np-fires.csv")
 
 
 def fire_processing():
@@ -32,8 +32,8 @@ def fire_processing():
     df["year"] = pd.DatetimeIndex(df["discovery_date"]).year
     df = df.drop("discovery_date", axis=1)
 
-    time_series_acres = df.groupby(["park_name", "year"])["acres"].sum()
-    time_series_count = df.groupby(["park_name", "year"])["year"].size()
+    time_series_acres = df.groupby(["park_name", "year"])["acres"].sum().to_frame(name = 'acres_burnt').reset_index()
+    time_series_count = df.groupby(["park_name", "year"])["year"].size().to_frame(name = 'count').reset_index()
 
-    time_series_count.to_csv("np-fires-annual-count.csv")
-    time_series_acres.to_csv("np-fires-annual-acres.csv")
+    time_series_count.to_csv(pathlib.Path(__file__).parent / "cleaned_data/np-fires-annual.csv")
+    time_series_acres.to_csv(pathlib.Path(__file__).parent / "cleaned_data/np-fires-annual-acres.csv")

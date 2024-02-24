@@ -41,7 +41,7 @@ def clean_orphaned_wells():
     df = df[df["unit_type"] == "National Park"]
     df = df.drop("unit_type", axis=1)
 
-    df.to_csv("orphaned-wells.csv")
+    df.to_csv(pathlib.Path(__file__).parent / "cleaned_data/orphaned-wells.csv")
 
 
 def clean_boundary():
@@ -73,11 +73,11 @@ def clean_light_data():
     df = df[df["park_name"].str.contains("NP")]
     df["park_name"] = df["park_name"].str.replace("\s+\S+$", "", regex=True)
 
-    df.to_csv("np-light-pollution.csv")
+    df.to_csv(pathlib.Path(__file__).parent / "data/nps-light-pollution.csv")
 
 
 def process_light_pollution():
-    filename = pathlib.Path(__file__).parent / "cleaned_data/np-light-pollution.csv" # probably need to update path upon finalization
+    filename = pathlib.Path(__file__).parent / "data/nps-light-pollution.csv"
     cols_to_use = ["park_name", "year", "light_pollution_ratio"]
     df = pd.read_csv(filename, usecols=cols_to_use)
 
@@ -87,4 +87,32 @@ def process_light_pollution():
 
     time_series_by_park = standardized_df.groupby(["park_name", "year"])["light_pollution_ratio"].mean()
 
-    time_series_by_park.to_csv("np-light-pollution-annual.csv")
+    time_series_by_park.to_csv(pathlib.Path(__file__).parent / "cleaned_data/np-light-pollution-annual.csv")
+
+
+def process_dmr():
+    filename1 = pathlib.Path(__file__).parent / "data/dmr-2015-2019.csv"
+    filename2 = pathlib.Path(__file__).parent / "data/dmr-2023.csv"
+    df1 = pd.read_csv(filename1)
+    df2 = pd.read_csv(filename2)
+    result = []
+
+    df_merged = pd.merge(df1, 
+                         df2[["Park Name", "totalDeferredMaintenance2023"]],
+                         left_on="parkName", right_on="Park Name", how="left")
+
+    df_merged = df_merged.drop("Park Name", axis=1)
+
+    for i, row in df_merged.iterrows(): # not necessary. clean up code later
+        park_name = row["parkName"]
+        dmr2015 = row["totalDeferredMaintenance2015"]
+        dmr2016 = row["totalDeferredMaintenance2016"]
+        dmr2017 = row["totalDeferredMaintenance2017"]
+        dmr2018 = row["totalDeferredMaintenance2018"]
+        dmr2019 = row["totalDeferredMaintenance2019"]
+        dmr2023 = row["totalDeferredMaintenance2023"]
+        result.append([park_name, dmr2015, dmr2016, dmr2017, dmr2018, dmr2019, dmr2023])
+
+    dmr_time_series = pd.DataFrame(result, columns =["park_name", "2015", "2016", "2017", "2018", "2019", "2023"])
+
+    dmr_time_series.to_csv(pathlib.Path(__file__).parent / "cleaned_data/np-dmr-annual.csv")
