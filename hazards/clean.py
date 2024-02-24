@@ -49,10 +49,10 @@ def clean_boundary():
     df = geopandas.read_file(filename)
 
     df = df[["UNIT_CODE", "PARKNAME", "STATE", "geometry"]].copy()
-    df.rename(columns ={'UNIT_CODE':'park_id'}, inplace=True)
-    df.rename(columns ={'PARKNAME':'park_name'}, inplace=True)
-    df.rename(columns ={'STATE':'state'}, inplace=True)
-    df.rename(columns ={'geometry':'bbox'}, inplace=True)        
+    df.rename(columns={'UNIT_CODE':'park_id'}, inplace=True)
+    df.rename(columns={'PARKNAME':'park_name'}, inplace=True)
+    df.rename(columns={'STATE':'state'}, inplace=True)
+    df.rename(columns={'geometry':'bbox'}, inplace=True)        
 
     return df
 
