@@ -1,229 +1,229 @@
-park_name,year,acres
-Acadia,2010,0.1
-Acadia,2011,0.1
-Acadia,2013,0.1
-Acadia,2014,0.30000000000000004
-Acadia,2016,1.0
-Acadia,2017,0.2
-Acadia,2018,0.2
-Acadia,2019,0.30000000000000004
-Badlands,2012,3.1
-Badlands,2013,0.2
-Badlands,2017,1.6
-Badlands,2018,3.2
-Badlands,2021,2375.4300000000003
-Badlands,2022,120.97999999999999
-Big Bend,2009,0.1
-Big Bend,2010,122.5
-Big Bend,2011,2226.1
-Big Bend,2012,0.5
-Big Bend,2013,2.0
-Big Bend,2014,5.699999999999999
-Big Bend,2015,62.4
-Big Bend,2016,2090.5
-Big Bend,2017,1252.0
-Big Bend,2018,1356.0
-Big Bend,2019,199.1
-Big Bend,2020,299.31
-Big Bend,2021,1347.66
-Big Bend,2022,34.73
-Big Bend,2023,24.509999999999998
-Big Bend,2024,6.0
-Biscayne,2017,0.30000000000000004
-Biscayne,2020,1.07
-Biscayne,2022,0.5
-Black Canyon of the Gunnison,2011,8.9
-Black Canyon of the Gunnison,2013,0.2
-Black Canyon of the Gunnison,2016,0.1
-Black Canyon of the Gunnison,2018,0.1
-Black Canyon of the Gunnison,2021,0.2
-Canyonlands,2011,0.1
-Canyonlands,2013,3.7
-Canyonlands,2014,0.2
-Canyonlands,2015,0.1
-Canyonlands,2016,23.1
-Canyonlands,2017,0.2
-Canyonlands,2018,0.1
-Canyonlands,2019,0.2
-Canyonlands,2020,0.1
-Canyonlands,2022,0.1
-Canyonlands,2023,0.1
-Carlsbad Caverns,2010,17734.0
-Carlsbad Caverns,2011,30489.5
-Carlsbad Caverns,2016,20.1
-Carlsbad Caverns,2023,0.1
-Congaree,2016,0.1
-Congaree,2018,1.0
-Congaree,2020,45.019999999999996
-Congaree,2021,492.20000000000005
-Congaree,2022,627.66
-Crater Lake,2010,2.4
-Crater Lake,2011,1230.3999999999999
-Crater Lake,2012,0.30000000000000004
-Crater Lake,2013,4.8
-Crater Lake,2014,322.70000000000005
-Crater Lake,2015,20853.7
-Crater Lake,2016,1073.4
-Crater Lake,2017,15826.699999999999
-Crater Lake,2018,3326.2
-Crater Lake,2019,1.3
-Crater Lake,2020,1.7000000000000002
-Crater Lake,2021,21.59
-Crater Lake,2022,4.15
-Crater Lake,2023,6.87
-Cuyahoga Valley,2012,0.8
-Cuyahoga Valley,2021,13.93
-Denali,2010,1.6
-Denali,2011,2534.9
-Denali,2012,216.79999999999998
-Denali,2013,98116.3
-Denali,2015,14693.8
-Denali,2016,3.0
-Denali,2018,474.7
-Denali,2019,49527.8
-Denali,2020,693.07
-Denali,2021,20.73
-Denali,2022,15.26
-Glacier,2010,0.5
-Glacier,2011,27.900000000000002
-Glacier,2012,160.5
-Glacier,2013,0.4
-Glacier,2014,1.5
-Glacier,2015,23828.0
-Glacier,2016,10.6
-Glacier,2017,21718.5
-Glacier,2018,17435.2
-Glacier,2019,0.5
-Glacier,2020,0.8
-Glacier,2021,0.2
-Glacier,2022,1979.81
-Glacier,2023,2.25
-Grand Canyon,2010,3438.7
-Grand Canyon,2011,4599.700000000001
-Grand Canyon,2012,43.6
-Grand Canyon,2013,252.9
-Grand Canyon,2014,6427.4
-Grand Canyon,2015,2.6
-Grand Canyon,2016,15095.1
-Grand Canyon,2017,0.30000000000000004
-Grand Canyon,2018,11841.699999999999
-Grand Canyon,2019,16488.5
-Grand Canyon,2020,8364.18
-Grand Canyon,2021,5.02
-Grand Canyon,2022,1489.9499999999998
-Grand Canyon,2023,121.08000000000001
-Grand Teton,2010,59.49999999999999
-Grand Teton,2011,0.7000000000000001
-Grand Teton,2012,2.6
-Grand Teton,2013,243.1
-Grand Teton,2014,0.5
-Grand Teton,2015,7.3
-Grand Teton,2016,20829.5
-Grand Teton,2018,3.8
-Grand Teton,2019,0.7000000000000001
-Grand Teton,2020,0.8
-Grand Teton,2021,0.7000000000000001
-Grand Teton,2022,0.5
-Grand Teton,2023,0.2
-Great Basin,2010,5.2
-Great Basin,2012,0.2
-Great Basin,2013,0.5
-Great Basin,2014,0.1
-Great Basin,2015,0.2
-Great Basin,2016,4656.0
-Great Basin,2017,0.2
-Great Basin,2018,0.1
-Great Basin,2019,0.2
-Great Basin,2020,0.3
-Great Basin,2022,0.1
-Great Smoky Mountains,2011,77.9
-Great Smoky Mountains,2012,100.0
-Great Smoky Mountains,2013,10.2
-Great Smoky Mountains,2016,240.2
-Great Smoky Mountains,2019,0.1
-Great Smoky Mountains,2021,0.2
-Great Smoky Mountains,2022,0.2
-Great Smoky Mountains,2023,6.4399999999999995
-Haleakala,2011,0.1
-Hot Springs,2010,3.5
-Hot Springs,2012,5.8
-Hot Springs,2014,2.0
-Hot Springs,2015,0.4
-Hot Springs,2016,20.400000000000002
-Hot Springs,2017,0.1
-Hot Springs,2018,0.1
-Hot Springs,2021,136.62
-Hot Springs,2022,162.63
-Hot Springs,2023,17.63
-Hot Springs,2024,1.0
-Indiana Dunes,2010,6.9
-Indiana Dunes,2011,0.6000000000000001
-Indiana Dunes,2012,75.0
-Indiana Dunes,2013,11.4
-Indiana Dunes,2014,0.4
-Indiana Dunes,2015,266.1
-Indiana Dunes,2016,420.0
-Indiana Dunes,2017,16.4
-Indiana Dunes,2018,0.2
-Indiana Dunes,2019,223.9
-Indiana Dunes,2020,0.03
-Indiana Dunes,2021,424.58
-Isle Royale,2011,0.1
-Isle Royale,2012,5.0
-Isle Royale,2013,0.1
-Isle Royale,2022,6.14
-Kings Canyon,2010,9027.5
-Kings Canyon,2011,0.6
-Kings Canyon,2012,325.90000000000003
-Kings Canyon,2013,711.3000000000001
-Kings Canyon,2014,18.0
-Kings Canyon,2015,162.3
-Kings Canyon,2016,77.8
-Kings Canyon,2017,20.400000000000002
-Kings Canyon,2018,188.8
-Kings Canyon,2019,1.7
-Kings Canyon,2020,1319.4399999999998
-Kings Canyon,2021,114.47
-Kings Canyon,2022,29.529999999999998
-Kings Canyon,2023,0.6000000000000001
-Mammoth Cave,2010,0.1
-Mammoth Cave,2011,0.1
-Mammoth Cave,2014,0.4
-Mammoth Cave,2015,0.3
-Mammoth Cave,2017,0.3
-Mount Rainier,2012,7.5
-Mount Rainier,2013,0.4
-Mount Rainier,2014,2.2
-Mount Rainier,2016,0.2
-Mount Rainier,2017,0.1
-Mount Rainier,2018,25.2
-Mount Rainier,2020,0.1
-Mount Rainier,2023,0.7
-Shenandoah,2010,0.9
-Shenandoah,2011,0.2
-Shenandoah,2012,2142.4
-Shenandoah,2013,0.5
-Shenandoah,2014,468.2
-Shenandoah,2015,1.7
-Shenandoah,2016,10326.3
-Shenandoah,2017,25.6
-Shenandoah,2018,0.6
-Shenandoah,2019,4.0
-Theodore Roosevelt,2010,0.2
-Theodore Roosevelt,2011,0.1
-Theodore Roosevelt,2012,0.5
-Theodore Roosevelt,2013,0.9
-Theodore Roosevelt,2014,7.0
-Theodore Roosevelt,2015,0.30000000000000004
-Theodore Roosevelt,2017,33.0
-Theodore Roosevelt,2018,12.7
-Theodore Roosevelt,2019,1.3
-Theodore Roosevelt,2021,54.050000000000004
-Theodore Roosevelt,2023,2.09
-Voyageurs,2011,300.2
-Voyageurs,2012,0.8
-Voyageurs,2013,0.2
-Voyageurs,2014,0.2
-Voyageurs,2015,0.1
-Voyageurs,2016,0.2
-Voyageurs,2018,0.1
+,park_name,year,acres_burnt
+0,Acadia,2010,0.1
+1,Acadia,2011,0.1
+2,Acadia,2013,0.1
+3,Acadia,2014,0.30000000000000004
+4,Acadia,2016,1.0
+5,Acadia,2017,0.2
+6,Acadia,2018,0.2
+7,Acadia,2019,0.30000000000000004
+8,Badlands,2012,3.1
+9,Badlands,2013,0.2
+10,Badlands,2017,1.6
+11,Badlands,2018,3.2
+12,Badlands,2021,2375.4300000000003
+13,Badlands,2022,120.97999999999999
+14,Big Bend,2009,0.1
+15,Big Bend,2010,122.5
+16,Big Bend,2011,2226.1
+17,Big Bend,2012,0.5
+18,Big Bend,2013,2.0
+19,Big Bend,2014,5.699999999999999
+20,Big Bend,2015,62.4
+21,Big Bend,2016,2090.5
+22,Big Bend,2017,1252.0
+23,Big Bend,2018,1356.0
+24,Big Bend,2019,199.1
+25,Big Bend,2020,299.31
+26,Big Bend,2021,1347.66
+27,Big Bend,2022,34.73
+28,Big Bend,2023,24.509999999999998
+29,Big Bend,2024,6.0
+30,Biscayne,2017,0.30000000000000004
+31,Biscayne,2020,1.07
+32,Biscayne,2022,0.5
+33,Black Canyon of the Gunnison,2011,8.9
+34,Black Canyon of the Gunnison,2013,0.2
+35,Black Canyon of the Gunnison,2016,0.1
+36,Black Canyon of the Gunnison,2018,0.1
+37,Black Canyon of the Gunnison,2021,0.2
+38,Canyonlands,2011,0.1
+39,Canyonlands,2013,3.7
+40,Canyonlands,2014,0.2
+41,Canyonlands,2015,0.1
+42,Canyonlands,2016,23.1
+43,Canyonlands,2017,0.2
+44,Canyonlands,2018,0.1
+45,Canyonlands,2019,0.2
+46,Canyonlands,2020,0.1
+47,Canyonlands,2022,0.1
+48,Canyonlands,2023,0.1
+49,Carlsbad Caverns,2010,17734.0
+50,Carlsbad Caverns,2011,30489.5
+51,Carlsbad Caverns,2016,20.1
+52,Carlsbad Caverns,2023,0.1
+53,Congaree,2016,0.1
+54,Congaree,2018,1.0
+55,Congaree,2020,45.019999999999996
+56,Congaree,2021,492.20000000000005
+57,Congaree,2022,627.66
+58,Crater Lake,2010,2.4
+59,Crater Lake,2011,1230.3999999999999
+60,Crater Lake,2012,0.30000000000000004
+61,Crater Lake,2013,4.8
+62,Crater Lake,2014,322.70000000000005
+63,Crater Lake,2015,20853.7
+64,Crater Lake,2016,1073.4
+65,Crater Lake,2017,15826.699999999999
+66,Crater Lake,2018,3326.2
+67,Crater Lake,2019,1.3
+68,Crater Lake,2020,1.7000000000000002
+69,Crater Lake,2021,21.59
+70,Crater Lake,2022,4.15
+71,Crater Lake,2023,6.87
+72,Cuyahoga Valley,2012,0.8
+73,Cuyahoga Valley,2021,13.93
+74,Denali,2010,1.6
+75,Denali,2011,2534.9
+76,Denali,2012,216.79999999999998
+77,Denali,2013,98116.3
+78,Denali,2015,14693.8
+79,Denali,2016,3.0
+80,Denali,2018,474.7
+81,Denali,2019,49527.8
+82,Denali,2020,693.07
+83,Denali,2021,20.73
+84,Denali,2022,15.26
+85,Glacier,2010,0.5
+86,Glacier,2011,27.900000000000002
+87,Glacier,2012,160.5
+88,Glacier,2013,0.4
+89,Glacier,2014,1.5
+90,Glacier,2015,23828.0
+91,Glacier,2016,10.6
+92,Glacier,2017,21718.5
+93,Glacier,2018,17435.2
+94,Glacier,2019,0.5
+95,Glacier,2020,0.8
+96,Glacier,2021,0.2
+97,Glacier,2022,1979.81
+98,Glacier,2023,2.25
+99,Grand Canyon,2010,3438.7
+100,Grand Canyon,2011,4599.700000000001
+101,Grand Canyon,2012,43.6
+102,Grand Canyon,2013,252.9
+103,Grand Canyon,2014,6427.4
+104,Grand Canyon,2015,2.6
+105,Grand Canyon,2016,15095.1
+106,Grand Canyon,2017,0.30000000000000004
+107,Grand Canyon,2018,11841.699999999999
+108,Grand Canyon,2019,16488.5
+109,Grand Canyon,2020,8364.18
+110,Grand Canyon,2021,5.02
+111,Grand Canyon,2022,1489.9499999999998
+112,Grand Canyon,2023,121.08000000000001
+113,Grand Teton,2010,59.49999999999999
+114,Grand Teton,2011,0.7000000000000001
+115,Grand Teton,2012,2.6
+116,Grand Teton,2013,243.1
+117,Grand Teton,2014,0.5
+118,Grand Teton,2015,7.3
+119,Grand Teton,2016,20829.5
+120,Grand Teton,2018,3.8
+121,Grand Teton,2019,0.7000000000000001
+122,Grand Teton,2020,0.8
+123,Grand Teton,2021,0.7000000000000001
+124,Grand Teton,2022,0.5
+125,Grand Teton,2023,0.2
+126,Great Basin,2010,5.2
+127,Great Basin,2012,0.2
+128,Great Basin,2013,0.5
+129,Great Basin,2014,0.1
+130,Great Basin,2015,0.2
+131,Great Basin,2016,4656.0
+132,Great Basin,2017,0.2
+133,Great Basin,2018,0.1
+134,Great Basin,2019,0.2
+135,Great Basin,2020,0.3
+136,Great Basin,2022,0.1
+137,Great Smoky Mountains,2011,77.9
+138,Great Smoky Mountains,2012,100.0
+139,Great Smoky Mountains,2013,10.2
+140,Great Smoky Mountains,2016,240.2
+141,Great Smoky Mountains,2019,0.1
+142,Great Smoky Mountains,2021,0.2
+143,Great Smoky Mountains,2022,0.2
+144,Great Smoky Mountains,2023,6.4399999999999995
+145,Haleakala,2011,0.1
+146,Hot Springs,2010,3.5
+147,Hot Springs,2012,5.8
+148,Hot Springs,2014,2.0
+149,Hot Springs,2015,0.4
+150,Hot Springs,2016,20.400000000000002
+151,Hot Springs,2017,0.1
+152,Hot Springs,2018,0.1
+153,Hot Springs,2021,136.62
+154,Hot Springs,2022,162.63
+155,Hot Springs,2023,17.63
+156,Hot Springs,2024,1.0
+157,Indiana Dunes,2010,6.9
+158,Indiana Dunes,2011,0.6000000000000001
+159,Indiana Dunes,2012,75.0
+160,Indiana Dunes,2013,11.4
+161,Indiana Dunes,2014,0.4
+162,Indiana Dunes,2015,266.1
+163,Indiana Dunes,2016,420.0
+164,Indiana Dunes,2017,16.4
+165,Indiana Dunes,2018,0.2
+166,Indiana Dunes,2019,223.9
+167,Indiana Dunes,2020,0.03
+168,Indiana Dunes,2021,424.58
+169,Isle Royale,2011,0.1
+170,Isle Royale,2012,5.0
+171,Isle Royale,2013,0.1
+172,Isle Royale,2022,6.14
+173,Kings Canyon,2010,9027.5
+174,Kings Canyon,2011,0.6
+175,Kings Canyon,2012,325.90000000000003
+176,Kings Canyon,2013,711.3000000000001
+177,Kings Canyon,2014,18.0
+178,Kings Canyon,2015,162.3
+179,Kings Canyon,2016,77.8
+180,Kings Canyon,2017,20.400000000000002
+181,Kings Canyon,2018,188.8
+182,Kings Canyon,2019,1.7
+183,Kings Canyon,2020,1319.4399999999998
+184,Kings Canyon,2021,114.47
+185,Kings Canyon,2022,29.529999999999998
+186,Kings Canyon,2023,0.6000000000000001
+187,Mammoth Cave,2010,0.1
+188,Mammoth Cave,2011,0.1
+189,Mammoth Cave,2014,0.4
+190,Mammoth Cave,2015,0.3
+191,Mammoth Cave,2017,0.3
+192,Mount Rainier,2012,7.5
+193,Mount Rainier,2013,0.4
+194,Mount Rainier,2014,2.2
+195,Mount Rainier,2016,0.2
+196,Mount Rainier,2017,0.1
+197,Mount Rainier,2018,25.2
+198,Mount Rainier,2020,0.1
+199,Mount Rainier,2023,0.7
+200,Shenandoah,2010,0.9
+201,Shenandoah,2011,0.2
+202,Shenandoah,2012,2142.4
+203,Shenandoah,2013,0.5
+204,Shenandoah,2014,468.2
+205,Shenandoah,2015,1.7
+206,Shenandoah,2016,10326.3
+207,Shenandoah,2017,25.6
+208,Shenandoah,2018,0.6
+209,Shenandoah,2019,4.0
+210,Theodore Roosevelt,2010,0.2
+211,Theodore Roosevelt,2011,0.1
+212,Theodore Roosevelt,2012,0.5
+213,Theodore Roosevelt,2013,0.9
+214,Theodore Roosevelt,2014,7.0
+215,Theodore Roosevelt,2015,0.30000000000000004
+216,Theodore Roosevelt,2017,33.0
+217,Theodore Roosevelt,2018,12.7
+218,Theodore Roosevelt,2019,1.3
+219,Theodore Roosevelt,2021,54.050000000000004
+220,Theodore Roosevelt,2023,2.09
+221,Voyageurs,2011,300.2
+222,Voyageurs,2012,0.8
+223,Voyageurs,2013,0.2
+224,Voyageurs,2014,0.2
+225,Voyageurs,2015,0.1
+226,Voyageurs,2016,0.2
+227,Voyageurs,2018,0.1
