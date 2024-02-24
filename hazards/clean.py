@@ -76,13 +76,6 @@ def clean_light_data():
     df.to_csv("np-light-pollution.csv")
 
 
-def clean_pew_maintenance():
-    filename = pathlib.Path(__file__).parent / "data/pew-maintenance.json"
-    df = pd.read_json(filename)
-    
-    df.to_csv("pew-maintenance.csv")
-
-
 def process_light_pollution():
     filename = pathlib.Path(__file__).parent / "cleaned_data/np-light-pollution.csv" # probably need to update path upon finalization
     cols_to_use = ["park_name", "year", "light_pollution_ratio"]
