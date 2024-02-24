@@ -29,9 +29,11 @@ def fire_processing():
     cols_to_use = ["park_name", "state", "discovery_date", "acres"]
     df = pd.read_csv(filename, usecols=cols_to_use)
 
-    df["year"] = pd.DatetimeIndex(df['discovery_date']).year
+    df["year"] = pd.DatetimeIndex(df["discovery_date"]).year
     df = df.drop("discovery_date", axis=1)
 
-    time_series_by_park = df.groupby(["park_name", "year"])["acres"].sum()
+    time_series_acres = df.groupby(["park_name", "year"])["acres"].sum()
+    time_series_count = df.groupby(["park_name", "year"])["year"].size()
 
-    time_series_by_park.to_csv("np-fires-annual.csv")
+    time_series_count.to_csv("np-fires-annual-count.csv")
+    time_series_acres.to_csv("np-fires-annual-acres.csv")
