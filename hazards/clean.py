@@ -41,7 +41,7 @@ def clean_orphaned_wells():
     df = df[df["unit_type"] == "National Park"]
     df = df.drop("unit_type", axis=1)
 
-    df.to_csv(pathlib.Path(__file__).parent / "cleaned_data/orphaned-wells.csv")
+    df.to_csv(pathlib.Path(__file__).parent / "cleaned_data/orphaned-wells.csv", index=False)
 
 
 def clean_boundary():
@@ -73,7 +73,7 @@ def clean_light_data():
     df = df[df["park_name"].str.contains("NP")]
     df["park_name"] = df["park_name"].str.replace("\s+\S+$", "", regex=True)
 
-    df.to_csv(pathlib.Path(__file__).parent / "data/nps-light-pollution.csv")
+    df.to_csv(pathlib.Path(__file__).parent / "data/nps-light-pollution.csv", index=False)
 
 
 def process_light_pollution():
@@ -87,7 +87,7 @@ def process_light_pollution():
 
     time_series_by_park = standardized_df.groupby(["park_name", "year"])["light_pollution_ratio"].mean()
 
-    time_series_by_park.to_csv(pathlib.Path(__file__).parent / "cleaned_data/np-light-pollution-annual.csv")
+    time_series_by_park.to_csv(pathlib.Path(__file__).parent / "cleaned_data/np-light-pollution-annual.csv", index=False)
 
 
 def process_dmr():
@@ -115,4 +115,4 @@ def process_dmr():
 
     dmr_time_series = pd.DataFrame(result, columns =["park_name", "2015", "2016", "2017", "2018", "2019", "2023"])
 
-    dmr_time_series.to_csv(pathlib.Path(__file__).parent / "cleaned_data/np-dmr-annual.csv")
+    dmr_time_series.to_csv(pathlib.Path(__file__).parent / "cleaned_data/np-dmr-annual.csv", index=False)
