@@ -1,0 +1,101 @@
+park_name,year,light_pollution_ratio
+Acadia,2006,0.4366666666666667
+Acadia,2007,0.31
+Arches,2001,0.05
+Arches,2003,0.13
+Arches,2008,0.14
+Arches,2009,0.135
+Badlands,2006,0.16
+Badlands,2011,0.175
+Big Bend,2003,0.016666666666666666
+Big Bend,2004,0.06
+Big Bend,2007,0.0
+Big Cypress,2014,1.1125
+Biscayne,2014,30.36
+Black Canyon of the Gunnison,2004,0.12
+Black Canyon of the Gunnison,2008,0.225
+Bryce Canyon,2003,0.0
+Bryce Canyon,2004,0.09
+Bryce Canyon,2005,0.06
+Bryce Canyon,2006,0.12
+Bryce Canyon,2007,0.08833333333333333
+Canyonlands,2003,0.0
+Canyonlands,2011,0.04
+Capitol Reef,2006,0.0
+Capitol Reef,2007,0.0
+Carlsbad Caverns,2007,0.46
+Carlsbad Caverns,2008,0.315
+Channel Islands,2014,1.545
+Crater Lake,2007,0.02
+Crater Lake,2009,0.0
+Death Valley,2001,0.165
+Death Valley,2003,0.11571428571428573
+Death Valley,2004,0.13428571428571429
+Death Valley,2005,0.34
+Death Valley,2006,0.15500000000000003
+Death Valley,2007,0.25
+Death Valley,2008,0.265
+Death Valley,2011,0.195
+Denali,2010,0.034
+Dry Tortugas,2010,0.13
+El Leoncito,2013,0.13
+Everglades,2010,1.495
+Everglades,2014,3.6633333333333336
+Glacier,2009,0.225
+Grand Canyon,2007,0.085
+Grand Canyon,2008,0.034
+Grand Teton,2010,0.10333333333333333
+Great Basin,2004,0.0
+Great Basin,2005,0.05
+Great Basin,2006,0.055
+Great Sand Dunes,2005,0.14
+Great Sand Dunes,2006,0.125
+Great Sand Dunes,2012,0.16
+Great Smoky Mountains,2008,3.3166666666666664
+Haleakala,2012,0.14333333333333334
+Hawai'i Volcanoes,2011,0.03
+Isle Royale,2011,0.19
+Isle Royale,2012,0.11
+Joshua Tree,2005,1.81
+Joshua Tree,2006,1.9475
+Joshua Tree,2009,0.24
+Joshua Tree,2010,1.8499999999999999
+Kings Canyon,2004,0.66
+Kings Canyon,2006,0.65
+Lake Clark,2013,0.08499999999999999
+Lassen Volcanic,2004,0.21
+Lassen Volcanic,2007,0.18
+Lassen Volcanic,2008,0.06
+Mammoth Cave,2008,3.34
+Mesa Verde,2014,0.3
+Mojave,2002,0.47
+Mojave,2004,0.75
+Mojave,2006,0.88
+Mount Rainier,2007,1.28
+North Cascades,2012,0.19333333333333336
+Olympic,2009,1.16
+Petrified Forest,2006,0.155
+Pinnacles,2005,1.84
+Redwood,2011,0.265
+Rocky Mountain,2008,0.5599999999999999
+Saguaro,2007,6.1274999999999995
+Saguaro,2008,1.87
+Saguaro,2011,6.46
+Sagurao,2007,2.96
+Sequoia,2005,0.605
+Sequoia,2007,0.47
+Sequoia,2009,0.18
+Sequoia and Kings Canyon,2014,0.77
+Shenandoah,2014,2.54
+Tallgrass Prarie,2010,0.77
+Theodore Roosevelt,2009,0.12
+Theodore Roosevelt,2010,0.31
+Theodore Roosevelt,2011,0.43000000000000005
+Theodore Roosevelt,2013,1.6675
+Voyageurs,2010,0.24
+Voyageurs,2012,0.1125
+Wind Cave,2006,0.435
+Yellowstone,2008,0.03
+Yellowstone,2013,0.13333333333333333
+Yosemite,2005,0.2525
+Zion,2003,0.19

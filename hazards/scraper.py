@@ -2,6 +2,7 @@ import pathlib
 from fastkml import kml
 import requests
 import lxml.html
+import pandas as pd
 
 
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
@@ -20,7 +21,7 @@ def get_link(string):
     return link
 
 
-def parse_kml(max=5):
+def parse_kml():
     result = {}
     filename = pathlib.Path(__file__).parent / "data/nps-nightsky-monitoring.kml"
     with open(filename) as myfile:
@@ -43,12 +44,22 @@ def parse_kml(max=5):
     return result
         
 
-def get_light_data():
+def get_light_data(max=15):
+    result = []
     links = parse_kml()
-    for park in links:
-        observations = park.values
+
+    for park, observations in links.items():
+        if len(result) == max:
+            break
         for observation in observations:
             response = requests.get(observation, headers={"User-Agent": USER_AGENT})
             root = lxml.html.fromstring(response.text)
-            table = root.xpath('//table[@class="MsoTableGrid"]')[2]
-            row = table.xpath('//tr')[34].text_content()
+            light_pollution_ratio = root.xpath("//table[3]//tr[5]/td[6]")[0].text_content()
+            date_observed = root.xpath("//table[1]//tr[4]/td[2]")[0].text_content()
+            lon = root.xpath("//table[2]//tr[4]/td[2]")[0].text_content()
+            lat = root.xpath("//table[2]//tr[5]/td[2]")[0].text_content()
+            result.append([park, date_observed, light_pollution_ratio, lon, lat])
+    
+    df = pd.DataFrame(result, columns =["park_name", "date_observed", "light_pollution_ratio", "lon", "lat"])
+
+    return df
