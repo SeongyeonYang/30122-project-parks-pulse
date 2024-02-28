@@ -11,6 +11,8 @@ lxml = "^5.1.0"
 geopandas = "^0.14.3"
 fastkml = "^0.12"
 cssselect = "^1.2.0"
+beautifulsoup4 = "^4.12.3"
+requests = "^2.31.0"
 
 
 [build-system]
