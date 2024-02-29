@@ -1,8 +1,9 @@
 import pandas as pd
+from pathlib import Path
 
 # Base directory for input and output files
-input_base_dir = r'ppp/raw_data/nps_spending'
-output_base_dir = r'ppp/cleaned_data/cleaned_nps_spending'
+input_base_dir = Path('ppp/raw_data/nps_spending')
+output_base_dir = Path('ppp/cleaning/data/cleaned_nps_spending')
 
 # Define the list of national parks for filtering
 national_parks_list = [
@@ -27,30 +28,34 @@ national_parks_list = [
 
 def process_nps_spending_data(input_file_path, output_file_path, national_parks_list):
     """
-    Processes a CSV file containing National Park Service spending data for a specific year,
-    filters based on a list of national parks, selects specific columns, adds a year column,
+    Processes a CSV file containing National Park Service spending data for 
+    a specific year, filters based on a list of national parks, 
+    selects specific columns, adds a year column,
     reorders the columns, and saves the processed data to a new CSV file.
 
-    Parameters:
+    Args:
     - input_file_path (str): The file path of the input CSV file.
-    - output_file_path (str): The file path where the processed CSV file will be saved.
+    - output_file_path (str): The file path where the processed 
+                            CSV file will be saved.
     - national_parks_list (list): A list of national park names to filter the data.
     """
     # Loop through years from 2011 to 2024
     for year in range(2011, 2025):
         # Construct file paths
-        input_file_path = f'{input_base_dir}/nps_spending_{year}.csv'
-        output_file_path = f'{output_base_dir}/cleaned_nps_spending_{year}.csv'
+        input_file_path = input_base_dir / f'nps_spending_{year}.csv'
+        output_file_path = output_base_dir / f'cleaned_nps_spending_{year}.csv'
 
         # Load the dataset
         data = pd.read_csv(input_file_path)
         
         # Filter the dataset for partial matches
-        mask = data[data.columns[0]].apply(lambda x: any(park in str(x) for park in national_parks_list))
-        filtered_data_with_partial_matches_by_index = data[mask]
+        mask = data[data.columns[0]].apply(lambda x: any(park in str(x) for 
+                                            park in national_parks_list))
+        filtered_data = data[mask]
         
-        # Selecting columns by index: Assuming 0 for the park names, and a specific column for Spending
-        selected_columns_by_index = filtered_data_with_partial_matches_by_index.iloc[:, [0, 4]].copy()
+        # Selecting columns by index: Assuming 0 for the park names, 
+        # and a specific column for Spending
+        selected_columns_by_index = filtered_data.iloc[:, [0, 4]].copy()
         selected_columns_by_index.columns = ['National Park', 'Spending']
         
         # Adding the year column
@@ -58,24 +63,26 @@ def process_nps_spending_data(input_file_path, output_file_path, national_parks_
         
         # Reordering columns to place 'Year' first
         columns_reordered_by_index = ['Year', 'National Park', 'Spending']
-        selected_columns_reordered_by_index = selected_columns_by_index[columns_reordered_by_index]
+        selected_columns_reordered = selected_columns_by_index[columns_reordered_by_index]
         
         # Save the adjusted dataframe to a new CSV file
-        selected_columns_reordered_by_index.to_csv(output_file_path, index=False)
+        selected_columns_reordered.to_csv(output_file_path, index=False)
     
 
 def merge_nps_spending_files(year_start, year_end, input_base_dir, output_file_path):
     """
-    Merges CSV files containing National Park Service spending data for a given range of years into a single file.
+    Merges CSV files containing National Park Service spending data for 
+    a given range of years into a single file.
     
-    Parameters:
+    Args:
     - year_start (int): The starting year for the range of files to merge.
     - year_end (int): The ending year for the range of files to merge (inclusive).
     - input_base_dir (str): The base directory where the input CSV files are located.
     - output_file_path (str): The file path where the merged CSV file will be saved.
     """
     # Generate file paths for the range of years
-    file_paths = [f'{input_base_dir}/cleaned_nps_spending_{year}.csv' for year in range(year_start, year_end + 1)]
+    file_paths = [input_base_dir / f'cleaned_nps_spending_{year}.csv' 
+                  for year in range(year_start, year_end + 1)]
     
     # Load and concatenate all DataFrames
     dfs = [pd.read_csv(file_path) for file_path in file_paths]
@@ -89,18 +96,22 @@ def merge_nps_spending_files(year_start, year_end, input_base_dir, output_file_p
 
 def sort_and_clean_nps_data(input_file_path, output_file_path):
     """
-    Loads a CSV file, removes commas from the 'Spending' column, converts it to numeric,
-    sorts the data first by 'National Park' and then by 'Year', and saves the sorted data to a new CSV file.
+    Loads a CSV file, removes commas from the 'Spending' column, 
+    converts it to numeric, sorts the data first by 'National Park' and then 
+    by 'Year', and saves the sorted data to a new CSV file.
 
-    Parameters:
-    - input_file_path (str): The file path of the input CSV file containing the NPS spending data.
-    - output_file_path (str): The file path where the sorted and cleaned CSV file will be saved.
+    Args:
+    - input_file_path (str): The file path of the input CSV file 
+                            containing the NPS spending data.
+    - output_file_path (str): The file path where the sorted and cleaned 
+                            CSV file will be saved.
     """
     # Load the CSV file
     data = pd.read_csv(input_file_path)
 
     # Remove commas from the 'Spending' column and convert it to numeric
-    data['Spending'] = data['Spending'].apply(lambda x: x.replace(',', '') if isinstance(x, str) else x)
+    data['Spending'] = data['Spending'].apply(lambda x: x.replace(',', '') 
+                                              if isinstance(x, str) else x)
     data['Spending'] = pd.to_numeric(data['Spending'], errors='coerce')
 
     # Sort the DataFrame first by 'National Park' and then by 'Year'
