@@ -1,9 +1,6 @@
 ### 30122-project-parks-pulse
 
 # Directory Structure
-
-# Directory on Important Files
-
 - `ppp`
   - `analysis`
     - `visualization`
