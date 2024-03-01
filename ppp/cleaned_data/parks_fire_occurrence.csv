@@ -1,0 +1,757 @@
+Year,Park Name,Visitation,acres,count
+2011,Acadia,2374645.0,0.1,1.0
+2012,Acadia,2431052.0,0.0,0.0
+2013,Acadia,2254922.0,0.1,1.0
+2014,Acadia,2563129.0,0.3,3.0
+2015,Acadia,2811184.0,0.0,0.0
+2016,Acadia,3303393.0,1.0,10.0
+2017,Acadia,3509271.0,0.2,2.0
+2018,Acadia,3537575.0,0.2,2.0
+2019,Acadia,3437286.0,0.3,2.0
+2020,Acadia,2669034.0,0.0,0.0
+2021,Acadia,4069098.0,0.0,0.0
+2022,Acadia,3970260.0,0.0,0.0
+2011,American Samoa,8716.0,0.0,0.0
+2012,American Samoa,10440.0,0.0,0.0
+2013,American Samoa,17919.0,0.0,0.0
+2014,American Samoa,13953.0,0.0,0.0
+2015,American Samoa,13892.0,0.0,0.0
+2016,American Samoa,28892.0,0.0,0.0
+2017,American Samoa,69468.0,0.0,0.0
+2018,American Samoa,28626.0,0.0,0.0
+2019,American Samoa,60006.0,0.0,0.0
+2020,American Samoa,4819.0,0.0,0.0
+2021,American Samoa,8495.0,0.0,0.0
+2022,American Samoa,1887.0,0.0,0.0
+2011,Arches,1040758.0,0.0,0.0
+2012,Arches,1070577.0,0.0,0.0
+2013,Arches,1082866.0,0.0,0.0
+2014,Arches,1284767.0,0.0,0.0
+2015,Arches,1399247.0,0.0,0.0
+2016,Arches,1585718.0,0.0,0.0
+2017,Arches,1539028.0,0.0,0.0
+2018,Arches,1663557.0,0.0,0.0
+2019,Arches,1659702.0,0.0,0.0
+2020,Arches,1238083.0,0.0,0.0
+2021,Arches,1806865.0,0.0,0.0
+2022,Arches,1460652.0,0.0,0.0
+2011,Badlands,870741.0,0.0,0.0
+2012,Badlands,883406.0,3.1,5.0
+2013,Badlands,892372.0,0.2,1.0
+2014,Badlands,868094.0,0.0,0.0
+2015,Badlands,989354.0,0.0,0.0
+2016,Badlands,996263.0,0.0,0.0
+2017,Badlands,1054325.0,1.6,2.0
+2018,Badlands,1008942.0,3.2,2.0
+2019,Badlands,970998.0,0.0,0.0
+2020,Badlands,916932.0,0.0,0.0
+2021,Badlands,1224226.0,2375.4300000000003,4.0
+2022,Badlands,1006809.0,120.98,2.0
+2011,Big Bend,361862.0,2226.1,4.0
+2012,Big Bend,292055.0,0.5,5.0
+2013,Big Bend,316953.0,2.0,3.0
+2014,Big Bend,314102.0,5.699999999999999,4.0
+2015,Big Bend,381747.0,62.4,4.0
+2016,Big Bend,388290.0,2090.5,9.0
+2017,Big Bend,440276.0,1252.0,7.0
+2018,Big Bend,440091.0,1356.0,6.0
+2019,Big Bend,463832.0,199.1,10.0
+2020,Big Bend,393907.0,299.31,9.0
+2021,Big Bend,581220.0,1347.66,7.0
+2022,Big Bend,514107.0,34.73,4.0
+2011,Biscayne,476077.0,0.0,0.0
+2012,Biscayne,495613.0,0.0,0.0
+2013,Biscayne,486848.0,0.0,0.0
+2014,Biscayne,525745.0,0.0,0.0
+2015,Biscayne,508164.0,0.0,0.0
+2016,Biscayne,514709.0,0.0,0.0
+2017,Biscayne,446961.0,0.3,2.0
+2018,Biscayne,469253.0,0.0,0.0
+2019,Biscayne,708522.0,0.0,0.0
+2020,Biscayne,402770.0,1.07,1.0
+2021,Biscayne,705655.0,0.0,0.0
+2022,Biscayne,701023.0,0.5,1.0
+2011,Black Canyon of the Gunnison,168336.0,8.9,4.0
+2012,Black Canyon of the Gunnison,192570.0,0.0,0.0
+2013,Black Canyon of the Gunnison,175852.0,0.2,2.0
+2014,Black Canyon of the Gunnison,183045.0,0.0,0.0
+2015,Black Canyon of the Gunnison,209166.0,0.0,0.0
+2016,Black Canyon of the Gunnison,238018.0,0.1,1.0
+2017,Black Canyon of the Gunnison,307143.0,0.0,0.0
+2018,Black Canyon of the Gunnison,308962.0,0.1,1.0
+2019,Black Canyon of the Gunnison,432818.0,0.0,0.0
+2020,Black Canyon of the Gunnison,341620.0,0.0,0.0
+2021,Black Canyon of the Gunnison,308910.0,0.2,2.0
+2022,Black Canyon of the Gunnison,297257.0,0.0,0.0
+2011,Bryce Canyon,1296000.0,0.0,0.0
+2012,Bryce Canyon,1385352.0,0.0,0.0
+2013,Bryce Canyon,1311875.0,0.0,0.0
+2014,Bryce Canyon,1435741.0,0.0,0.0
+2015,Bryce Canyon,1745804.0,0.0,0.0
+2016,Bryce Canyon,2365110.0,0.0,0.0
+2017,Bryce Canyon,2571684.0,0.0,0.0
+2018,Bryce Canyon,2679478.0,0.0,0.0
+2019,Bryce Canyon,2594904.0,0.0,0.0
+2020,Bryce Canyon,1464655.0,0.0,0.0
+2021,Bryce Canyon,2104600.0,0.0,0.0
+2022,Bryce Canyon,2354660.0,0.0,0.0
+2011,Canyonlands,473773.0,0.1,1.0
+2012,Canyonlands,452952.0,0.0,0.0
+2013,Canyonlands,462242.0,3.7,3.0
+2014,Canyonlands,542431.0,0.2,2.0
+2015,Canyonlands,634607.0,0.1,1.0
+2016,Canyonlands,776218.0,23.1,2.0
+2017,Canyonlands,742271.0,0.2,2.0
+2018,Canyonlands,739449.0,0.1,1.0
+2019,Canyonlands,733996.0,0.2,2.0
+2020,Canyonlands,493914.0,0.1,1.0
+2021,Canyonlands,911594.0,0.0,0.0
+2022,Canyonlands,779147.0,0.1,1.0
+2011,Capitol Reef,668834.0,0.0,0.0
+2012,Capitol Reef,673345.0,0.0,0.0
+2013,Capitol Reef,663670.0,0.0,0.0
+2014,Capitol Reef,786514.0,0.0,0.0
+2015,Capitol Reef,941029.0,0.0,0.0
+2016,Capitol Reef,1064904.0,0.0,0.0
+2017,Capitol Reef,1150165.0,0.0,0.0
+2018,Capitol Reef,1227627.0,0.0,0.0
+2019,Capitol Reef,1226519.0,0.0,0.0
+2020,Capitol Reef,981038.0,0.0,0.0
+2021,Capitol Reef,1405353.0,0.0,0.0
+2022,Capitol Reef,1227608.0,0.0,0.0
+2011,Carlsbad Caverns,365000.0,30489.5,2.0
+2012,Carlsbad Caverns,381058.0,0.0,0.0
+2013,Carlsbad Caverns,388566.0,0.0,0.0
+2014,Carlsbad Caverns,397309.0,0.0,0.0
+2015,Carlsbad Caverns,445720.0,0.0,0.0
+2016,Carlsbad Caverns,466773.0,20.1,2.0
+2017,Carlsbad Caverns,520026.0,0.0,0.0
+2018,Carlsbad Caverns,465912.0,0.0,0.0
+2019,Carlsbad Caverns,440691.0,0.0,0.0
+2020,Carlsbad Caverns,183835.0,0.0,0.0
+2021,Carlsbad Caverns,349244.0,0.0,0.0
+2022,Carlsbad Caverns,390932.0,0.0,0.0
+2011,Channel Islands,242756.0,0.0,0.0
+2012,Channel Islands,249594.0,0.0,0.0
+2013,Channel Islands,212029.0,0.0,0.0
+2014,Channel Islands,342161.0,0.0,0.0
+2015,Channel Islands,324816.0,0.0,0.0
+2016,Channel Islands,364807.0,0.0,0.0
+2017,Channel Islands,383687.0,0.0,0.0
+2018,Channel Islands,366250.0,0.0,0.0
+2019,Channel Islands,409630.0,0.0,0.0
+2020,Channel Islands,167290.0,0.0,0.0
+2021,Channel Islands,319252.0,0.0,0.0
+2022,Channel Islands,323245.0,0.0,0.0
+2011,Congaree,120166.0,0.0,0.0
+2012,Congaree,109685.0,0.0,0.0
+2013,Congaree,120340.0,0.0,0.0
+2014,Congaree,120122.0,0.0,0.0
+2015,Congaree,87513.0,0.0,0.0
+2016,Congaree,143843.0,0.1,1.0
+2017,Congaree,159595.0,0.0,0.0
+2018,Congaree,145929.0,1.0,1.0
+2019,Congaree,159445.0,0.0,0.0
+2020,Congaree,119306.0,45.02,2.0
+2021,Congaree,215181.0,492.2000000000001,3.0
+2022,Congaree,204522.0,627.66,2.0
+2011,Crater Lake,423551.0,1230.4,27.0
+2012,Crater Lake,447251.0,0.3,3.0
+2013,Crater Lake,523027.0,4.8,21.0
+2014,Crater Lake,535508.0,322.70000000000005,42.0
+2015,Crater Lake,614712.0,20853.7,21.0
+2016,Crater Lake,756344.0,1073.4,8.0
+2017,Crater Lake,711749.0,15826.7,9.0
+2018,Crater Lake,720659.0,3326.2,17.0
+2019,Crater Lake,704512.0,1.3,10.0
+2020,Crater Lake,670500.0,1.7000000000000002,14.0
+2021,Crater Lake,647751.0,21.59,11.0
+2022,Crater Lake,527259.0,4.15,16.0
+2011,Cuyahoga Valley,2161185.0,0.0,0.0
+2012,Cuyahoga Valley,2299722.0,0.8,2.0
+2013,Cuyahoga Valley,2103010.0,0.0,0.0
+2014,Cuyahoga Valley,2189849.0,0.0,0.0
+2015,Cuyahoga Valley,2284612.0,0.0,0.0
+2016,Cuyahoga Valley,2423390.0,0.0,0.0
+2017,Cuyahoga Valley,2226879.0,0.0,0.0
+2018,Cuyahoga Valley,2096053.0,0.0,0.0
+2019,Cuyahoga Valley,2237997.0,0.0,0.0
+2020,Cuyahoga Valley,2755628.0,0.0,0.0
+2021,Cuyahoga Valley,2575275.0,13.93,1.0
+2022,Cuyahoga Valley,2913312.0,0.0,0.0
+2011,Death Valley,946867.0,0.0,0.0
+2012,Death Valley,984568.0,0.0,0.0
+2013,Death Valley,951972.0,0.0,0.0
+2014,Death Valley,1101312.0,0.0,0.0
+2015,Death Valley,1154843.0,0.0,0.0
+2016,Death Valley,1296283.0,0.0,0.0
+2017,Death Valley,1294827.0,0.0,0.0
+2018,Death Valley,1678660.0,0.0,0.0
+2019,Death Valley,1740945.0,0.0,0.0
+2020,Death Valley,820023.0,0.0,0.0
+2021,Death Valley,1146551.0,0.0,0.0
+2022,Death Valley,1128862.0,0.0,0.0
+2011,Denali,406582.0,2534.9,1.0
+2012,Denali,388433.0,216.8,2.0
+2013,Denali,530922.0,98116.3,9.0
+2014,Denali,531315.0,0.0,0.0
+2015,Denali,560757.0,14693.8,10.0
+2016,Denali,587412.0,3.0,1.0
+2017,Denali,642809.0,0.0,0.0
+2018,Denali,594660.0,474.7,3.0
+2019,Denali,601152.0,49527.8,1.0
+2020,Denali,54850.0,693.07,3.0
+2021,Denali,229521.0,20.73,2.0
+2022,Denali,427562.0,15.26,2.0
+2011,Dry Tortugas,75171.0,0.0,0.0
+2012,Dry Tortugas,60550.0,0.0,0.0
+2013,Dry Tortugas,58401.0,0.0,0.0
+2014,Dry Tortugas,64865.0,0.0,0.0
+2015,Dry Tortugas,70862.0,0.0,0.0
+2016,Dry Tortugas,73661.0,0.0,0.0
+2017,Dry Tortugas,54281.0,0.0,0.0
+2018,Dry Tortugas,56810.0,0.0,0.0
+2019,Dry Tortugas,79200.0,0.0,0.0
+2020,Dry Tortugas,48543.0,0.0,0.0
+2021,Dry Tortugas,83817.0,0.0,0.0
+2022,Dry Tortugas,78488.0,0.0,0.0
+2011,Everglades,934351.0,0.0,0.0
+2012,Everglades,1141906.0,0.0,0.0
+2013,Everglades,1047116.0,0.0,0.0
+2014,Everglades,1110901.0,0.0,0.0
+2015,Everglades,1077427.0,0.0,0.0
+2016,Everglades,930907.0,0.0,0.0
+2017,Everglades,1018557.0,0.0,0.0
+2018,Everglades,597124.0,0.0,0.0
+2019,Everglades,1118300.0,0.0,0.0
+2020,Everglades,702319.0,0.0,0.0
+2021,Everglades,942130.0,0.0,0.0
+2022,Everglades,1155193.0,0.0,0.0
+2011,Gates of the Arctic,11623.0,0.0,0.0
+2012,Gates of the Arctic,10899.0,0.0,0.0
+2013,Gates of the Arctic,11012.0,0.0,0.0
+2014,Gates of the Arctic,12669.0,0.0,0.0
+2015,Gates of the Arctic,10745.0,0.0,0.0
+2016,Gates of the Arctic,10047.0,0.0,0.0
+2017,Gates of the Arctic,11177.0,0.0,0.0
+2018,Gates of the Arctic,9591.0,0.0,0.0
+2019,Gates of the Arctic,10518.0,0.0,0.0
+2020,Gates of the Arctic,2872.0,0.0,0.0
+2021,Gates of the Arctic,7362.0,0.0,0.0
+2022,Gates of the Arctic,9457.0,0.0,0.0
+2011,Gateway Arch,2259020.0,0.0,0.0
+2012,Gateway Arch,2496726.0,0.0,0.0
+2013,Gateway Arch,2377258.0,0.0,0.0
+2014,Gateway Arch,1817091.0,0.0,0.0
+2015,Gateway Arch,1698656.0,0.0,0.0
+2016,Gateway Arch,1271855.0,0.0,0.0
+2017,Gateway Arch,1398188.0,0.0,0.0
+2018,Gateway Arch,2016180.0,0.0,0.0
+2019,Gateway Arch,2055309.0,0.0,0.0
+2020,Gateway Arch,486021.0,0.0,0.0
+2021,Gateway Arch,1145081.0,0.0,0.0
+2022,Gateway Arch,1618774.0,0.0,0.0
+2011,Glacier,431986.0,27.9,10.0
+2012,Glacier,454337.0,160.5,4.0
+2013,Glacier,500590.0,0.4,4.0
+2014,Glacier,500727.0,1.5,6.0
+2015,Glacier,551353.0,23828.0,22.0
+2016,Glacier,520171.0,10.6,5.0
+2017,Glacier,547057.0,21718.5,23.0
+2018,Glacier,597915.0,17435.2,8.0
+2019,Glacier,672087.0,0.5,5.0
+2020,Glacier,5748.0,0.8,8.0
+2021,Glacier,89768.0,0.2,2.0
+2022,Glacier,545758.0,1979.81,9.0
+2011,Glacier Bay,1853564.0,0.0,0.0
+2012,Glacier Bay,2162035.0,0.0,0.0
+2013,Glacier Bay,2190374.0,0.0,0.0
+2014,Glacier Bay,2338528.0,0.0,0.0
+2015,Glacier Bay,2366056.0,0.0,0.0
+2016,Glacier Bay,2946681.0,0.0,0.0
+2017,Glacier Bay,3305512.0,0.0,0.0
+2018,Glacier Bay,2965309.0,0.0,0.0
+2019,Glacier Bay,3049839.0,0.0,0.0
+2020,Glacier Bay,1698864.0,0.0,0.0
+2021,Glacier Bay,3081656.0,0.0,0.0
+2022,Glacier Bay,2908458.0,0.0,0.0
+2011,Grand Canyon,4298178.0,4599.700000000001,23.0
+2012,Grand Canyon,4421352.0,43.6,22.0
+2013,Grand Canyon,4564840.0,252.9,27.0
+2014,Grand Canyon,4756771.0,6427.4,27.0
+2015,Grand Canyon,5520736.0,2.6,15.0
+2016,Grand Canyon,5969811.0,15095.1,19.0
+2017,Grand Canyon,6254238.0,0.3,3.0
+2018,Grand Canyon,6380495.0,11841.7,28.0
+2019,Grand Canyon,5974411.0,16488.5,17.0
+2020,Grand Canyon,2897098.0,8364.18,11.0
+2021,Grand Canyon,4532677.0,5.02,14.0
+2022,Grand Canyon,4732101.0,1489.9499999999998,20.0
+2011,Grand Teton,2587437.0,0.7000000000000001,7.0
+2012,Grand Teton,2705256.0,2.6,11.0
+2013,Grand Teton,2688794.0,243.1,8.0
+2014,Grand Teton,2791392.0,0.5,3.0
+2015,Grand Teton,3149921.0,7.3,4.0
+2016,Grand Teton,3270076.0,20829.5,17.0
+2017,Grand Teton,3317000.0,0.0,0.0
+2018,Grand Teton,3491151.0,3.8,4.0
+2019,Grand Teton,3405614.0,0.7000000000000001,7.0
+2020,Grand Teton,3289638.0,0.8,8.0
+2021,Grand Teton,3885230.0,0.7000000000000001,6.0
+2022,Grand Teton,2806223.0,0.5,5.0
+2011,Great Basin,91451.0,0.0,0.0
+2012,Great Basin,94850.0,0.2,2.0
+2013,Great Basin,92893.0,0.5,3.0
+2014,Great Basin,107526.0,0.1,1.0
+2015,Great Basin,116123.0,0.2,2.0
+2016,Great Basin,144846.0,4656.0,1.0
+2017,Great Basin,168028.0,0.2,2.0
+2018,Great Basin,153094.0,0.1,1.0
+2019,Great Basin,131802.0,0.2,2.0
+2020,Great Basin,120248.0,0.3,2.0
+2021,Great Basin,144875.0,0.0,0.0
+2022,Great Basin,142115.0,0.1,1.0
+2011,Great Sand Dunes,280058.0,0.0,0.0
+2012,Great Sand Dunes,254674.0,0.0,0.0
+2013,Great Sand Dunes,242841.0,0.0,0.0
+2014,Great Sand Dunes,271774.0,0.0,0.0
+2015,Great Sand Dunes,299513.0,0.0,0.0
+2016,Great Sand Dunes,388308.0,0.0,0.0
+2017,Great Sand Dunes,486935.0,0.0,0.0
+2018,Great Sand Dunes,442905.0,0.0,0.0
+2019,Great Sand Dunes,527546.0,0.0,0.0
+2020,Great Sand Dunes,461532.0,0.0,0.0
+2021,Great Sand Dunes,602613.0,0.0,0.0
+2022,Great Sand Dunes,493428.0,0.0,0.0
+2011,Great Smoky Mountains,9008830.0,77.9,3.0
+2012,Great Smoky Mountains,9685829.0,100.0,3.0
+2013,Great Smoky Mountains,9354695.0,10.2,3.0
+2014,Great Smoky Mountains,10099276.0,0.0,0.0
+2015,Great Smoky Mountains,10712674.0,0.0,0.0
+2016,Great Smoky Mountains,11312786.0,240.2,3.0
+2017,Great Smoky Mountains,11338893.0,0.0,0.0
+2018,Great Smoky Mountains,11421200.0,0.0,0.0
+2019,Great Smoky Mountains,12547743.0,0.1,1.0
+2020,Great Smoky Mountains,12095720.0,0.0,0.0
+2021,Great Smoky Mountains,14161548.0,0.2,2.0
+2022,Great Smoky Mountains,12937633.0,0.2,2.0
+2011,Guadalupe Mountains,152546.0,0.0,0.0
+2012,Guadalupe Mountains,159360.0,0.0,0.0
+2013,Guadalupe Mountains,145670.0,0.0,0.0
+2014,Guadalupe Mountains,166868.0,0.0,0.0
+2015,Guadalupe Mountains,169535.0,0.0,0.0
+2016,Guadalupe Mountains,181839.0,0.0,0.0
+2017,Guadalupe Mountains,225257.0,0.0,0.0
+2018,Guadalupe Mountains,172347.0,0.0,0.0
+2019,Guadalupe Mountains,188833.0,0.0,0.0
+2020,Guadalupe Mountains,151256.0,0.0,0.0
+2021,Guadalupe Mountains,243291.0,0.0,0.0
+2022,Guadalupe Mountains,219987.0,0.0,0.0
+2011,Haleakala,956989.0,0.1,1.0
+2012,Haleakala,1094668.0,0.0,0.0
+2013,Haleakala,785300.0,0.0,0.0
+2014,Haleakala,1142040.0,0.0,0.0
+2015,Haleakala,1216772.0,0.0,0.0
+2016,Haleakala,1263558.0,0.0,0.0
+2017,Haleakala,1112390.0,0.0,0.0
+2018,Haleakala,1044084.0,0.0,0.0
+2019,Haleakala,994394.0,0.0,0.0
+2020,Haleakala,319147.0,0.0,0.0
+2021,Haleakala,853181.0,0.0,0.0
+2022,Haleakala,1087616.0,0.0,0.0
+2011,Hawaii Volcanoes,1352123.0,0.0,0.0
+2012,Hawaii Volcanoes,1483928.0,0.0,0.0
+2013,Hawaii Volcanoes,1583209.0,0.0,0.0
+2014,Hawaii Volcanoes,1693005.0,0.0,0.0
+2015,Hawaii Volcanoes,1832660.0,0.0,0.0
+2016,Hawaii Volcanoes,1887580.0,0.0,0.0
+2017,Hawaii Volcanoes,2016702.0,0.0,0.0
+2018,Hawaii Volcanoes,1116891.0,0.0,0.0
+2019,Hawaii Volcanoes,1368376.0,0.0,0.0
+2020,Hawaii Volcanoes,589775.0,0.0,0.0
+2021,Hawaii Volcanoes,1262747.0,0.0,0.0
+2022,Hawaii Volcanoes,1580961.0,0.0,0.0
+2011,Hot Springs,1396354.0,0.0,0.0
+2012,Hot Springs,1302505.0,5.8,6.0
+2013,Hot Springs,1325719.0,0.0,0.0
+2014,Hot Springs,1424484.0,2.0,1.0
+2015,Hot Springs,1418162.0,0.4,2.0
+2016,Hot Springs,1544300.0,20.4,5.0
+2017,Hot Springs,1561616.0,0.1,1.0
+2018,Hot Springs,1506887.0,0.1,1.0
+2019,Hot Springs,1467153.0,0.0,0.0
+2020,Hot Springs,1348215.0,0.0,0.0
+2021,Hot Springs,2162884.0,136.62,1.0
+2022,Hot Springs,2646133.0,162.63,3.0
+2011,Indiana Dunes,1840513.0,0.6000000000000001,6.0
+2012,Indiana Dunes,1889381.0,75.0,9.0
+2013,Indiana Dunes,1681695.0,11.4,9.0
+2014,Indiana Dunes,1553372.0,0.4,4.0
+2015,Indiana Dunes,1640195.0,266.1,3.0
+2016,Indiana Dunes,1698223.0,420.0,6.0
+2017,Indiana Dunes,2158471.0,16.4,15.0
+2018,Indiana Dunes,1756079.0,0.2,2.0
+2019,Indiana Dunes,2134285.0,223.9,7.0
+2020,Indiana Dunes,2293106.0,0.03,2.0
+2021,Indiana Dunes,3177210.0,424.58,1.0
+2022,Indiana Dunes,2834180.0,0.0,0.0
+2011,Isle Royale,15892.0,0.1,1.0
+2012,Isle Royale,16663.0,5.0,1.0
+2013,Isle Royale,16274.0,0.1,1.0
+2014,Isle Royale,14560.0,0.0,0.0
+2015,Isle Royale,18684.0,0.0,0.0
+2016,Isle Royale,24966.0,0.0,0.0
+2017,Isle Royale,28196.0,0.0,0.0
+2018,Isle Royale,25798.0,0.0,0.0
+2019,Isle Royale,26410.0,0.0,0.0
+2020,Isle Royale,6493.0,0.0,0.0
+2021,Isle Royale,25844.0,0.0,0.0
+2022,Isle Royale,25454.0,6.14,1.0
+2011,Joshua Tree,1396237.0,0.0,0.0
+2012,Joshua Tree,1396117.0,0.0,0.0
+2013,Joshua Tree,1383340.0,0.0,0.0
+2014,Joshua Tree,1589904.0,0.0,0.0
+2015,Joshua Tree,2025756.0,0.0,0.0
+2016,Joshua Tree,2505286.0,0.0,0.0
+2017,Joshua Tree,2853619.0,0.0,0.0
+2018,Joshua Tree,2942382.0,0.0,0.0
+2019,Joshua Tree,2988547.0,0.0,0.0
+2020,Joshua Tree,2399542.0,0.0,0.0
+2021,Joshua Tree,3064400.0,0.0,0.0
+2022,Joshua Tree,3058294.0,0.0,0.0
+2011,Katmai,48939.0,0.0,0.0
+2012,Katmai,39818.0,0.0,0.0
+2013,Katmai,28966.0,0.0,0.0
+2014,Katmai,30896.0,0.0,0.0
+2015,Katmai,37818.0,0.0,0.0
+2016,Katmai,37818.0,0.0,0.0
+2017,Katmai,37818.0,0.0,0.0
+2018,Katmai,37818.0,0.0,0.0
+2019,Katmai,84167.0,0.0,0.0
+2020,Katmai,51511.0,0.0,0.0
+2021,Katmai,24764.0,0.0,0.0
+2022,Katmai,33908.0,0.0,0.0
+2011,Kenai Fjords,346852.0,0.0,0.0
+2012,Kenai Fjords,281279.0,0.0,0.0
+2013,Kenai Fjords,283502.0,0.0,0.0
+2014,Kenai Fjords,270666.0,0.0,0.0
+2015,Kenai Fjords,296697.0,0.0,0.0
+2016,Kenai Fjords,346534.0,0.0,0.0
+2017,Kenai Fjords,303598.0,0.0,0.0
+2018,Kenai Fjords,321596.0,0.0,0.0
+2019,Kenai Fjords,356601.0,0.0,0.0
+2020,Kenai Fjords,115882.0,0.0,0.0
+2021,Kenai Fjords,411782.0,0.0,0.0
+2022,Kenai Fjords,389943.0,0.0,0.0
+2011,Kings Canyon,566810.0,0.6,4.0
+2012,Kings Canyon,591033.0,325.90000000000003,10.0
+2013,Kings Canyon,567544.0,711.3000000000001,11.0
+2014,Kings Canyon,502268.0,18.0,10.0
+2015,Kings Canyon,468106.0,162.3,11.0
+2016,Kings Canyon,607479.0,77.8,10.0
+2017,Kings Canyon,692932.0,20.4,5.0
+2018,Kings Canyon,699023.0,188.8,9.0
+2019,Kings Canyon,632110.0,1.7,6.0
+2020,Kings Canyon,415077.0,1319.4399999999998,6.0
+2021,Kings Canyon,562918.0,114.47,5.0
+2022,Kings Canyon,640986.0,29.53,7.0
+2011,Kobuk Valley,11485.0,0.0,0.0
+2012,Kobuk Valley,29550.0,0.0,0.0
+2013,Kobuk Valley,16875.0,0.0,0.0
+2014,Kobuk Valley,0.0,0.0,0.0
+2015,Kobuk Valley,0.0,0.0,0.0
+2016,Kobuk Valley,15500.0,0.0,0.0
+2017,Kobuk Valley,15500.0,0.0,0.0
+2018,Kobuk Valley,14937.0,0.0,0.0
+2019,Kobuk Valley,15766.0,0.0,0.0
+2020,Kobuk Valley,11185.0,0.0,0.0
+2021,Kobuk Valley,11540.0,0.0,0.0
+2022,Kobuk Valley,16925.0,0.0,0.0
+2011,Lake Clark,5158.0,0.0,0.0
+2012,Lake Clark,11639.0,0.0,0.0
+2013,Lake Clark,13000.0,0.0,0.0
+2014,Lake Clark,16100.0,0.0,0.0
+2015,Lake Clark,17818.0,0.0,0.0
+2016,Lake Clark,21102.0,0.0,0.0
+2017,Lake Clark,22755.0,0.0,0.0
+2018,Lake Clark,14479.0,0.0,0.0
+2019,Lake Clark,17157.0,0.0,0.0
+2020,Lake Clark,4948.0,0.0,0.0
+2021,Lake Clark,18278.0,0.0,0.0
+2022,Lake Clark,18187.0,0.0,0.0
+2011,Lassen Volcanic,351269.0,0.0,0.0
+2012,Lassen Volcanic,407653.0,0.0,0.0
+2013,Lassen Volcanic,427409.0,0.0,0.0
+2014,Lassen Volcanic,432977.0,0.0,0.0
+2015,Lassen Volcanic,468092.0,0.0,0.0
+2016,Lassen Volcanic,536068.0,0.0,0.0
+2017,Lassen Volcanic,507256.0,0.0,0.0
+2018,Lassen Volcanic,499435.0,0.0,0.0
+2019,Lassen Volcanic,517039.0,0.0,0.0
+2020,Lassen Volcanic,542274.0,0.0,0.0
+2021,Lassen Volcanic,359635.0,0.0,0.0
+2022,Lassen Volcanic,446291.0,0.0,0.0
+2011,Mammoth Cave,483319.0,0.1,1.0
+2012,Mammoth Cave,508054.0,0.0,0.0
+2013,Mammoth Cave,494541.0,0.0,0.0
+2014,Mammoth Cave,522628.0,0.4,2.0
+2015,Mammoth Cave,566895.0,0.3,1.0
+2016,Mammoth Cave,586514.0,0.0,0.0
+2017,Mammoth Cave,587853.0,0.3,1.0
+2018,Mammoth Cave,533206.0,0.0,0.0
+2019,Mammoth Cave,551590.0,0.0,0.0
+2020,Mammoth Cave,290392.0,0.0,0.0
+2021,Mammoth Cave,515774.0,0.0,0.0
+2022,Mammoth Cave,663147.0,0.0,0.0
+2011,Mesa Verde,572329.0,0.0,0.0
+2012,Mesa Verde,488860.0,0.0,0.0
+2013,Mesa Verde,460237.0,0.0,0.0
+2014,Mesa Verde,501563.0,0.0,0.0
+2015,Mesa Verde,547325.0,0.0,0.0
+2016,Mesa Verde,583527.0,0.0,0.0
+2017,Mesa Verde,613788.0,0.0,0.0
+2018,Mesa Verde,563420.0,0.0,0.0
+2019,Mesa Verde,556203.0,0.0,0.0
+2020,Mesa Verde,287477.0,0.0,0.0
+2021,Mesa Verde,548477.0,0.0,0.0
+2022,Mesa Verde,499790.0,0.0,0.0
+2011,Mount Rainier,1038229.0,0.0,0.0
+2012,Mount Rainier,1049178.0,7.5,2.0
+2013,Mount Rainier,1148552.0,0.4,4.0
+2014,Mount Rainier,1264259.0,2.2,3.0
+2015,Mount Rainier,1237231.0,0.0,0.0
+2016,Mount Rainier,1356913.0,0.2,2.0
+2017,Mount Rainier,1415867.0,0.1,1.0
+2018,Mount Rainier,1518491.0,25.2,4.0
+2019,Mount Rainier,1501621.0,0.0,0.0
+2020,Mount Rainier,1160754.0,0.1,1.0
+2021,Mount Rainier,1670063.0,0.0,0.0
+2022,Mount Rainier,1622395.0,0.0,0.0
+2011,New River Gorge,1071088.0,0.0,0.0
+2012,New River Gorge,1128195.0,0.0,0.0
+2013,New River Gorge,1071823.0,0.0,0.0
+2014,New River Gorge,1124799.0,0.0,0.0
+2015,New River Gorge,1178753.0,0.0,0.0
+2016,New River Gorge,1197931.0,0.0,0.0
+2017,New River Gorge,1168658.0,0.0,0.0
+2018,New River Gorge,1232627.0,0.0,0.0
+2019,New River Gorge,1195721.0,0.0,0.0
+2020,New River Gorge,1054374.0,0.0,0.0
+2021,New River Gorge,1682720.0,0.0,0.0
+2022,New River Gorge,1593523.0,0.0,0.0
+2011,North Cascades,19208.0,0.0,0.0
+2012,North Cascades,26935.0,0.0,0.0
+2013,North Cascades,21623.0,0.0,0.0
+2014,North Cascades,23865.0,0.0,0.0
+2015,North Cascades,20677.0,0.0,0.0
+2016,North Cascades,28646.0,0.0,0.0
+2017,North Cascades,30326.0,0.0,0.0
+2018,North Cascades,30085.0,0.0,0.0
+2019,North Cascades,38208.0,0.0,0.0
+2020,North Cascades,30885.0,0.0,0.0
+2021,North Cascades,17855.0,0.0,0.0
+2022,North Cascades,30154.0,0.0,0.0
+2011,Olympic,2966502.0,0.0,0.0
+2012,Olympic,2824908.0,0.0,0.0
+2013,Olympic,3085340.0,0.0,0.0
+2014,Olympic,3243872.0,0.0,0.0
+2015,Olympic,3263761.0,0.0,0.0
+2016,Olympic,3390221.0,0.0,0.0
+2017,Olympic,3401996.0,0.0,0.0
+2018,Olympic,3104455.0,0.0,0.0
+2019,Olympic,3245806.0,0.0,0.0
+2020,Olympic,2499177.0,0.0,0.0
+2021,Olympic,2718925.0,0.0,0.0
+2022,Olympic,2432972.0,0.0,0.0
+2011,Petrified Forest,614054.0,0.0,0.0
+2012,Petrified Forest,664857.0,0.0,0.0
+2013,Petrified Forest,644648.0,0.0,0.0
+2014,Petrified Forest,836799.0,0.0,0.0
+2015,Petrified Forest,793225.0,0.0,0.0
+2016,Petrified Forest,643274.0,0.0,0.0
+2017,Petrified Forest,627757.0,0.0,0.0
+2018,Petrified Forest,644922.0,0.0,0.0
+2019,Petrified Forest,643588.0,0.0,0.0
+2020,Petrified Forest,384483.0,0.0,0.0
+2021,Petrified Forest,590334.0,0.0,0.0
+2022,Petrified Forest,505209.0,0.0,0.0
+2011,Pinnacles,393219.0,0.0,0.0
+2012,Pinnacles,224476.0,0.0,0.0
+2013,Pinnacles,237677.0,0.0,0.0
+2014,Pinnacles,196635.0,0.0,0.0
+2015,Pinnacles,206533.0,0.0,0.0
+2016,Pinnacles,215555.0,0.0,0.0
+2017,Pinnacles,233334.0,0.0,0.0
+2018,Pinnacles,222152.0,0.0,0.0
+2019,Pinnacles,177224.0,0.0,0.0
+2020,Pinnacles,165740.0,0.0,0.0
+2021,Pinnacles,348857.0,0.0,0.0
+2022,Pinnacles,275023.0,0.0,0.0
+2011,Redwood,380167.0,0.0,0.0
+2012,Redwood,352517.0,0.0,0.0
+2013,Redwood,393364.0,0.0,0.0
+2014,Redwood,429166.0,0.0,0.0
+2015,Redwood,527143.0,0.0,0.0
+2016,Redwood,536297.0,0.0,0.0
+2017,Redwood,445000.0,0.0,0.0
+2018,Redwood,482536.0,0.0,0.0
+2019,Redwood,504722.0,0.0,0.0
+2020,Redwood,265177.0,0.0,0.0
+2021,Redwood,435879.0,0.0,0.0
+2022,Redwood,458400.0,0.0,0.0
+2011,Rocky Mountain,3176941.0,0.0,0.0
+2012,Rocky Mountain,3229617.0,0.0,0.0
+2013,Rocky Mountain,2991141.0,0.0,0.0
+2014,Rocky Mountain,3434751.0,0.0,0.0
+2015,Rocky Mountain,4155916.0,0.0,0.0
+2016,Rocky Mountain,4517585.0,0.0,0.0
+2017,Rocky Mountain,4437215.0,0.0,0.0
+2018,Rocky Mountain,4590493.0,0.0,0.0
+2019,Rocky Mountain,4670053.0,0.0,0.0
+2020,Rocky Mountain,3305199.0,0.0,0.0
+2021,Rocky Mountain,4434848.0,0.0,0.0
+2022,Rocky Mountain,4300424.0,0.0,0.0
+2011,Saguaro,610045.0,0.0,0.0
+2012,Saguaro,634286.0,0.0,0.0
+2013,Saguaro,678261.0,0.0,0.0
+2014,Saguaro,673572.0,0.0,0.0
+2015,Saguaro,753446.0,0.0,0.0
+2016,Saguaro,820426.0,0.0,0.0
+2017,Saguaro,964760.0,0.0,0.0
+2018,Saguaro,957405.0,0.0,0.0
+2019,Saguaro,1020226.0,0.0,0.0
+2020,Saguaro,762226.0,0.0,0.0
+2021,Saguaro,1079786.0,0.0,0.0
+2022,Saguaro,908194.0,0.0,0.0
+2011,Sequoia,1006583.0,0.0,0.0
+2012,Sequoia,1106584.0,0.0,0.0
+2013,Sequoia,909274.0,0.0,0.0
+2014,Sequoia,1039137.0,0.0,0.0
+2015,Sequoia,1097464.0,0.0,0.0
+2016,Sequoia,1254688.0,0.0,0.0
+2017,Sequoia,1291256.0,0.0,0.0
+2018,Sequoia,1229594.0,0.0,0.0
+2019,Sequoia,1246053.0,0.0,0.0
+2020,Sequoia,796086.0,0.0,0.0
+2021,Sequoia,1059548.0,0.0,0.0
+2022,Sequoia,1153198.0,0.0,0.0
+2011,Shenandoah,1209883.0,0.2,2.0
+2012,Shenandoah,1210200.0,2142.4,4.0
+2013,Shenandoah,1136505.0,0.5,3.0
+2014,Shenandoah,1255321.0,468.2,3.0
+2015,Shenandoah,1321873.0,1.7,3.0
+2016,Shenandoah,1437341.0,10326.3,4.0
+2017,Shenandoah,1458874.0,25.6,6.0
+2018,Shenandoah,1264880.0,0.6,4.0
+2019,Shenandoah,1425507.0,4.0,4.0
+2020,Shenandoah,1666265.0,0.0,0.0
+2021,Shenandoah,1592312.0,0.0,0.0
+2022,Shenandoah,1449300.0,0.0,0.0
+2011,Theodore Roosevelt,563407.0,0.1,1.0
+2012,Theodore Roosevelt,640555.0,0.5,3.0
+2013,Theodore Roosevelt,545090.0,0.9,3.0
+2014,Theodore Roosevelt,559580.0,7.0,8.0
+2015,Theodore Roosevelt,580033.0,0.3,3.0
+2016,Theodore Roosevelt,753880.0,0.0,0.0
+2017,Theodore Roosevelt,708003.0,33.0,6.0
+2018,Theodore Roosevelt,749389.0,12.7,12.0
+2019,Theodore Roosevelt,691658.0,1.3,4.0
+2020,Theodore Roosevelt,551303.0,0.0,0.0
+2021,Theodore Roosevelt,796085.0,54.05,3.0
+2022,Theodore Roosevelt,668679.0,0.0,0.0
+2011,Virgin Islands,442414.0,0.0,0.0
+2012,Virgin Islands,483341.0,0.0,0.0
+2013,Virgin Islands,438601.0,0.0,0.0
+2014,Virgin Islands,426930.0,0.0,0.0
+2015,Virgin Islands,438372.0,0.0,0.0
+2016,Virgin Islands,411343.0,0.0,0.0
+2017,Virgin Islands,304408.0,0.0,0.0
+2018,Virgin Islands,112287.0,0.0,0.0
+2019,Virgin Islands,133398.0,0.0,0.0
+2020,Virgin Islands,167540.0,0.0,0.0
+2021,Virgin Islands,323999.0,0.0,0.0
+2022,Virgin Islands,196752.0,0.0,0.0
+2011,Voyageurs,177184.0,300.2,2.0
+2012,Voyageurs,214841.0,0.8,4.0
+2013,Voyageurs,233390.0,0.2,1.0
+2014,Voyageurs,239160.0,0.2,2.0
+2015,Voyageurs,238313.0,0.1,1.0
+2016,Voyageurs,241912.0,0.2,2.0
+2017,Voyageurs,237250.0,0.0,0.0
+2018,Voyageurs,239656.0,0.1,1.0
+2019,Voyageurs,232974.0,0.0,0.0
+2020,Voyageurs,263091.0,0.0,0.0
+2021,Voyageurs,243042.0,0.0,0.0
+2022,Voyageurs,221434.0,0.0,0.0
+2011,White Sands,428924.0,0.0,0.0
+2012,White Sands,447385.0,0.0,0.0
+2013,White Sands,490544.0,0.0,0.0
+2014,White Sands,503660.0,0.0,0.0
+2015,White Sands,497506.0,0.0,0.0
+2016,White Sands,555793.0,0.0,0.0
+2017,White Sands,612468.0,0.0,0.0
+2018,White Sands,603008.0,0.0,0.0
+2019,White Sands,608785.0,0.0,0.0
+2020,White Sands,415383.0,0.0,0.0
+2021,White Sands,782469.0,0.0,0.0
+2022,White Sands,705127.0,0.0,0.0
+2011,Wind Cave,538394.0,0.0,0.0
+2012,Wind Cave,529083.0,0.0,0.0
+2013,Wind Cave,516142.0,0.0,0.0
+2014,Wind Cave,547022.0,0.0,0.0
+2015,Wind Cave,612198.0,0.0,0.0
+2016,Wind Cave,617377.0,0.0,0.0
+2017,Wind Cave,619924.0,0.0,0.0
+2018,Wind Cave,656397.0,0.0,0.0
+2019,Wind Cave,615350.0,0.0,0.0
+2020,Wind Cave,448405.0,0.0,0.0
+2021,Wind Cave,709001.0,0.0,0.0
+2022,Wind Cave,607418.0,0.0,0.0
+2011,Wrangell St Elias,65225.0,0.0,0.0
+2012,Wrangell St Elias,87158.0,0.0,0.0
+2013,Wrangell St Elias,69984.0,0.0,0.0
+2014,Wrangell St Elias,74722.0,0.0,0.0
+2015,Wrangell St Elias,80366.0,0.0,0.0
+2016,Wrangell St Elias,79047.0,0.0,0.0
+2017,Wrangell St Elias,68292.0,0.0,0.0
+2018,Wrangell St Elias,79450.0,0.0,0.0
+2019,Wrangell St Elias,74518.0,0.0,0.0
+2020,Wrangell St Elias,16655.0,0.0,0.0
+2021,Wrangell St Elias,50189.0,0.0,0.0
+2022,Wrangell St Elias,65236.0,0.0,0.0
+2011,Yellowstone,3394326.0,0.0,0.0
+2012,Yellowstone,3447729.0,0.0,0.0
+2013,Yellowstone,3188030.0,0.0,0.0
+2014,Yellowstone,3513484.0,0.0,0.0
+2015,Yellowstone,4097710.0,0.0,0.0
+2016,Yellowstone,4257177.0,0.0,0.0
+2017,Yellowstone,4116524.0,0.0,0.0
+2018,Yellowstone,4115000.0,0.0,0.0
+2019,Yellowstone,4020288.0,0.0,0.0
+2020,Yellowstone,3806306.0,0.0,0.0
+2021,Yellowstone,4860242.0,0.0,0.0
+2022,Yellowstone,3290242.0,0.0,0.0
+2011,Yosemite,3951393.0,0.0,0.0
+2012,Yosemite,3853404.0,0.0,0.0
+2013,Yosemite,3691191.0,0.0,0.0
+2014,Yosemite,3882642.0,0.0,0.0
+2015,Yosemite,4150217.0,0.0,0.0
+2016,Yosemite,5028868.0,0.0,0.0
+2017,Yosemite,4336890.0,0.0,0.0
+2018,Yosemite,4009436.0,0.0,0.0
+2019,Yosemite,4422861.0,0.0,0.0
+2020,Yosemite,2268313.0,0.0,0.0
+2021,Yosemite,3287595.0,0.0,0.0
+2022,Yosemite,3667550.0,0.0,0.0
+2011,Zion,2825505.0,0.0,0.0
+2012,Zion,2973607.0,0.0,0.0
+2013,Zion,2807387.0,0.0,0.0
+2014,Zion,3189696.0,0.0,0.0
+2015,Zion,3648846.0,0.0,0.0
+2016,Zion,4295127.0,0.0,0.0
+2017,Zion,4504812.0,0.0,0.0
+2018,Zion,4320033.0,0.0,0.0
+2019,Zion,4488268.0,0.0,0.0
+2020,Zion,3591254.0,0.0,0.0
+2021,Zion,5039835.0,0.0,0.0
+2022,Zion,4692417.0,0.0,0.0
