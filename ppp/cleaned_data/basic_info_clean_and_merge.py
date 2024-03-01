@@ -1,65 +1,67 @@
 from pathlib import Path
 import pandas as pd
 
-# Function to find a partial match in the park names
 def match_park_names(cleaned_name, other_names):
+    """
+    Finds a partial match in the park names.
+
+    Args:
+        cleaned_name (str): The cleaned park name to match.
+        other_names (pd.Series): A pandas Series containing park names 
+                                to match against.
+
+    Returns:
+        str or None: The matched park name if found, otherwise None.
+    """
     for other_name in other_names:
         if cleaned_name in other_name:
             return other_name
     return None
 
-# Define the file paths using pathlib
-cleaned_nps_path = Path('ppp/cleaned_data/cleaned_nps_info.csv')
-dmr_2023_path = Path('/hazards/cleaned_data/dmr-2023.csv')
-merged_file_path = Path('ppp/cleaned_data/cleaned_nps_info.csv')
-orphaned_wells_path = Path('/hazards/cleaned_data/orphaned_wells.csv')
+def merge_datasets(left_df, right_df, left_on, right_on, output_file):
+    """
+    Merges two DataFrames based on specified columns and 
+    appends the result to a CSV file.
 
-# Load the datasets
+    Args:
+        left_df (pd.DataFrame): The left DataFrame.
+        right_df (pd.DataFrame): The right DataFrame.
+        left_on (str): The column name in the left DataFrame to merge on.
+        right_on (str): The column name in the right DataFrame to merge on.
+        output_file (str): The path to save the merged DataFrame as a CSV file.
+    """
+    merged_df = pd.merge(left_df,
+                         right_df,
+                         left_on=left_on,
+                         right_on=right_on,
+                         how='left',
+                         suffixes=('', '_right'))
+
+    # Check if the output file exists
+    file_exists = Path(output_file).exists()
+
+    # Write the DataFrame to CSV
+    merged_df.to_csv(output_file, mode='a', index=False, header=not file_exists)
+
+cleaned_nps_path = Path('ppp/cleaning/data/cleaned_nps_info.csv')
+orphaned_wells_path = Path('ppp/cleaning/data/hazards_cleaned/orphaned_wells.csv')
+dmr_2023_path = Path('ppp/cleaning/data/hazards_cleaned/dmr-2023.csv')
+
+output_file_path = Path('ppp/cleaning/data/cleaned_nps_info.csv')
+
+# Load datasets
 cleaned_nps_df = pd.read_csv(cleaned_nps_path)
 orphaned_wells_df = pd.read_csv(orphaned_wells_path)
-
-# Match park names
-cleaned_nps_df['matched_park_name'] = cleaned_nps_df['Park Name'].apply(
-    lambda x: match_park_names(x, orphaned_wells_df['park_name']))
-
-# Merge the dataframes
-merged_df = pd.merge(cleaned_nps_df,
-                     orphaned_wells_df,
-                     left_on='matched_park_name',
-                     right_on='park_name',
-                     how='left')
-
-# Drop unnecessary columns
-columns_to_drop = ['Unnamed: 0', 'park_id', 'park_name', 'matched_park_name']
-merged_df.drop(columns=columns_to_drop, inplace=True, errors='ignore')
-
-# Fill NaN values
-merged_df['abandoned_wells_count'] = merged_df['abandoned_wells_count'].fillna(merged_df['Abandoned_wells_count'])
-merged_df.drop(columns=['Abandoned_wells_count'], inplace=True)
-merged_df['state'] = merged_df['state'].fillna(merged_df['State'])
-merged_df.drop(columns=['State'], inplace=True)
-
-# Save the final merged dataframe to a CSV file
-merged_df.to_csv(merged_file_path, index=False)
-
-
-# Load the datasets
 dmr_2023_df = pd.read_csv(dmr_2023_path)
 
-# Create a new column for the partial matches
-cleaned_nps_df['matched_park_name'] = cleaned_nps_df['Park Name'].apply(
-    lambda x: match_park_names(x, dmr_2023_df['Park Name']))
+# Merge cleaned_nps_df with orphaned_wells_df
+cleaned_nps_df['matched_park_name'] = cleaned_nps_df['Park Name'].apply(lambda x: 
+                        match_park_names(x, orphaned_wells_df['park_name']))
+merge_datasets(cleaned_nps_df, orphaned_wells_df, 'matched_park_name', 
+               'park_name', output_file_path)
 
-# Perform the merge
-merged_df = pd.merge(cleaned_nps_df,
-                     dmr_2023_df,
-                     left_on='matched_park_name',
-                     right_on='Park Name',
-                     how='left',
-                     suffixes=('', '_dmr'))
-
-# Drop the unmatched columns and the temporary matched_park_name column
-merged_df.drop(columns=['matched_park_name', 'Park Name_dmr'], inplace=True, errors='ignore')
-
-# Save the merged dataframe
-merged_df.to_csv(merged_file_path, index=False)
+# Merge 
+cleaned_nps_df['matched_park_name'] = cleaned_nps_df['Park Name'].apply(lambda x: 
+                                match_park_names(x, dmr_2023_df['Park Name']))
+merge_datasets(cleaned_nps_df, dmr_2023_df, 'matched_park_name', 'Park Name', 
+               output_file_path)
