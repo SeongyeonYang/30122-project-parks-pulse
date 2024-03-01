@@ -13,6 +13,8 @@ fastkml = "^0.12"
 cssselect = "^1.2.0"
 beautifulsoup4 = "^4.12.3"
 requests = "^2.31.0"
+seaborn = "^0.13.2"
+statsmodels = "^0.14.1"
 
 
 [build-system]
