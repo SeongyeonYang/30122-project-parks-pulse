@@ -2,7 +2,7 @@ import pathlib
 import geopandas
 import shapely
 import pandas as pd
-from scraper import get_light_data
+from scraper_light import get_light_data
 
 
 NO_NP_STATES = ["WI", "IA", "IL", "NE", "KS", "OK", "LA", "MS", "AL",
@@ -87,7 +87,7 @@ def process_light_pollution():
 
     time_series_by_park = standardized_df.groupby(["park_name", "year"])["light_pollution_ratio"].mean()
 
-    time_series_by_park.to_csv(pathlib.Path(__file__).parent / "cleaned_data/np-light-pollution-annual.csv", index=False)
+    time_series_by_park.to_csv(pathlib.Path(__file__).parent / "cleaned_data/np-light-pollution-annual.csv")
 
 
 def process_dmr():
@@ -103,7 +103,7 @@ def process_dmr():
 
     df_merged = df_merged.drop("Park Name", axis=1)
 
-    for i, row in df_merged.iterrows(): # not necessary. clean up code later
+    for i, row in df_merged.iterrows():
         park_name = row["parkName"]
         dmr2015 = row["totalDeferredMaintenance2015"]
         dmr2016 = row["totalDeferredMaintenance2016"]

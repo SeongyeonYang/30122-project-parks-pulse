@@ -25,7 +25,7 @@ def fire_mapping():
 
 
 def fire_processing():
-    filename = pathlib.Path(__file__).parent / "cleaned_data/np-fires.csv" # probably need to update path upon finalization
+    filename = pathlib.Path(__file__).parent / "cleaned_data/np-fires.csv"
     cols_to_use = ["park_name", "state", "discovery_date", "acres"]
     df = pd.read_csv(filename, usecols=cols_to_use)
 

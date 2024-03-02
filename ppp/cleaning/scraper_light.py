@@ -44,13 +44,11 @@ def parse_kml():
     return result
         
 
-def get_light_data(max=15):
+def get_light_data():
     result = []
     links = parse_kml()
 
     for park, observations in links.items():
-        if len(result) == max:
-            break
         for observation in observations:
             response = requests.get(observation, headers={"User-Agent": USER_AGENT})
             root = lxml.html.fromstring(response.text)
