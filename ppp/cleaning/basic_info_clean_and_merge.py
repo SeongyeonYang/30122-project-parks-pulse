@@ -45,7 +45,7 @@ def merge_datasets(left_df, right_df, left_on, right_on, output_file):
 
 cleaned_nps_path = Path(__file__).parents[1] / "cleaning/cleaned_data/cleaned_nps_info.csv"
 orphaned_wells_path = Path(__file__).parents[1] / "cleaning/cleaned_data/orphaned_wells.csv"
-dmr_2023_path = Path(__file__).parents[1] / "cleaning/cleaned_data/np-dmr-annual.csv"
+dmr_2023_path = Path(__file__).parents[1] / "cleaning/raw_data/dmr-2023.csv"
 output_file_path = Path(__file__).parents[1] / "cleaning/cleaned_data/cleaned_nps_info.csv"
 
 # Load datasets
