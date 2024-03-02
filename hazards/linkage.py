@@ -20,11 +20,6 @@ def fire_mapping():
                     break
                 break
 
-<<<<<<< HEAD
-    fire.to_csv("np-fire.csv")
-
-# need to process this (delete none obs, recategorize by park and fire counts)
-=======
     fire.dropna(inplace=True)
     fire.to_csv(pathlib.Path(__file__).parent / "cleaned_data/np-fires.csv", index=False)
 
@@ -42,4 +37,3 @@ def fire_processing():
 
     time_series_count.to_csv(pathlib.Path(__file__).parent / "cleaned_data/np-fires-annual.csv", index=False)
     time_series_acres.to_csv(pathlib.Path(__file__).parent / "cleaned_data/np-fires-annual-acres.csv", index=False)
->>>>>>> mnghiem-clean
