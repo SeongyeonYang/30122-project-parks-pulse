@@ -2,8 +2,8 @@ import pandas as pd
 from pathlib import Path
 
 # Base directory for input and output files
-input_base_dir = Path('ppp/raw_data/nps_spending')
-output_base_dir = Path('ppp/cleaning/data/cleaned_nps_spending')
+input_base_dir = Path(__file__).parents[1] / "cleaning/raw_data/nps_spending"
+output_base_dir = Path(__file__).parents[1] / "cleaning/cleaned_data/cleaned_nps_spending"
 
 # Define the list of national parks for filtering
 national_parks_list = [
