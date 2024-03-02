@@ -244,7 +244,7 @@ def generate_state_visitation_plots(file_path, nps_info_path):
     Generates and saves plots showing yearly difference in visitation for 
     parks in each state.
 
-    Parameters:
+    Args:
     - time_series_path (str): The file path to the time series data.
     - nps_info_path (str): The file path to the NPS info data.
     """
