@@ -1,6 +1,7 @@
 import csv
 import requests
 from bs4 import BeautifulSoup
+from pathlib import Path
 
 def scrape_national_parks_size(url):
     response = requests.get(url)
@@ -22,7 +23,7 @@ def scrape_national_parks_size(url):
 
     return parks_size
 
-def save_to_file(data, filename = 'national_parks_size.csv'):
+def save_to_file(data, filename):
     with open(filename, 'w', newline='') as file:
         writer = csv.writer(file)
         writer.writerow(['Park Name', 'Size(Acres)'])
@@ -31,4 +32,5 @@ def save_to_file(data, filename = 'national_parks_size.csv'):
 
 url = 'https://www.terragalleria.com/parks/info/national-parks-by-area.html'
 data = scrape_national_parks_size(url)
-save_to_file(data)
+output_file = Path(__file__).parent / 'cleaned_data' / 'national_parks_size.csv'
+save_to_file(data, filename = output_file)
