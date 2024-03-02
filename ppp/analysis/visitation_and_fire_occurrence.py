@@ -2,9 +2,14 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
+from pathlib import Path
+
+input_path = Path(__file__).parent.parent / 'cleaning' / 'cleaned_data' / 'cleaned_time_series_all.csv'
+output_path1 = Path(__file__).parent.parent / 'cleaning' / 'cleaned_data' / 'parks_fire_occurrence.csv'
+output_path2 = Path(__file__).parent/ 'visualizations' / 'Fire Occurrences vs. Next Year\'s Visitation.png'
 
 # Load the complete data
-data = pd.read_csv('../../cleaned_data/cleaned_time_series_all.csv')
+data = pd.read_csv(input_path)
 
 # Dropping unnecessary columns
 data_cleaned = data.drop(['Unnamed: 0', 'Spending', 'temp_avg', 'precip_sum', \
@@ -18,7 +23,7 @@ data_cleaned[['acres', 'count']] = data_cleaned[['acres', 'count']].fillna(0)
 data_cleaned.dropna(subset=['Visitation'], inplace=True)
 
 # Exporting the cleaned dataset to a new CSV file
-data_cleaned.to_csv('../../cleaned_data/parks_fire_occurrence.csv', index=False)
+data_cleaned.to_csv(output_path1, index=False)
 
 
 # Aggregate the total fire occurrences by year across all parks
@@ -77,4 +82,4 @@ for i, park in enumerate(parks_with_occurrences, 1):
 
 plt.tight_layout(pad=3.0)
 plt.suptitle('Fire Occurrences vs. Next Year\'s Visitation', fontsize=16, y=1.05 + 0.05*rows)
-plt.savefig('../visualizations/Fire Occurrences vs. Next Year\'s Visitation.png')
+plt.savefig(output_path2)
