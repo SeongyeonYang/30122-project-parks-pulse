@@ -1,4 +1,5 @@
 import pandas as pd
+import pathlib
 
 # Function to clean park names and standardize year columns
 def prepare_dataframe(df, park_name_col='park_name', year_col='year'):
@@ -8,16 +9,17 @@ def prepare_dataframe(df, park_name_col='park_name', year_col='year'):
     return df
 
 # Load and prepare the time series data
-time_series = pd.read_csv("ppp/cleaned_data/cleaned_time_series.csv")
+filepath = pathlib.Path(__file__).parent / "cleaning/data/"
+time_series = pd.read_csv(f"{filepath}cleaned_time_series.csv")
 time_series = prepare_dataframe(time_series, 'Park Name', 'Year')
 
 # Datasets to process
 datasets = [
-    ("acres", "ppp/cleaned_data/np-fires-annual-acres.csv"),
-    ("count", "ppp/cleaned_data/np-fires-annual-count.csv"),
-    ("dmr", "ppp/cleaned_data/np-dmr-annual.csv", ['2015', '2016', 
+    ("acres", f"{filepath}np-fires-annual-acres.csv"),
+    ("count", f"{filepath}np-fires-annual-count.csv"),
+    ("dmr", f"{filepath}np-dmr-annual.csv", ['2015', '2016', 
                                         '2017', '2018', '2019', '2023']),
-    ("light", "ppp/cleaned_data/np-light-pollution-annual.csv")
+    ("light", f"{filepath}/np-light-pollution-annual.csv")
 ]
 
 # Process and merge each dataset
@@ -43,4 +45,4 @@ for name, path, *optional in datasets:
     time_series = time_series.merge(df, how='left', on=['Year', 'Park Name'])
 
 time_series.drop(columns=['Unnamed: 0'], inplace=True)
-time_series.to_csv("ppp/cleaned_data/cleaned_time_series_all.csv")
+time_series.to_csv(f"{filepath}cleaned_time_series_all.csv")

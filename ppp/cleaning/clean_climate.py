@@ -1,4 +1,5 @@
 import pandas as pd
+import pathlib
 
 df = pd.DataFrame()
 
@@ -27,13 +28,15 @@ def clean_climate(filename):
     }, inplace=True)
     return annual_data
 
+raw_filepath = pathlib.Path(__file__).parent / "raw_data/climate/"
 for i in range(1,10):
-    filename = f"ppp/raw_data/climate/climate_{i}.csv"
-    cleaned_data = clean_climate(filename)
+    cleaned_data = clean_climate(f"{raw_filepath}climate_{i}.csv")
     df = pd.concat([df, cleaned_data], ignore_index=True)
     
 df.sort_values(by=['Year', 'Park Name'])
 df['Park Name'].str.strip()
-output_filename = f"ppp/cleaned_data/climate/cleaned_climate.csv"
+
+output_path = pathlib.Path(__file__).parent / "cleaning/data/"
+output_filename = f"{output_path}cleaned_climate.csv"
 df.to_csv(output_filename, index=False)
 print(f"Annual data saved to {output_filename}")
