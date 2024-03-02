@@ -1,6 +1,7 @@
 ### 30122-project-parks-pulse
 
 # Project Directory Structure
+
 ├── ppp
 │   ├── analysis
 │   │   ├── visualizations
@@ -10,7 +11,7 @@
 │   │   ├── cleaned_data
 │   │   │   ├── cleaned_time_series_all.csv (all merged files based on time series)
 │   │   │   ├── cleaned_nps_info.csv (all merged files based on information)
-│   │   │   └── .py files about after cleaned (total 14)
+│   │   │   └── .py files about after cleaning (total 14)
 │   │   └── raw_data
 │   │       ├── climate
 │   │       ├── nps_spending
