@@ -1,25 +1,25 @@
                             OLS Regression Results                            
 ==============================================================================
-Dep. Variable:                log_dmr   R-squared:                       0.654
-Model:                            OLS   Adj. R-squared:                  0.651
-Method:                 Least Squares   F-statistic:                     287.0
-Date:                Fri, 01 Mar 2024   Prob (F-statistic):           9.84e-71
-Time:                        09:28:08   Log-Likelihood:                -396.37
-No. Observations:                 307   AIC:                             798.7
-Df Residuals:                     304   BIC:                             809.9
+Dep. Variable:                log_dmr   R-squared:                       0.664
+Model:                            OLS   Adj. R-squared:                  0.662
+Method:                 Least Squares   F-statistic:                     300.1
+Date:                Fri, 01 Mar 2024   Prob (F-statistic):           1.10e-72
+Time:                        16:56:33   Log-Likelihood:                -391.83
+No. Observations:                 307   AIC:                             789.7
+Df Residuals:                     304   BIC:                             800.8
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
+==================================================================================
+                     coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------
+Intercept          2.8762      0.602      4.779      0.000       1.692       4.061
+log_visitation     0.3875      0.038     10.153      0.000       0.312       0.463
+log_spending       1.0512      0.082     12.890      0.000       0.891       1.212
 ==============================================================================
-                 coef    std err          t      P>|t|      [0.025      0.975]
-------------------------------------------------------------------------------
-Intercept      2.8533      0.619      4.611      0.000       1.636       4.071
-log_visit      0.3921      0.039     10.130      0.000       0.316       0.468
-log_spend      1.0485      0.084     12.510      0.000       0.884       1.213
-==============================================================================
-Omnibus:                       11.118   Durbin-Watson:                   0.463
-Prob(Omnibus):                  0.004   Jarque-Bera (JB):               17.689
-Skew:                          -0.222   Prob(JB):                     0.000144
-Kurtosis:                       4.089   Cond. No.                         197.
+Omnibus:                       13.116   Durbin-Watson:                   0.463
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               23.146
+Skew:                          -0.232   Prob(JB):                     9.42e-06
+Kurtosis:                       4.263   Cond. No.                         194.
 ==============================================================================
 
 Notes:
