@@ -6,7 +6,7 @@ import numpy as np
 from pathlib import Path
 
 # Load the dataset
-file_path = Path('ppp/cleaning/data/cleaned_time_series_all.csv')
+file_path = Path(__file__).parents[1] / "cleaning/cleaned_data/cleaned_time_series_all.csv"
 data = pd.read_csv(file_path)
 data.head()
 
