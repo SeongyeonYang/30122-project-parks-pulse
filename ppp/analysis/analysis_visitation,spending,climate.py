@@ -238,7 +238,7 @@ def compare_covid_period(data):
     return summary_2020_2022, summary_pre_2020
 
 
-# Yearly visitation trend per State
+# 6. Yearly visitation trend per State
 def generate_state_visitation_plots(file_path, nps_info_path):
     """
     Generates and saves plots showing yearly difference in visitation for 
