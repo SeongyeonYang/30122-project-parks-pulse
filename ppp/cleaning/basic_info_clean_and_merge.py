@@ -43,11 +43,10 @@ def merge_datasets(left_df, right_df, left_on, right_on, output_file):
     # Write the DataFrame to CSV
     merged_df.to_csv(output_file, mode='a', index=False, header=not file_exists)
 
-cleaned_nps_path = Path('ppp/cleaning/data/cleaned_nps_info.csv')
-orphaned_wells_path = Path('ppp/cleaning/data/hazards_cleaned/orphaned_wells.csv')
-dmr_2023_path = Path('ppp/cleaning/data/hazards_cleaned/dmr-2023.csv')
-
-output_file_path = Path('ppp/cleaning/data/cleaned_nps_info.csv')
+cleaned_nps_path = Path(__file__).parents[1] / "cleaning/cleaned_data/cleaned_nps_info.csv"
+orphaned_wells_path = Path(__file__).parents[1] / "cleaning/cleaned_data/orphaned_wells.csv"
+dmr_2023_path = Path(__file__).parents[1] / "cleaning/data/hazards_cleaned/dmr-2023.csv"
+output_file_path = Path(__file__).parents[1] / "cleaning/cleaned_data/cleaned_nps_info.csv"
 
 # Load datasets
 cleaned_nps_df = pd.read_csv(cleaned_nps_path)
