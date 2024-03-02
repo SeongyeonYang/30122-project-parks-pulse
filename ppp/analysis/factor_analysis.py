@@ -196,7 +196,7 @@ def factor_analysis(df, df_scaled, df_eigen, year):
     df_ratio_var.head()
     # New completed dataframe
     df_ratio_variance = pd.concat([df_variance, df_ratio_var])
-    df_ratio_variance.to_csv(f'{csv_filepath}/factor_ratio.csv')
+    df_ratio_variance.to_csv(f'{csv_filepath}/{year}_factor_ratio.csv')
 
     # The factor scores
     df_factors = pd.DataFrame(data = fa.fit_transform(df_scaled),
@@ -226,7 +226,7 @@ def factor_analysis(df, df_scaled, df_eigen, year):
     # Above and below the average
     stat = ['Above' if i > df_index['Composite Index'].mean() else 'Below' for i in df_index['Composite Index']]
     df_index['Status'] = stat
-    df_index.to_csv(f'{csv_filepath}/factor_table.csv')
+    df_index.to_csv(f'{csv_filepath}/{year}_factor_table.csv')
 
     # Summary statistic
     df_index['Composite Index'].describe()
