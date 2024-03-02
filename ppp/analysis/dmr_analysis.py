@@ -7,7 +7,7 @@ from statsmodels.formula.api import ols
 
 
 def get_data():
-    filename = pathlib.Path(__file__).parents[1] / "cleaned_data/cleaned_time_series_all.csv"
+    filename = pathlib.Path(__file__).parents[1] / "cleaning/cleaned_data/cleaned_time_series_all.csv"
     cols_to_use = ["Year", "Park Name", "Spending", "Visitation", "dmr"]
     df = pd.read_csv(filename, usecols=cols_to_use)
 

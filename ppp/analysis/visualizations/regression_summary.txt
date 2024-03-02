@@ -3,8 +3,8 @@
 Dep. Variable:                log_dmr   R-squared:                       0.664
 Model:                            OLS   Adj. R-squared:                  0.662
 Method:                 Least Squares   F-statistic:                     300.1
-Date:                Fri, 01 Mar 2024   Prob (F-statistic):           1.10e-72
-Time:                        16:56:33   Log-Likelihood:                -391.83
+Date:                Sat, 02 Mar 2024   Prob (F-statistic):           1.10e-72
+Time:                        08:49:29   Log-Likelihood:                -391.83
 No. Observations:                 307   AIC:                             789.7
 Df Residuals:                     304   BIC:                             800.8
 Df Model:                           2                                         
