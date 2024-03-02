@@ -10,7 +10,10 @@ The project aims to analyze the U.S. National Parks System data to construct a c
 - Statsmodels
 - Pandas
 - Numpy
-- BeautifulSoup
+- BeautifulSoup4
+- geopandas
+- lxml
+- cssselect
 
 # Data Sources
 1.	DMR: https://www.pewtrusts.org/
