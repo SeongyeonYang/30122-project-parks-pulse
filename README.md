@@ -47,6 +47,13 @@ To get started with the Dashboard, follow these steps:
       - nps-boundary.geojson
 
 # Data Visualization Demo
+- Correlation Matrix of Visitation, Spending, and Climate Variables
+![Correlation Matrix of Visitation, Spending, and Climate Variables](ppp/analysis/visualizations/Correlation%20Matrix%20of%20Visitation%2C%20Spending%2C%20and%20Climate%20Variables.png)
+
+
+- Partial Regression Plot: DMR, Visitation, and Spending at NPs (2015-2019)
+![Regression Plot](ppp/analysis/visualizations/regression_plot.png)
+
 
 # Authors
 - Minh Nghiem 
