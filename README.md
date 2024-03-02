@@ -14,6 +14,7 @@ The project aims to analyze the U.S. National Parks System data to construct a c
 - geopandas
 - lxml
 - cssselect
+- fastkml
 
 # Data Sources
 1.	DMR: https://www.pewtrusts.org/
