@@ -1,64 +1,64 @@
-,park_id,park_name,state,abandoned_wells_within_30_miles,active_wells_in_parks,at_risk
-34,DRTO,Dry Tortugas National Park,FL,0,0.0,0.0
-37,BRCA,Bryce Canyon National Park,UT,1,0.0,0.0
-40,YELL,Yellowstone National Park,WY,0,0.0,0.0
-50,SEQU,Sequoia National Park,CA,0,0.0,0.0
-56,MACA,Mammoth Cave National Park,KY,1313,0.0,1.0
-62,GRBA,Great Basin National Park,NV,2,0.0,0.0
-71,CANY,Canyonlands National Park,UT,2,0.0,0.0
-88,BISC,Biscayne National Park,FL,0,0.0,0.0
-91,GUMO,Guadalupe Mountains National Park,TX,5,0.0,1.0
-98,JEFF,Gateway Arch National Park,MO,410,0.0,0.0
-116,KICA,Kings Canyon National Park,CA,0,0.0,0.0
-139,CARE,Capitol Reef National Park,UT,3,0.0,0.0
-152,PINN,Pinnacles National Park,CA,50,0.0,0.0
-175,LAVO,Lassen Volcanic National Park,CA,0,0.0,0.0
-187,MORA,Mount Rainier National Park,WA,0,0.0,0.0
-196,YOSE,Yosemite National Park,CA,0,0.0,0.0
-204,WICA,Wind Cave National Park,SD,1,0.0,0.0
-212,NOCA,North Cascades National Park,WA,0,0.0,0.0
-214,NPSA,National Park of American Samoa,AS,0,0.0,0.0
-215,VOYA,Voyageurs National Park,MN,0,0.0,0.0
-216,CONG,Congaree National Park,SC,0,0.0,0.0
-220,HALE,Haleakala National Park,HI,0,0.0,0.0
-224,CAVE,Carlsbad Caverns National Park,NM,198,0.0,1.0
-226,ZION,Zion National Park,UT,0,0.0,0.0
-233,THRO,Theodore Roosevelt National Park,ND,1585,0.0,1.0
-234,CRLA,Crater Lake National Park,OR,0,0.0,0.0
-236,GLAC,Glacier National Park,MT,4,0.0,0.0
-245,GRTE,Grand Teton National Park,WY,0,0.0,1.0
-249,GRSA,Great Sand Dunes National Park,CO,0,0.0,1.0
-254,BLCA,Black Canyon of the Gunnison National Park,CO,1,0.0,0.0
-260,BIBE,Big Bend National Park,TX,0,0.0,0.0
-268,ARCH,Arches National Park,UT,2,0.0,0.0
-273,GRCA,Grand Canyon National Park,AZ,1,0.0,0.0
-279,HAVO,Hawai'i Volcanoes National Park,HI,0,0.0,0.0
-282,CUVA,Cuyahoga Valley National Park,OH,10,30.0,0.0
-283,WRST,Wrangell-St. Elias National Park,AK,0,0.0,0.0
-285,GLBA,Glacier Bay National Park,AK,0,0.0,0.0
-287,KATM,Katmai National Park,AK,0,0.0,0.0
-288,KEFJ,Kenai Fjords National Park,AK,0,0.0,0.0
-296,GAAR,Gates of the Arctic National Park,AK,0,0.0,0.0
-298,KOVA,Kobuk Valley National Park,AK,0,0.0,0.0
-302,LACL,Lake Clark National Park,AK,0,0.0,0.0
-307,JOTR,Joshua Tree National Park,CA,6,0.0,0.0
-311,EVER,Everglades National Park,FL,8,0.0,1.0
-314,BADL,Badlands National Park,SD,0,0.0,0.0
-319,PEFO,Petrified Forest National Park,AZ,2,0.0,0.0
-327,VIIS,Virgin Islands National Park,VI,0,0.0,0.0
-330,OLYM,Olympic National Park,WA,0,0.0,0.0
-334,REDW,Redwood National Park,CA,0,0.0,0.0
-335,SHEN,Shenandoah National Park,VA,0,0.0,0.0
-336,ACAD,Acadia National Park,ME,0,0.0,0.0
-349,GRSM,Great Smoky Mountains National Park,NC,0,0.0,0.0
-350,NERI,New River Gorge National River,VA,738,0.0,0.0
-355,ISRO,Isle Royale National Park,MI,0,0.0,0.0
-359,WHSA,White Sands National Park,NM,0,0.0,0.0
-362,DEVA,Death Valley National Park,CA,0,0.0,0.0
-364,INDU,Indiana Dunes National Park,IN,18,0.0,0.0
-371,HOSP,Hot Springs National Park,AR,18,0.0,0.0
-403,CHIS,Channel Islands National Park,CA,1920,0.0,0.0
-406,DENA,Denali National Park,AK,0,0.0,0.0
-415,MEVE,Mesa Verde National Park,CO,98,0.0,1.0
-418,ROMO,Rocky Mountain National Park,CO,2,0.0,0.0
-424,SAGU,Saguaro National Park,AZ,0,0.0,0.0
+park_id,park_name,state,abandoned_wells_within_30_miles,active_wells_in_parks,at_risk
+DRTO,Dry Tortugas National Park,FL,0,0.0,0.0
+BRCA,Bryce Canyon National Park,UT,1,0.0,0.0
+YELL,Yellowstone National Park,WY,0,0.0,0.0
+SEQU,Sequoia National Park,CA,0,0.0,0.0
+MACA,Mammoth Cave National Park,KY,1313,0.0,1.0
+GRBA,Great Basin National Park,NV,2,0.0,0.0
+CANY,Canyonlands National Park,UT,2,0.0,0.0
+BISC,Biscayne National Park,FL,0,0.0,0.0
+GUMO,Guadalupe Mountains National Park,TX,5,0.0,1.0
+JEFF,Gateway Arch National Park,MO,410,0.0,0.0
+KICA,Kings Canyon National Park,CA,0,0.0,0.0
+CARE,Capitol Reef National Park,UT,3,0.0,0.0
+PINN,Pinnacles National Park,CA,50,0.0,0.0
+LAVO,Lassen Volcanic National Park,CA,0,0.0,0.0
+MORA,Mount Rainier National Park,WA,0,0.0,0.0
+YOSE,Yosemite National Park,CA,0,0.0,0.0
+WICA,Wind Cave National Park,SD,1,0.0,0.0
+NOCA,North Cascades National Park,WA,0,0.0,0.0
+NPSA,National Park of American Samoa,AS,0,0.0,0.0
+VOYA,Voyageurs National Park,MN,0,0.0,0.0
+CONG,Congaree National Park,SC,0,0.0,0.0
+HALE,Haleakala National Park,HI,0,0.0,0.0
+CAVE,Carlsbad Caverns National Park,NM,198,0.0,1.0
+ZION,Zion National Park,UT,0,0.0,0.0
+THRO,Theodore Roosevelt National Park,ND,1585,0.0,1.0
+CRLA,Crater Lake National Park,OR,0,0.0,0.0
+GLAC,Glacier National Park,MT,4,0.0,0.0
+GRTE,Grand Teton National Park,WY,0,0.0,1.0
+GRSA,Great Sand Dunes National Park,CO,0,0.0,1.0
+BLCA,Black Canyon of the Gunnison National Park,CO,1,0.0,0.0
+BIBE,Big Bend National Park,TX,0,0.0,0.0
+ARCH,Arches National Park,UT,2,0.0,0.0
+GRCA,Grand Canyon National Park,AZ,1,0.0,0.0
+HAVO,Hawai'i Volcanoes National Park,HI,0,0.0,0.0
+CUVA,Cuyahoga Valley National Park,OH,10,30.0,0.0
+WRST,Wrangell-St. Elias National Park,AK,0,0.0,0.0
+GLBA,Glacier Bay National Park,AK,0,0.0,0.0
+KATM,Katmai National Park,AK,0,0.0,0.0
+KEFJ,Kenai Fjords National Park,AK,0,0.0,0.0
+GAAR,Gates of the Arctic National Park,AK,0,0.0,0.0
+KOVA,Kobuk Valley National Park,AK,0,0.0,0.0
+LACL,Lake Clark National Park,AK,0,0.0,0.0
+JOTR,Joshua Tree National Park,CA,6,0.0,0.0
+EVER,Everglades National Park,FL,8,0.0,1.0
+BADL,Badlands National Park,SD,0,0.0,0.0
+PEFO,Petrified Forest National Park,AZ,2,0.0,0.0
+VIIS,Virgin Islands National Park,VI,0,0.0,0.0
+OLYM,Olympic National Park,WA,0,0.0,0.0
+REDW,Redwood National Park,CA,0,0.0,0.0
+SHEN,Shenandoah National Park,VA,0,0.0,0.0
+ACAD,Acadia National Park,ME,0,0.0,0.0
+GRSM,Great Smoky Mountains National Park,NC,0,0.0,0.0
+NERI,New River Gorge National River,VA,738,0.0,0.0
+ISRO,Isle Royale National Park,MI,0,0.0,0.0
+WHSA,White Sands National Park,NM,0,0.0,0.0
+DEVA,Death Valley National Park,CA,0,0.0,0.0
+INDU,Indiana Dunes National Park,IN,18,0.0,0.0
+HOSP,Hot Springs National Park,AR,18,0.0,0.0
+CHIS,Channel Islands National Park,CA,1920,0.0,0.0
+DENA,Denali National Park,AK,0,0.0,0.0
+MEVE,Mesa Verde National Park,CO,98,0.0,1.0
+ROMO,Rocky Mountain National Park,CO,2,0.0,0.0
+SAGU,Saguaro National Park,AZ,0,0.0,0.0
