@@ -1,16 +1,4 @@
-import webbrowser
-import os
-import pathlib
 
-ana_filepath = pathlib.Path(__file__).parent
-vis_filepath = pathlib.Path(__file__).parent.parent / "analysis/visualizations/"
-
-
-def generate_html():
-    regression_summary = f'{vis_filepath}/regression_summary.txt'
-    with open(regression_summary, 'r') as file:
-        regression_content = file.read()
-    html_content = f"""
     <!DOCTYPE html>
     <html>
     <head>
@@ -38,35 +26,35 @@ Our analysis unfolds in three main sections: </p>
             <p>Some text for analysis...</p>
                 <div style="display: flex; justify-content: center;">
                     <figure style="text-align: center; margin-left: auto; margin-right: auto;">
-                        <img src="{vis_filepath}/Total Fire Occurrences Trend Over the Years of All Parks.png" alt="Climate Spending and Visitation Graph" style="width: 50%; height: auto;">
+                        <img src="/Users/yihuai/Documents/yihuai/uchi/winter/capp30122/30122-project-parks-pulse/ppp/analysis/visualizations/Total Fire Occurrences Trend Over the Years of All Parks.png" alt="Climate Spending and Visitation Graph" style="width: 50%; height: auto;">
                     <figcaption>Figure 1. Total Fire Occurrences Trend Over the Years</figcaption>
                     </figure>
                 </div>
             <p>Some text for analysis...</p>
                 <div style="display: flex; justify-content: center;">
                     <figure style="text-align: center; margin-left: auto; margin-right: auto;">
-                        <img src="{vis_filepath}/Average Temperature Over Years by Region.png" alt="Descriptive Statistics Graph" style="width: 60%; height: auto;">
+                        <img src="/Users/yihuai/Documents/yihuai/uchi/winter/capp30122/30122-project-parks-pulse/ppp/analysis/visualizations/Average Temperature Over Years by Region.png" alt="Descriptive Statistics Graph" style="width: 60%; height: auto;">
                     <figcaption>Figure 2. Average Temperature Over the Years by Region</figcaption>
                     </figure>                
                 </div>
             <p>Some text for analysis...</p>
                 <div style="display: flex; justify-content: center;">
                     <figure style="text-align: center; margin-left: auto; margin-right: auto;">
-                        <img src="{vis_filepath}/Precipitation Sum Over Years for Each Park.png" alt="Descriptive Statistics Graph" style="width: 60%; height: auto;">
+                        <img src="/Users/yihuai/Documents/yihuai/uchi/winter/capp30122/30122-project-parks-pulse/ppp/analysis/visualizations/Precipitation Sum Over Years for Each Park.png" alt="Descriptive Statistics Graph" style="width: 60%; height: auto;">
                     <figcaption>Figure 3. Precipitation Sum Over the Years for Each Park</figcaption>
                     </figure>                 
                 </div>
             <p>Some text for analysis...</p>
                 <div style="display: flex; justify-content: center;">
                     <figure style="text-align: center; margin-left: auto; margin-right: auto;">
-                        <img src="{vis_filepath}/Yearly Trends in National Park Visitation and Spending (2011-2022).png" alt="Descriptive Statistics Graph" style="width: 50%; height: auto;">
+                        <img src="/Users/yihuai/Documents/yihuai/uchi/winter/capp30122/30122-project-parks-pulse/ppp/analysis/visualizations/Yearly Trends in National Park Visitation and Spending (2011-2022).png" alt="Descriptive Statistics Graph" style="width: 50%; height: auto;">
                     <figcaption>Figure 4. Yearly Trends in National Park Visitation and Spending</figcaption>
                     </figure> 
                 </div>
             <p>Some text for analysis...</p>
                 <div style="display: flex; justify-content: center;">
                     <figure style="text-align: center; margin-left: auto; margin-right: auto;">
-                        <img src="{vis_filepath}/Correlation Matrix of Visitation, Spending, and Climate Variables (2011-2022).png" alt="Descriptive Statistics Graph" style="width: 60%; height: auto;">
+                        <img src="/Users/yihuai/Documents/yihuai/uchi/winter/capp30122/30122-project-parks-pulse/ppp/analysis/visualizations/Correlation Matrix of Visitation, Spending, and Climate Variables (2011-2022).png" alt="Descriptive Statistics Graph" style="width: 60%; height: auto;">
                     <figcaption>Figure 5. Correlation Matrix of Visitation, Spending, and Climate Variables</figcaption>
                     </figure> 
                 </div>
@@ -78,14 +66,39 @@ Our analysis unfolds in three main sections: </p>
             <p>Some text for analysis...</p>
             <div style="display: flex; justify-content: center;">
                 <figure style="text-align: center; margin-left: auto; margin-right: auto;">
-                    <pre>{regression_content}</pre>
+                    <pre>                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                log_dmr   R-squared:                       0.664
+Model:                            OLS   Adj. R-squared:                  0.662
+Method:                 Least Squares   F-statistic:                     300.1
+Date:                Sat, 02 Mar 2024   Prob (F-statistic):           1.10e-72
+Time:                        08:49:29   Log-Likelihood:                -391.83
+No. Observations:                 307   AIC:                             789.7
+Df Residuals:                     304   BIC:                             800.8
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==================================================================================
+                     coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------
+Intercept          2.8762      0.602      4.779      0.000       1.692       4.061
+log_visitation     0.3875      0.038     10.153      0.000       0.312       0.463
+log_spending       1.0512      0.082     12.890      0.000       0.891       1.212
+==============================================================================
+Omnibus:                       13.116   Durbin-Watson:                   0.463
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               23.146
+Skew:                          -0.232   Prob(JB):                     9.42e-06
+Kurtosis:                       4.263   Cond. No.                         194.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.</pre>
                     <figcaption>Table 1. Regression Analysis Summary</figcaption>
                 </figure> 
             </div>
             <p>Some text for analysis...</p>
             <div style="display: flex; justify-content: center;">
                 <figure style="text-align: center; margin-left: auto; margin-right: auto;">
-                    <img src="{vis_filepath}/regression_plot.png" alt="Descriptive Statistics Graph" style="width: 70%; height: auto;">
+                    <img src="/Users/yihuai/Documents/yihuai/uchi/winter/capp30122/30122-project-parks-pulse/ppp/analysis/visualizations/regression_plot.png" alt="Descriptive Statistics Graph" style="width: 70%; height: auto;">
                 <figcaption>Figure 6. Partial Regression Plot: DMR, Visitation and Spending</figcaption>
                 </figure> 
             </div>
@@ -241,14 +254,14 @@ Our analysis unfolds in three main sections: </p>
             </table>
             <div style="display: flex; justify-content: center;">
                 <figure style="text-align: center; margin-left: auto; margin-right: auto;">
-                    <img src="{vis_filepath}/2015_composite_index_distribution.png" style="width: 40%; height: auto;">
+                    <img src="/Users/yihuai/Documents/yihuai/uchi/winter/capp30122/30122-project-parks-pulse/ppp/analysis/visualizations/2015_composite_index_distribution.png" style="width: 40%; height: auto;">
                     <figcaption>Figure 7. Distribution of Composite Index in 2015</figcaption>
                 </figure>
             </div>
             
             <div style="display: flex; justify-content: center;">
                 <figure style="text-align: center; margin-left: auto; margin-right: auto;">
-                    <img src="{vis_filepath}/2015_Average Composite Index among Regions.png" alt="Factor Analysis Graph" style="width: 70%; height: auto;">
+                    <img src="/Users/yihuai/Documents/yihuai/uchi/winter/capp30122/30122-project-parks-pulse/ppp/analysis/visualizations/2015_Average Composite Index among Regions.png" alt="Factor Analysis Graph" style="width: 70%; height: auto;">
                     <figcaption>Figure 8. Average Composite Index among Regions in 2015</figcaption>
                 </figure>
             </div>
@@ -264,17 +277,4 @@ Our analysis unfolds in three main sections: </p>
 
     </body>
     </html>
-    """
-    
-    file_path = f'{ana_filepath}/analysis.html'
-    # Writing HTML content to output.html
-    with open(file_path, 'w') as html_file:
-        html_file.write(html_content)
-    print("HTML file has been generated successfully.")
-    # Construct a file URI for the HTML file
-    file_uri = f'file://{os.path.abspath(file_path)}'
-
-    # Open the HTML file in the default web browser
-    webbrowser.open(file_uri)
-    
     

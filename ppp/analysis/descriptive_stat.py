@@ -11,6 +11,10 @@ time_series_df = pd.read_csv(f'{csv_filepath}/cleaned_time_series_all.csv')
 park_code_df = pd.read_csv(f'{csv_filepath}/nps-parkcode.csv',
                            usecols=['SHORT','REGION'],  encoding='ISO-8859-1')
 park_code_df.rename(columns={"SHORT": "Park Name"}, inplace=True)
+park_code_df['Park Name'] = park_code_df['Park Name'].replace("National Park of American Samoa", "American Samoa")
+park_code_df['Park Name'] = park_code_df['Park Name'].replace("Hawai'i Volcanoes", "Hawaii Volcanoes")
+park_code_df['Park Name'] = park_code_df['Park Name'].replace("Wrangell-St. Elias", "Wrangell St Elias")
+
 # Preprocessing
 # Drop 2023,2024
 time_series_df = time_series_df[~time_series_df['Year'].isin([2023, 2024])]
