@@ -2,6 +2,7 @@ import pandas as pd
 import pathlib
 import numpy as np
 import matplotlib.pyplot as plt
+import seaborn as sns
 import statsmodels.api as sm
 from statsmodels.formula.api import ols
 
@@ -25,6 +26,19 @@ def get_data():
     df_final.dropna(inplace=True)
 
     return df_final
+
+
+def dmr_top_five():
+    filename = pathlib.Path(__file__).parents[1] / "cleaning/raw_data/dmr-2023.csv"
+    df = pd.read_csv(filename, usecols=["Park Name", "totalDeferredMaintenance2023"])
+
+    top_five = df.sort_values(['totalDeferredMaintenance2023'], ascending=False)[:5]
+    fig, ax = plt.subplots(figsize=(10, 6))
+    sns.barplot(data=top_five, x="totalDeferredMaintenance2023", y="Park Name", hue="Park Name", ax=ax)
+    ax.set_title("Top 5 NPs with highest Deferred Maintenance and Repair (2023)")
+    ax.set_xlabel("Deferred Maintenance and Repair (USD)")
+    plt.tight_layout()
+    plt.savefig(pathlib.Path(__file__).parent / "visualizations/dmr-top-five-2023.png")
 
 
 def regression():

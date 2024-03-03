@@ -1,7 +1,11 @@
 # project-parks-pulse
 
 # Description
-The project aims to analyze the U.S. National Parks System data to construct a composite measure of individual parks’ health status, which we will henceforth call the Park Health Index (PHI). To compute this index, we will examine and assign appropriate weight to various aspects of a park’s current state, including park usage, climate data, park management, and hazards. With this index, we will also look at NPS’s financial data to see if any interesting correlation can be observed. From individual time series data by parks unit, we are also interested in exploring trends in visitation and impact of climate change among parks over the last 13 years. The goal of this project is threefold: (1) spreading awareness of national parks’ health (snapshot and overtime), (2) uncovering patterns that might reveal useful information for assessment and evaluation of parks management, and (3) providing a benchmark to highlight risk areas to better inform policy-makers on parks conservation and resources allocation.
+National parks in the United States, often hailed as "America's best idea," have seen a notable surge in interest in recent years. This project aims to develop a comprehensive measure of individual park health, known as the Park Health Index (PHI), by analyzing the U.S. National Parks System (NPS) and other publicly available datasets. The PHI will consider various factors such as park usage, climate data, management practices, and potential hazards, assigning appropriate weights to each to provide a holistic view of a park's current condition.
+
+Furthermore, this project seeks to analyze trends in park visitation and the impact of climate change over a 10-year period (2011-2022) to offer insights into park management and conservation efforts. 
+
+By achieving these goals, the project aims to (1) raise awareness about the health of national parks, both as a snapshot and over time, (2) uncover patterns useful for assessing and evaluating park management, and (3) provide a benchmark to highlight areas of risk, enabling policymakers to make informed decisions regarding parks conservation and resource allocation.
 
 
 # Built with
@@ -26,22 +30,23 @@ The project aims to analyze the U.S. National Parks System data to construct a c
 
 # Getting Started
 To get started with the Dashboard, follow these steps:
-1.	Clone the repository: "git clone https://github.com/SeongyeonYang/30122-project-parks-pulse.git"
-2.	Run "poetry install" to install the necessary packages
-3.	Run "poetry shell" to activate the virtual environment
-4.	Run "python -m ppp" to open the visualization and analysis
+1.	Clone the repository: `git clone https://github.com/SeongyeonYang/30122-project-parks-pulse.git`
+2.	Run `poetry install` to install the necessary packages
+3.	Run `poetry shell` to activate the virtual environment
+4.	Run `python -m ppp` to open the visualization and analysis
 
 # Project Directory Structure
 - ppp
   - analysis
     - visualizations
     - app.py
-    - .py files about analysis (total 5)
+    - .py files about analysis (total 6)
   - cleaning
     - cleaned_data
       - cleaned_time_series_all.csv (all merged files based on time series)
       - cleaned_nps_info.csv (all merged files based on information)
       - .py files about cleaned data before merge into 2 files above (total 14)
+      - .py files about factor_ratio in 2015 and 2019 (total 4)
     - raw_data
       - climate
       - nps_spending
@@ -49,13 +54,21 @@ To get started with the Dashboard, follow these steps:
       - dmr-2023.csv
       - npca-orphaned-wells.csv
       - nps-boundary.geojson
+      - nps-nightsky-monitoring.kml
+      - nps-parkcode.csv
 
 # Data Visualization Demo
-- Correlation Matrix of Visitation, Spending, and Climate Variables (2011-2022)
-![Correlation Matrix of Visitation, Spending, and Climate Variables (2011-2022)](ppp/analysis/visualizations/Correlation%20Matrix%20of%20Visitation%2C%20Spending%2C%20and%20Climate%20Variables%20%282011-2022%29.png)
+- Scree Plot of eigen value from factor analysis
+![Correlation Matrix of Visitation, Spending, and Climate Variables (2011-2022)](ppp/analysis/visualizations/2015_scree_eigenvalue.png)
 
-- Partial Regression Plot: DMR, Visitation, and Spending at NPs (2015-2019)
-![Regression Plot](ppp/analysis/visualizations/regression_plot.png)
+- 2015_composite_index_distribution
+![Regression Plot](ppp/analysis/visualizations/2015_composite_index_distribution.png)
+
+- Average Temperature Over Years by Region
+![Regression Plot](ppp/analysis/visualizations/Average%20Temperature%20Over%20Years%20by%20Region.png)
+
+- Correlation Matrix of Visitation, Spending, and Climate Variables (2011-2022).png
+![Correlation Matrix](ppp/analysis/visualizations/Correlation%20Matrix%20of%20Visitation%2C%20Spending%2C%20and%20Climate%20Variables%20%282011-2022%29.png)
 
 
 # Authors
