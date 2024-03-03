@@ -58,11 +58,17 @@ To get started with the Dashboard, follow these steps:
       - nps-parkcode.csv
 
 # Data Visualization Demo
-- Correlation Matrix of Visitation, Spending, and Climate Variables (2011-2022)
-![Correlation Matrix of Visitation, Spending, and Climate Variables (2011-2022)](ppp/analysis/visualizations/Correlation%20Matrix%20of%20Visitation%2C%20Spending%2C%20and%20Climate%20Variables%20%282011-2022%29.png)
+- Scree Plot of eigen value from factor analysis
+![Correlation Matrix of Visitation, Spending, and Climate Variables (2011-2022)](ppp/analysis/visualizations/2015_scree_eigenvalue.png)
 
-- Partial Regression Plot: DMR, Visitation, and Spending at NPs (2015-2019)
-![Regression Plot](ppp/analysis/visualizations/regression_plot.png)
+- 2015_composite_index_distribution
+![Regression Plot](ppp/analysis/visualizations/2015_composite_index_distribution.png)
+
+- Average Temperature Over Years by Region
+![Regression Plot](ppp/analysis/visualizations/Average%20Temperature%20Over%20Years%20by%20Region.png)
+
+- Correlation Matrix of Visitation, Spending, and Climate Variables (2011-2022).png
+![Correlation Matrix](ppp/analysis/visualizations/Correlation%20Matrix%20of%20Visitation%2C%20Spending%2C%20and%20Climate%20Variables%20%282011-2022%29.png)
 
 
 # Authors
