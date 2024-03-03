@@ -44,7 +44,9 @@ time_series_df = pd.read_csv(f'{csv_filepath}/cleaned_time_series_all.csv')
 park_code_df = pd.read_csv(f'{csv_filepath}/nps-parkcode.csv',
                            usecols=['SHORT','REGION'],  encoding='ISO-8859-1')
 park_code_df.rename(columns={"SHORT": "Park Name"}, inplace=True)
-
+park_code_df['Park Name'] = park_code_df['Park Name'].replace("National Park of American Samoa", "American Samoa")
+park_code_df['Park Name'] = park_code_df['Park Name'].replace("Hawai'i Volcanoes", "Hawaii Volcanoes")
+park_code_df['Park Name'] = park_code_df['Park Name'].replace("Wrangell-St. Elias", "Wrangell St Elias")
 # Divided the baseline year temp
 avg_temp_2011 = time_series_df[time_series_df['Year'] == 2011]. \
     groupby('Park Name')['temp_avg'].mean().reset_index()
@@ -258,3 +260,16 @@ year = 2019
 scaled_2019 = data_prep(df_merge2019)
 df_eigen = adequacy_test(scaled_2019, year)
 factor_analysis(df_merge2019, scaled_2019, df_eigen, year)
+
+# Region average score
+index_2015 = pd.read_csv(f'{csv_filepath}/2015_factor_table.csv', usecols=['Park Name', 'REGION', 'Composite Index']).drop_duplicates()
+
+average_composite_index = index_2015.groupby('REGION')['Composite Index'].mean().reset_index()
+plt.figure()
+sns.barplot(x='REGION', y='Composite Index', 
+                data=average_composite_index, palette='viridis')
+plt.xlabel('Region')
+plt.ylabel('Average Composite Index')
+plt.title('Average Composite Index among Regions')
+plt.xticks(rotation=45)  # Rotate the region names for better readability
+plt.savefig(f'{vis_filepath}/2015_Average Composite Index among Regions.png')
