@@ -30,10 +30,10 @@ By achieving these goals, the project aims to (1) raise awareness about the heal
 
 # Getting Started
 To get started with the Dashboard, follow these steps:
-1.	Clone the repository: "git clone https://github.com/SeongyeonYang/30122-project-parks-pulse.git"
-2.	Run "poetry install" to install the necessary packages
-3.	Run "poetry shell" to activate the virtual environment
-4.	Run "python -m ppp" to open the visualization and analysis
+1.	Clone the repository: `git clone https://github.com/SeongyeonYang/30122-project-parks-pulse.git`
+2.	Run `poetry install` to install the necessary packages
+3.	Run `poetry shell` to activate the virtual environment
+4.	Run `python -m ppp` to open the visualization and analysis
 
 # Project Directory Structure
 - ppp
