@@ -104,9 +104,9 @@ Our analysis unfolds in three main sections: </p>
             <h2>3. Factor Analysis</h2>
             <p>The index was constructed using factor analysis method, where variables’ common variance is examined to identify the optimally weighted linear combination of factors. 
             As dimensions/variables are reduced, an aggregate score is produced based on these weighted factors to describe different aspects of the dataset.</p>
-            <p>Here is the 5 national parks that have the highest index in 2015:</p>
+            <p>Here is the 5 national parks that have the lowest index in 2015:</p>
             <table style="border-collapse: collapse; width: 60%; margin-left: auto; margin-right: auto;">
-                <caption style="font-weight: bold; text-align: center; padding: 8px;">Table 2: Top 5 National Park by PHI in 2015</caption>
+                <caption style="font-weight: bold; text-align: center; padding: 8px;">Table 2: Bottom 5 National Park by PHI in 2015</caption>
                 <thead>
                     <tr>
                         <th style="border-bottom: 2px solid black; padding: 8px;">Park Name</th>
@@ -121,54 +121,54 @@ Our analysis unfolds in three main sections: </p>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Yellowstone</td>
-                        <td>Intermountain</td>
-                        <td>0.216</td>
-                        <td>0.284</td>
-                        <td>0.008</td>
-                        <td>0.076</td>
-                        <td>0.056</td>
-                        <td>0.640</td>
-                    </tr>
-                    <tr>
-                        <td>Grand Canyon</td>
-                        <td>Intermountain</td>
-                        <td>0.287</td>
-                        <td>0.212</td>
-                        <td>0.095</td>
-                        <td>0.024</td>
-                        <td>0.015</td>
-                        <td>0.634</td>
-                    </tr>
-                    <tr>
-                        <td>Glacier</td>
-                        <td>Intermountain</td>
-                        <td>0.323</td>
-                        <td>0.096</td>
-                        <td>0.146</td>
+                        <td>Denali</td>
+                        <td>Alaska</td>
                         <td>0.000</td>
-                        <td>0.011</td>
-                        <td>0.575</td>
-                    </tr>
-                    <tr>
-                        <td>Yosemite</td>
-                        <td>Pacific West</td>
-                        <td>0.178</td>
-                        <td>0.271</td>
-                        <td>0.014</td>
-                        <td>0.067</td>
-                        <td>0.041</td>
-                        <td>0.571</td>
+                        <td>0.000</td>
+                        <td>0.132</td>
+                        <td>0.061</td>
+                        <td>0.044</td>
+                        <td>0.237</td>
                     </tr>
                     <tr>
                         <td>Crater Lake</td>
                         <td>Pacific West</td>
-                        <td>0.297</td>
+                        <td>0.043</td>
                         <td>0.058</td>
-                        <td>0.139</td>
-                        <td>0.001</td>
+                        <td>0.024</td>
+                        <td>0.132</td>
                         <td>0.008</td>
-                        <td>0.502</td>
+                        <td>0.265</td>
+                    </tr>
+                    <tr>
+                        <td>Glacier</td>
+                        <td>Intermountain</td>
+                        <td>0.017</td>
+                        <td>0.096</td>
+                        <td>0.018</td>
+                        <td>0.134</td>
+                        <td>0.011</td>
+                        <td>0.275</td>
+                    </tr>
+                    <tr>
+                        <td>Channel Islands</td>
+                        <td>Pacific West</td>
+                        <td>0.307</td>
+                        <td>0.103</td>
+                        <td>0.001</td>
+                        <td>0.000</td>
+                        <td>0.000</td>
+                        <td>0.412</td>
+                    </tr>
+                    <tr>
+                        <td>Theodore Roosevelt</td>
+                        <td>Midwest</td>
+                        <td>0.283</td>
+                        <td>0.086</td>
+                        <td>0.000</td>
+                        <td>0.022</td>
+                        <td>0.023</td>
+                        <td>0.414</td>
                     </tr>
                 </tbody>
                 <tfoot>
@@ -178,26 +178,33 @@ Our analysis unfolds in three main sections: </p>
                 </tfoot>
             </table>
             <p>The table outlines the index assigned to each park, as determined by the combination of nine out of twelve variables that we deem indicative of parks’ health, such as average temperature increase, acres burned from wildfire, wildfire count, proportion of water waste system over total facilities, deferred maintenance, etc. 
-            The model’s five factors that come out of these variables is able to explain 61.25% of variability in the original dataset.</p>
+            The model’s five factors that come out of these variables is able to explain 61.25% of variability in the original dataset.
+            The parks that are scored lowest in the system reflect the observations made above. Interestingly, while orphaned wells metric is not included in the final list of indicators used to construct the index, Theodore Roosevelt and Channel Island have the densest concentration of orphaned wells littered within parks’ 30 miles vicinity, hinting at potential health metrics that we are not yet able to capture with existing indicators with this model.</p>
+            
+            <div style="display: flex; justify-content: center;">
+                <figure style="text-align: center; margin-left: auto; margin-right: auto;">
+                    <img src="{vis_filepath}/2015_composite_index_distribution.png" alt="Factor Analysis Graph" style="width: 50%; height: auto;">
+                    <figcaption>Figure 7. Composite Index Distribution in 2015</figcaption>
+                </figure>
+            </div>
+
             <div style="display: flex; justify-content: center;">
                 <figure style="text-align: center; margin-left: auto; margin-right: auto;">
                     <img src="{vis_filepath}/2015_Average Composite Index among Regions.png" alt="Factor Analysis Graph" style="width: 70%; height: auto;">
-                    <figcaption>Figure 7. Average Composite Index among Regions in 2015</figcaption>
+                    <figcaption>Figure 8. Average Composite Index among Regions in 2015</figcaption>
                 </figure>
             </div>
             
-            <p>A few interesting observations: Highest score average goes to the Pacific West region where most of the well-known and well-funded parks are. Alaska has the lowest average composite scores across parks, most likely due to significant climate change impact. 
-            In addition, parks with high popularity seem to have high scores (which we know to be typically associated with more budget).</p>
+            <p>A few interesting observations: Highest average score of above 0.6 goes to the Eastern regions of the United States, though not overperforming their Midwest and Intermountain counterparts by a significant amount. Alaska has the lowest average composite scores across parks and with considerably lower index (barely making it past 0.5) than the rest of the regions, most likely due to significant climate change impact, shown most prominently through the spike in average temperature. Pacific West’s scores are on the lower side likely for similar reasons, apparent by relatively heightened fire activities, and rising temperature. In addition, this region contains parks that are among those with highest visit rates in 2015.
+</p>
             
         </section>
         
         <section>
         <h2>Conclusion</h2>
-        <p>We see that how overcrowding and downgraded infrastructure have considerable implication to parks’ wellbeing and not just visitors’ enjoyment, all caused by DMR.</p>
-        <p>Climate change generally not reflected per parks over short period of time, but we see that some parks located at certain areas are impacted more severely than others. 
-        More attention should be drawn to these, as it not only affects parks’ well-being, but also the local community that surrounds it.</p>
-        <p>Parks scores are fairly distributed across regions. We see lowest score for Alaska (though not by a significant amount of difference with other regions). 
-        More analysis can be done to identify potential issues other than climate change there.</p>
+        <p>From DMR measures, we see that overcrowding and downgraded infrastructure have considerable implication to parks’ wellbeing and not just visitors’ enjoyment.</p>
+        <p>CWhile climate change is generally not reflected per parks over such a short period of time, we see that some parks located at certain areas are impacted more severely than others. More attention should be drawn to these (islands, northwest), as it not only affects parks’ well-being, but also the local community that surrounds it.</p>
+        <p>Parks scores are distributed with slight distinctions across regions. While most parks (71%) seem to be performing above average with a nice left-skewed shaped bell, a selected few have their indexes at comparatively low extremes and could potentially hint at the need for closer examination and countermeasures in this riskier areas of the national parks system.</p>
         </section>
 
     </body>
