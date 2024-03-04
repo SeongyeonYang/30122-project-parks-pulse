@@ -97,6 +97,14 @@ def data_prep(df):
     scaler = MinMaxScaler()
     df_scaled = pd.DataFrame(data = scaler.fit_transform(df_fix),
                             columns = df_fix.columns)
+    # List of variables that have negative impact on park health
+    negative_impact_vars = ['Abandoned_wells_within_30_miles', 'Active_wells_in_parks', 'At_risk',
+                        'temp_avg', 'visibility', 'uvindex', 'acres', 'count', 'dmr']
+
+    # Invert the scaled values for negatively impacting variables
+    for var in negative_impact_vars:
+        df_scaled[var] = 1 - df_scaled[var]
+    
     return df_scaled
 
 def adequacy_test(df_scaled, year):
@@ -165,7 +173,6 @@ def adequacy_test(df_scaled, year):
         ylab('Eigenvalue')+
         theme_light()
     )
-
     # Save the graph
     scree_eigenvalue.save(filename = f'{vis_filepath}/{year}_scree_eigenvalue.png',
                         dpi = 1000,
@@ -272,4 +279,5 @@ plt.xlabel('Region')
 plt.ylabel('Average Composite Index')
 plt.title('Average Composite Index among Regions')
 plt.xticks(rotation=45)  # Rotate the region names for better readability
+plt.subplots_adjust(bottom=0.2)
 plt.savefig(f'{vis_filepath}/2015_Average Composite Index among Regions.png')
