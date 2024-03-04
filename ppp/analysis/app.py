@@ -4,8 +4,7 @@ import pathlib
 
 ana_filepath = pathlib.Path(__file__).parent
 vis_filepath = pathlib.Path(__file__).parent.parent / "analysis/visualizations/"
-print(ana_filepath)
-print(vis_filepath)
+
 
 def generate_html():
     regression_summary = f'{vis_filepath}/regression_summary.txt'
@@ -36,41 +35,48 @@ Our analysis unfolds in three main sections: </p>
         
         <section>
             <h2>1. Trend and Correlation Analysis</h2>
-            <p>Some text for analysis...</p>
                 <div style="display: flex; justify-content: center;">
                     <figure style="text-align: center; margin-left: auto; margin-right: auto;">
                         <img src="{vis_filepath}/Total Fire Occurrences Trend Over the Years of All Parks.png" alt="Climate Spending and Visitation Graph" style="width: 50%; height: auto;">
                     <figcaption>Figure 1. Total Fire Occurrences Trend Over the Years</figcaption>
                     </figure>
                 </div>
-            <p>Some text for analysis...</p>
+            <p>Fire occurrences see an overall declining trend over the 10-year period (2011-2022), peaking in 2014 with roughly 120 fires occurred in national parks before decreasing to 77 fires in 2022. 
+            While not shown on this graph, we find that while the size of fires does not necessarily trace this trend, fluctuating with no clear patterns, the overall acres burnt across all parks did take on a downward turn from 2011 to 2022. 
+            These patterns seem to be tracing the global trends of declining global areas burned by wildfire. It is difficult to quantify whether this is good or bad however, considering how fires could have mixed impact on parks, its inhabitants, and the local communities that surround them.</p>
                 <div style="display: flex; justify-content: center;">
                     <figure style="text-align: center; margin-left: auto; margin-right: auto;">
                         <img src="{vis_filepath}/Average Temperature Over Years by Region.png" alt="Descriptive Statistics Graph" style="width: 60%; height: auto;">
                     <figcaption>Figure 2. Average Temperature Growth Rate Over the Years by Region</figcaption>
                     </figure>                
                 </div>
-            <p>Some text for analysis...</p>
+            <p>Region-wise, while there is no clear pattern for the most part (attributable to too short a timeframe of observation), we could see a general increase in temperature in parks across different regions. 
+            Most notably, Alaska shows significant increase of almost 10% since 2011 (most pronounced is Denali National Park, though not shown in the figure). 
+            This suggests how geographical properties could lead to parks being affected disproportionately by climate change, how Alaska stands at the forefront of global warming, and how parks are especially sensitive to it.</p>
                 <div style="display: flex; justify-content: center;">
                     <figure style="text-align: center; margin-left: auto; margin-right: auto;">
                         <img src="{vis_filepath}/Precipitation Sum Over Years for Each Park.png" alt="Descriptive Statistics Graph" style="width: 60%; height: auto;">
                     <figcaption>Figure 3. Precipitation Sum Over the Years for Each Park</figcaption>
                     </figure>                 
                 </div>
-            <p>Some text for analysis...</p>
+            <p>American Samoa National Park experiences a surge in precipitation/rainfall throughout the period observed of just 10 years. 
+            This radical change in rain patterns within national parks are especially indicative of how the area as a whole is impacted by climate change, and has great implications on how the communities in it could be put at risk (in this case: rising sea level, flooding… that affect coastal resilience of the park and its inhabitants alike).</p>
                 <div style="display: flex; justify-content: center;">
                     <figure style="text-align: center; margin-left: auto; margin-right: auto;">
                         <img src="{vis_filepath}/Yearly Trends in National Park Visitation and Spending (2011-2022).png" alt="Descriptive Statistics Graph" style="width: 50%; height: auto;">
                     <figcaption>Figure 4. Yearly Trends in National Park Visitation and Spending</figcaption>
                     </figure> 
                 </div>
-            <p>Some text for analysis...</p>
+
                 <div style="display: flex; justify-content: center;">
                     <figure style="text-align: center; margin-left: auto; margin-right: auto;">
                         <img src="{vis_filepath}/Correlation Matrix of Visitation, Spending, and Climate Variables (2011-2022).png" alt="Descriptive Statistics Graph" style="width: 60%; height: auto;">
                     <figcaption>Figure 5. Correlation Matrix of Visitation, Spending, and Climate Variables</figcaption>
                     </figure> 
                 </div>
+            <p>The graph shows the changes in the number of visitors to national parks from 2011 to 2022 seems to follow budget spent on parks for corresponding years. 
+            There appears to be a general upward trend in visitation, suggesting an increasing interest in national parks. This could be due to various factors, such as the rising popularity of outdoor activities, improvements in park accessibility, or enhanced awareness and promotion of national parks. Like visitation trend, spending also shows an upward trajectory, which likely correlates with the increase in visitors, which is shown in the correlation heatmap.
+            When comparing the averages from 2020-2022 with those before 2020, we see a post-pandemic surge in visitation never seen before at national parks, peaking in 2021 with over 9.1 million visits across all parks.</p>            
         </section>
         
         <section>
@@ -83,17 +89,21 @@ Our analysis unfolds in three main sections: </p>
                     <figcaption>Table 1. Regression Analysis Summary</figcaption>
                 </figure> 
             </div>
-            <p>Some text for analysis...</p>
             <div style="display: flex; justify-content: center;">
                 <figure style="text-align: center; margin-left: auto; margin-right: auto;">
                     <img src="{vis_filepath}/regression_plot.png" alt="Descriptive Statistics Graph" style="width: 70%; height: auto;">
                 <figcaption>Figure 6. Partial Regression Plot: DMR, Visitation and Spending</figcaption>
                 </figure> 
             </div>
+            <p>Noticing an interesting correlation between deferred maintenance and repairs (DMR) and visitation, we ran a regression analysis of DMR on visitation across parks, controlling for spending. The model’s variables are able to explain 66.2% of the variation in DMR in parks. Using log-log regression, we are able to interpret the result such that an increase of 1% in visitation is associated with an 0.38% increase in DMR, controlling for spending (statistically significant). 
+            Because DMR is closely tied with visits to parks and can have important implications to parks’ state (for example, surges in visit can expose parks to downgraded facilities and impairment that could interfere with its ecosystem), this could be useful in assessing the problem of overcrowding at parks, how park infrastructures could be put at risk, and how budget allocation could be calibrated based on individual parks’ rate of increase in visitation.</p>
+            
         </section>
         
         <section>
             <h2>3. Factor Analysis</h2>
+            <p>The index was constructed using factor analysis method, where variables’ common variance is examined to identify the optimally weighted linear combination of factors. 
+            As dimensions/variables are reduced, an aggregate score is produced based on these weighted factors to describe different aspects of the dataset.</p>
             <p>Here is the 5 national parks that have the highest index in 2015:</p>
             <table style="border-collapse: collapse; width: 60%; margin-left: auto; margin-right: auto;">
                 <caption style="font-weight: bold; text-align: center; padding: 8px;">Table 2: Top 5 National Park by PHI in 2015</caption>
@@ -167,7 +177,8 @@ Our analysis unfolds in three main sections: </p>
                     </tr>
                 </tfoot>
             </table>
-            
+            <p>The table outlines the index assigned to each park, as determined by the combination of nine out of twelve variables that we deem indicative of parks’ health, such as average temperature increase, acres burned from wildfire, wildfire count, proportion of water waste system over total facilities, deferred maintenance, etc. 
+            The model’s five factors that come out of these variables is able to explain 61.25% of variability in the original dataset.</p>
             <div style="display: flex; justify-content: center;">
                 <figure style="text-align: center; margin-left: auto; margin-right: auto;">
                     <img src="{vis_filepath}/2015_Average Composite Index among Regions.png" alt="Factor Analysis Graph" style="width: 70%; height: auto;">
@@ -175,13 +186,18 @@ Our analysis unfolds in three main sections: </p>
                 </figure>
             </div>
             
-            <p>Some text for analysis...</p>
+            <p>A few interesting observations: Highest score average goes to the Pacific West region where most of the well-known and well-funded parks are. Alaska has the lowest average composite scores across parks, most likely due to significant climate change impact. 
+            In addition, parks with high popularity seem to have high scores (which we know to be typically associated with more budget).</p>
             
         </section>
         
         <section>
         <h2>Conclusion</h2>
-        <p>Some text for conclusion..</p>
+        <p>We see that how overcrowding and downgraded infrastructure have considerable implication to parks’ wellbeing and not just visitors’ enjoyment, all caused by DMR.</p>
+        <p>Climate change generally not reflected per parks over short period of time, but we see that some parks located at certain areas are impacted more severely than others. 
+        More attention should be drawn to these, as it not only affects parks’ well-being, but also the local community that surrounds it.</p>
+        <p>Parks scores are fairly distributed across regions. We see lowest score for Alaska (though not by a significant amount of difference with other regions). 
+        More analysis can be done to identify potential issues other than climate change there.</p>
         </section>
 
     </body>
