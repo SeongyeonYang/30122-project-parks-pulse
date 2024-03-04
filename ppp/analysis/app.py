@@ -82,7 +82,6 @@ Our analysis unfolds in three main sections: </p>
         <section>
             <h2>2. Regression Analysis</h2>
 
-            <p>Some text for analysis...</p>
             <div style="display: flex; justify-content: center;">
                 <figure style="text-align: center; margin-left: auto; margin-right: auto;">
                     <pre>{regression_content}</pre>
