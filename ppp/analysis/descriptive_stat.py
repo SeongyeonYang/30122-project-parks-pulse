@@ -164,7 +164,8 @@ def visualization_climate(time_series_df):
     ax.legend(title='Region')    
     plt.tight_layout()
     plt.savefig(f'{vis_filepath}/Precipitation Sum Over Years by Region.png')
-    
+
+# Run functions
 stats = descriptive_stat(nps_info_df, time_series_df)
 descriptive_visualization(stats)
 visualization_climate(time_series_df)

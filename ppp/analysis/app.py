@@ -7,8 +7,11 @@ vis_filepath = pathlib.Path(__file__).parent.parent / "analysis/visualizations/"
 
 
 def generate_html():
-    regression_summary = f'{vis_filepath}/regression_summary.txt'
-    with open(regression_summary, 'r') as file:
+    """
+    Editing html content
+    """
+    regression_summary = f"{vis_filepath}/regression_summary.txt"
+    with open(regression_summary, "r") as file:
         regression_content = file.read()
     html_content = f"""
     <!DOCTYPE html>
@@ -209,16 +212,14 @@ Our analysis unfolds in three main sections: </p>
     </body>
     </html>
     """
-    
-    file_path = f'{ana_filepath}/analysis.html'
+
+    file_path = f"{ana_filepath}/analysis.html"
     # Writing HTML content to output.html
-    with open(file_path, 'w') as html_file:
+    with open(file_path, "w") as html_file:
         html_file.write(html_content)
     print("HTML file has been generated successfully.")
     # Construct a file URI for the HTML file
-    file_uri = f'file://{os.path.abspath(file_path)}'
+    file_uri = f"file://{os.path.abspath(file_path)}"
 
     # Open the HTML file in the default web browser
     webbrowser.open(file_uri)
-    
-    

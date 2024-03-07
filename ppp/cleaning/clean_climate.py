@@ -4,8 +4,10 @@ import pathlib
 df = pd.DataFrame()
 
 def clean_climate(filename):
+    """clean climate raw data"""
     data = pd.read_csv(filename)
-    data['datetime'] = pd.to_datetime(data['datetime'], format='%Y-%m-%d', errors='coerce')
+    data['datetime'] = pd.to_datetime(data['datetime'], 
+                                      format='%Y-%m-%d', errors='coerce')
     data['Year'] = data['datetime'].dt.year
     # Define custom aggregation dictionary
     agg_dict = {
@@ -29,6 +31,7 @@ def clean_climate(filename):
     return annual_data
 
 raw_filepath = pathlib.Path(__file__).parent / "raw_data/climate/"
+# Run it by file names
 for i in range(1,10):
     cleaned_data = clean_climate(f"{raw_filepath}climate_{i}.csv")
     df = pd.concat([df, cleaned_data], ignore_index=True)
