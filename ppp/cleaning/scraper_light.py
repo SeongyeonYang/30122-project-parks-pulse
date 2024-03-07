@@ -9,11 +9,17 @@ USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 
 
 def get_parkname(string):
+    """
+    This function retrieves park name from a string.
+    """
     delim = "\n"
     return string.split(delim)[0]
 
 
 def get_link(string):
+    """
+    This function returns the link that is referenced in a string.
+    """
     components = string.split()
     for char in components:
         if char.startswith("href"):
@@ -22,6 +28,15 @@ def get_link(string):
 
 
 def parse_kml():
+    """
+    This function parses the kml file and returns links associated with
+    light pollution.
+
+    Inputs: None
+
+    Returns: (dict)
+        A dictionary that with park's name and link for (key, val) pairs.
+    """
     result = {}
     filename = pathlib.Path(__file__).parent / "raw_data/nps-nightsky-monitoring.kml"
     with open(filename) as myfile:
@@ -45,6 +60,14 @@ def parse_kml():
         
 
 def get_light_data():
+    """
+    This function scrapes light data from from weblinks.
+
+    Inputs: None
+
+    Returns: (.csv)
+        A .csv file containing light data scraped.
+    """
     result = []
     links = parse_kml()
 

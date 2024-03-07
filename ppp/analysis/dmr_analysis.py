@@ -8,6 +8,14 @@ from statsmodels.formula.api import ols
 
 
 def get_data():
+    """
+    This function processes final cleaned time series data file for analysis.
+
+    Inputs: None
+
+    Returns: (DataFrame)
+        Analysis-ready dataframe.
+    """
     filename = pathlib.Path(__file__).parents[1] / "cleaning/cleaned_data/cleaned_time_series_all.csv"
     cols_to_use = ["Year", "Park Name", "Spending", "Visitation", "dmr"]
     df = pd.read_csv(filename, usecols=cols_to_use)
@@ -29,19 +37,29 @@ def get_data():
 
 
 def dmr_top_five():
+    """
+    This function returns the visualization for top five parks with the
+    highest DMR in 2023.
+    """
     filename = pathlib.Path(__file__).parents[1] / "cleaning/raw_data/dmr-2023.csv"
     df = pd.read_csv(filename, usecols=["Park Name", "totalDeferredMaintenance2023"])
 
     top_five = df.sort_values(['totalDeferredMaintenance2023'], ascending=False)[:5]
     fig, ax = plt.subplots(figsize=(10, 6))
-    sns.barplot(data=top_five, x="totalDeferredMaintenance2023", y="Park Name", hue="Park Name", ax=ax)
+    sns.barplot(data=top_five, x="totalDeferredMaintenance2023",
+                y="Park Name", hue="Park Name", ax=ax)
     ax.set_title("Top 5 NPs with highest Deferred Maintenance and Repair (2023)")
     ax.set_xlabel("Deferred Maintenance and Repair (USD)")
     plt.tight_layout()
-    plt.savefig(pathlib.Path(__file__).parent / "visualizations/dmr-top-five-2023.png")
+    plt.savefig(pathlib.Path(__file__).parent /
+                "visualizations/dmr-top-five-2023.png")
 
 
 def regression():
+    """
+    This function runs multivariate regression of DMR on visitation and
+    spending, all in log terms.
+    """
     df = get_data()
     df["log_visitation"] = np.log(df["Visitation"])
     df["log_dmr"] = np.log(df["dmr"])
@@ -55,6 +73,9 @@ def regression():
 
 
 def print_regression_result():
+    """
+    This function saves to text the regression result summary.
+    """
     result = regression()
 
     with open(pathlib.Path(__file__).parent / "visualizations/regression_summary.txt", 'w') as fh:
@@ -62,6 +83,10 @@ def print_regression_result():
 
 
 def visualize_regression():
+    """
+    This function saves to png the Partial Regression Plot.
+    """
+    print_regression_result()
     result = regression()
     figure = sm.graphics.plot_partregress_grid(result)
     figure.tight_layout(pad=1.0)
