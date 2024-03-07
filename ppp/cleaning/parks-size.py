@@ -4,6 +4,18 @@ from bs4 import BeautifulSoup
 from pathlib import Path
 
 def scrape_national_parks_size(url):
+    """
+    Scrape the size in acres of national parks from a given URL. 
+    
+    Parameters:
+    - url (str): The URL of the webpage to scrape.
+
+    Returns:
+    - list of lists: A list of parks' name and parks' size for each national park.
+
+    Raises:
+    - HTTPError: If the response status code is not 200, indicating a failure in the request.
+    """
     response = requests.get(url)
     if response.status_code != 200:
         response.raise_for_status()
@@ -24,6 +36,16 @@ def scrape_national_parks_size(url):
     return parks_size
 
 def save_to_file(data, filename):
+    """
+    Save the provided data to a CSV file.
+
+    Parameters:
+    - data (list of lists): The data to be saved.
+    - filename (Path): The string representing the file path to save the CSV file.
+
+    Returns:
+    - None
+    """
     with open(filename, 'w', newline='') as file:
         writer = csv.writer(file)
         writer.writerow(['Park Name', 'Size(Acres)'])

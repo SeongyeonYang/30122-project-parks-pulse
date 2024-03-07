@@ -6,14 +6,15 @@ from pathlib import Path
 
 def scrape_national_parks(url):
     """
-    Scrape the list of national parks from a Wikipedia page.
+    Scrape the list of national parks from a givin url.
 
     Parameters:
-    - url (str): The URL of the Wikipedia page to scrape.
+    - url (str): The URL of the page to scrape.
 
     Returns:
-    - list of lists: A list containing the cleaned data for each national park. Each inner list contains the park name,
-      location, and number of visitors.
+    - list of lists: A list containing the cleaned data for each national park.
+                     Each inner list contains the park name, location, and number 
+                     of visitors.
     
     Raises:
     - ValueError: If no valid table is found on the page.
